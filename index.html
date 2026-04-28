@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/seedha-jawab/">
+  <title>Seedha Jawab — Bollywood advice, Hinglish style</title>
+  <meta name="description" content="A Bollywood-duo advice column. Famous pairs read your questions, argue about them, and give you a straight answer. In Hinglish.">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="firebase-auth.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="">Seedha Jawab</a>
+    <div class="header-right">
+      <span class="auth-user" id="auth-user"></span>
+      <button class="auth-btn" id="auth-btn">Sign in</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <h1 class="page-title">Seedha Jawab</h1>
+    <p class="page-subtitle">Your questions. Their arguments. One straight answer.</p>
+
+    <div class="random-wrap">
+      <button
+        class="random-btn"
+        onclick="goRandom(this)"
+        data-open-urls='["pairs/munna-circuit/priya-pune/"]'
+        data-all-urls='["pairs/munna-circuit/priya-pune/"]'
+      >Random सवाल →</button>
+      <p class="random-note">Sign in to unlock all questions</p>
+    </div>
+
+    <div class="pairs-grid" style="margin-top: 3rem;">
+
+      <a class="pair-card" href="pairs/munna-circuit/">
+        <div class="pair-card-film">Munna Bhai MBBS</div>
+        <div class="pair-card-name">Munna + Circuit</div>
+        <div class="pair-card-desc">Two big hearts, zero plans. Munna's the one who notices. Circuit's the one who does something about it — usually the wrong thing, but always for the right reason.</div>
+      </a>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    Seedha Jawab — fictional advice from fictional characters. For entertainment and occasionally, something more.
+  </div>
+</footer>
+
+</body>
+</html>
