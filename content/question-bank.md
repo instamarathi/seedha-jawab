@@ -282,7 +282,7 @@
 
 - [ ] 3. **Ruksana, 13, Bhopal (tier-2, MP)** — Her school assigned group project partners. She got the three worst students in class. She made a PowerPoint with thirty slides. They contributed a hand-drawn pie chart with wrong percentages. The teacher praised the whole group equally.
 
-- [ ] 4. **Selvam, 48, Coimbatore (tier-2, Tamil Nadu)** — Small textile mill owner. His neighbour has placed a decorative windmill in his garden that squeaks. It squeaks at 4am. It also squeaks at 3am. Selvam has bought earplugs. The earplugs are insufficient.
+- [x] 4. ✅ **Selvam, 48, Coimbatore (tier-2, Tamil Nadu)** — Small textile mill owner. His neighbour has placed a decorative windmill in his garden that squeaks. It squeaks at 4am. It also squeaks at 3am. Selvam has bought earplugs. The earplugs are insufficient.
 
 - [ ] 5. **Ananya, 26, Delhi (metro)** — Marketing executive. Her flatmate finishes the last of the milk, replaces the carton in the fridge, and then emails a "we're out of milk" notification. This has happened eleven times since January. She has a spreadsheet.
 
