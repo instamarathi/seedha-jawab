@@ -112,7 +112,7 @@
 
 - [ ] 4. **Lakshmi, 26, Coimbatore (tier-2 city, Tamil Nadu)** — Middle-class. Got into a good MBA program but it means two years and ₹18 lakh in loans. Her parents want her to take a government job offer that just came through — lower pay, permanent. She is the only daughter. The word "security" comes up in every conversation.
 
-- [ ] 5. **Ranjit Bora, 34, Jorhat (small town, Assam)** — Agricultural officer, government job. Parents are content. Wife is content. He plays guitar alone in his car for 30 minutes every day before going home. He is writing because he saw an ad for a music school in Guwahati and has been staring at it for two weeks. He has a mortgage. He is asking absolutely nothing about the guitar. He just mentions it.
+- [x] 5. ✅ **Ranjit Bora, 34, Jorhat (small town, Assam)** — Agricultural officer, government job. Parents are content. Wife is content. He plays guitar alone in his car for 30 minutes every day before going home. He is writing because he saw an ad for a music school in Guwahati and has been staring at it for two weeks. He has a mortgage. He is asking absolutely nothing about the guitar. He just mentions it. → [pairs/rancho-raju/ranjit-jorhat/](../pairs/rancho-raju/ranjit-jorhat/)
 
 - [ ] 6. **Fatima, 20, Hyderabad (metro, Telangana)** — First-generation college student. Parents are daily wage workers from Warangal who moved to the city for her education. She got into a journalism program. Her father has started telling people she is studying "communications," which sounds more stable. She does not correct him. She is quietly building a portfolio.
 
