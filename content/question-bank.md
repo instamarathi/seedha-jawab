@@ -276,7 +276,7 @@
 
 ## teja-gogo
 
-- [ ] 1. **Meenal, 41, Pune (metro, Maharashtra)** — Works in a corporate office. The person who sits next to her heats fish curry in the office microwave every single day at 1:07pm. She has spoken to three managers. The HR policy document does not mention fish.
+- [x] 1. ✅ **Meenal, 41, Pune (metro, Maharashtra)** — Works in a corporate office. The person who sits next to her heats fish curry in the office microwave every single day at 1:07pm. She has spoken to three managers. The HR policy document does not mention fish. → [pairs/teja-gogo/meenal-pune/](../pairs/teja-gogo/meenal-pune/)
 
 - [ ] 2. **Chandrakant, 55, Ahmedabad (metro, Gujarat)** — Retired bank officer, now on the building committee. The society has voted to change the WhatsApp group name from "Shanti Nagar Residents" to "Shanti Nagar Familia." He finds this undignified. He has prepared a seven-point objection.
 
