@@ -8,7 +8,7 @@
 
 ## munna-circuit
 
-- [ ] 1. **Saraswati, 58, Bettiah (small town, Bihar)** — Retired schoolteacher, widow. Her two sons call every Sunday but always ask each other "how's Amma?" in front of her, never to her. She can hear them deciding how she's feeling. Resigned, philosophical. Extremely poor background turned lower-middle by service.
+- [x] 1. ✅ **Saraswati, 58, Bettiah (small town, Bihar)** — Retired schoolteacher, widow. Her two sons call every Sunday but always ask each other "how's Amma?" in front of her, never to her. She can hear them deciding how she's feeling. Resigned, philosophical. Extremely poor background turned lower-middle by service. → [pairs/munna-circuit/saraswati-bettiah/](../pairs/munna-circuit/saraswati-bettiah/)
 
 - [ ] 2. **Devraj, 9, Sonipat (village, Haryana)** — Question typed by his father. The boy hasn't spoken properly since his mother went to work in Delhi six months ago. Eats fine, studies fine, just stopped laughing. Father doesn't know if this is something that needs a doctor or just time.
 
