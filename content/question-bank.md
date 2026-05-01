@@ -8,7 +8,7 @@
 
 ## munna-circuit
 
-- [ ] 1. **Saraswati, 58, Bettiah (small town, Bihar)** — Retired schoolteacher, widow. Her two sons call every Sunday but always ask each other "how's Amma?" in front of her, never to her. She can hear them deciding how she's feeling. Resigned, philosophical. Extremely poor background turned lower-middle by service.
+- [x] 1. ✅ **Saraswati, 58, Bettiah (small town, Bihar)** — Retired schoolteacher, widow. Her two sons call every Sunday but always ask each other "how's Amma?" in front of her, never to her. She can hear them deciding how she's feeling. Resigned, philosophical. Extremely poor background turned lower-middle by service. → [pairs/munna-circuit/saraswati-bettiah/](../pairs/munna-circuit/saraswati-bettiah/)
 
 - [ ] 2. **Devraj, 9, Sonipat (village, Haryana)** — Question typed by his father. The boy hasn't spoken properly since his mother went to work in Delhi six months ago. Eats fine, studies fine, just stopped laughing. Father doesn't know if this is something that needs a doctor or just time.
 
@@ -104,7 +104,7 @@
 
 ## rancho-raju
 
-- [ ] 1. **Vivek Shenoy, 23, Mangaluru (tier-2 city, Karnataka)** — Engineering graduate. Got a campus placement at a bank. His parents threw a party. He has realized, six months in, that he is good at the job but it is hollowing him out daily. He has been secretly taking online pottery classes at 6 AM before work. He has not told anyone about the pottery.
+- [x] 1. ✅ **Vivek Shenoy, 23, Mangaluru (tier-2 city, Karnataka)** — Engineering graduate. Got a campus placement at a bank. His parents threw a party. He has realized, six months in, that he is good at the job but it is hollowing him out daily. He has been secretly taking online pottery classes at 6 AM before work. He has not told anyone about the pottery. → [pairs/rancho-raju/vivek-mangaluru/](../pairs/rancho-raju/vivek-mangaluru/)
 
 - [ ] 2. **Sarita, 16, Allahabad (tier-2 city, UP)** — Class 11 student, lower-middle. Her father has decided she will do B.Com because her elder sister did B.Com. Sarita wants to study geography. She has not argued. She is asking if geography is actually a real career or if she is being stupid for wanting it.
 
