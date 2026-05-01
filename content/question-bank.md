@@ -104,7 +104,7 @@
 
 ## rancho-raju
 
-- [ ] 1. **Vivek Shenoy, 23, Mangaluru (tier-2 city, Karnataka)** — Engineering graduate. Got a campus placement at a bank. His parents threw a party. He has realized, six months in, that he is good at the job but it is hollowing him out daily. He has been secretly taking online pottery classes at 6 AM before work. He has not told anyone about the pottery.
+- [x] 1. ✅ **Vivek Shenoy, 23, Mangaluru (tier-2 city, Karnataka)** — Engineering graduate. Got a campus placement at a bank. His parents threw a party. He has realized, six months in, that he is good at the job but it is hollowing him out daily. He has been secretly taking online pottery classes at 6 AM before work. He has not told anyone about the pottery. → [pairs/rancho-raju/vivek-mangaluru/](../pairs/rancho-raju/vivek-mangaluru/)
 
 - [ ] 2. **Sarita, 16, Allahabad (tier-2 city, UP)** — Class 11 student, lower-middle. Her father has decided she will do B.Com because her elder sister did B.Com. Sarita wants to study geography. She has not argued. She is asking if geography is actually a real career or if she is being stupid for wanting it.
 
