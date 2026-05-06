@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/seedha-jawab/">
+  <title>My oldest friend moved to Canada and his children don't know my name — Jai + Veeru — Seedha Jawab</title>
+  <meta name="description" content="Mustafa, 52, Kolkata, has stayed in touch with his closest friend of thirty years over laggy video calls since the family moved to Canada. The friend's kids don't know his name. Jai and Veeru, who never had to spell their bond out, sit with him.">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="firebase-auth.js"></script>
+</head>
+<body data-gated="false">
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="">Seedha Jawab</a>
+    <div class="header-right">
+      <span class="auth-user" id="auth-user"></span>
+      <button class="auth-btn" id="auth-btn">Sign in</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <nav class="breadcrumb">
+      <a href="">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="pairs/jai-veeru/">Jai + Veeru</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>Mustafa, Kolkata</span>
+    </nav>
+
+    <!-- सवाल -->
+    <section class="sawal-section">
+      <div class="section-label">सवाल</div>
+      <div class="sawal-card">
+        <p>Adaab. मेरा नाम Mustafa Hussain है, 52 का हूँ, Shyambazar का रहने वाला हूँ, Kolkata. हमारा एक छोटा सा paper-and-printing business है — Bagbazar में godown, B.B. Ganguly Street पे office. ख़ुदा का शुक्र है, सब चल रहा है. एक baat लिखने के लिए लिख रहा हूँ. मेरा सबसे पुराना दोस्त — Salim — हम दोनों एक ही गली में पले-बढ़े. Shyambazar Five Point Crossing से दो मिनट की दूरी पे. एक ही madrasa, एक ही stadium में cricket, एक ही Eid pe खीर खाते थे — उसकी अम्मी मेरी अम्मी से ज़्यादा अच्छी खीर बनाती थीं और मैं उसी के घर पे ज़्यादा रहता था. तीस साल यार. 1996 में दोनों की शादी एक ही महीने में हुई. मेरे बेटे का नाम Salim ने रखा था. उसकी बेटी जब पैदा हुई thi, मैं Apollo में नौ घंटे बैठा था. 2018 में Salim Toronto चला गया — परिवार के साथ. हम लोग बोले थे "बस फ़ोन पे रहेंगे, kuch नहीं बदलेगा." आज सात साल हो गए. हर weekend video call होता है — कभी-कभी lag इतना ज़्यादा होता है कि उसके होंठ हिलते हैं और आवाज़ दस सेकंड बाद आती है. पर असली बात यह है — पिछले महीने उसकी बेटी background से गुज़र रही थी, मैंने हाथ हिलाया. उसने Salim से English में पूछा "Dad, who is uncle?" Salim ने हँस के बोला "your Mustafa Uncle, beta, from India." बेटी ने हँस के "Hi" बोला और चली गई. वो लड़की मेरे hospital वाले नौ घंटे की product है. आज मेरा नाम भी ठीक से नहीं जानती. मैं किसी से शिकायत नहीं कर रहा. यह लिखते हुए भी अजीब लग रहा है. पर एक बात है — मैं समझ नहीं पा रहा कि मैं अपने सबसे पुराने दोस्त को खो रहा हूँ या मैंने पहले ही खो दिया है, बस मान नहीं रहा. आप दोनों कुछ बोलेंगे?</p>
+        <div class="sawal-from">— Mustafa, Kolkata</div>
+      </div>
+    </section>
+
+    <!-- Conversation -->
+    <section class="conversation-section">
+      <div class="section-label">Conversation</div>
+      <div class="conversation">
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"जय. ओ जय. एक letter आया है — Kolkata से. Mustafa भाई हैं, 52 के."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"पढ़."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"दोस्त है उनका — Salim. तीस साल. एक ही गली. एक ही madrasa. खीर खाते थे साथ. 2018 में Toronto चला गया. अब video call lag करता है, उसकी बेटी पूछती है 'who is uncle?'"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"..."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"जय बोल कुछ. यार बहुत emotional case है यह."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"बेटी का सवाल ग़लत नहीं है, वीरू."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"क्या मतलब? तीस साल का दोस्त है उसके पिता का! Hospital में नौ घंटे बैठा था!"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"वो लड़की Toronto में पैदा हुई होगी. बड़ी हुई. Mustafa भाई उसके लिए एक face है screen पे — कभी कभी आता है, lag करता है. उसको कैसे पता उन नौ घंटों का?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"...हम्म. यह true है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"दोस्ती बेटी से नहीं है. Salim से है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"लेकिन यार — दोस्ती सिर्फ़ दो आदमी की नहीं होती ना. घर का होता है, परिवार का होता है. Mustafa भाई खीर वाली अम्मी की बात लिख रहे हैं. वो खीर भी रिश्ते का हिस्सा थी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"वो खीर वाली अम्मी अब Toronto में हैं या यहीं हैं?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"पता नहीं. लिखा नहीं है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"वही point है, वीरू."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"मतलब?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"Mustafa भाई गली के बारे में लिख रहे हैं. खीर के बारे में. cricket के. हर चीज़ — past tense में. एक भी आज की चीज़ नहीं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"क्योंकि आज की चीज़ है ही नहीं. lag है. video call है. बेटी 'who is uncle' पूछती है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"नहीं वीरू. आज की चीज़ बनानी पड़ती है. वो automatic नहीं आती."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"कैसे बनाएँ यार सात समंदर पार से?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"पहली बात — weekend video call बंद कर."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"क्या?! जय यार पागल है क्या तू!"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"हर weekend ritual call बंद. वो कुछ नहीं देती. lag, formal updates, बेटी पीछे से गुज़र जाती है. Empty calories."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"फिर?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"महीने में एक बार — सिर्फ़ Salim. Audio call. एक घंटा. कोई बेटी नहीं, कोई wife नहीं, कोई 'how is everyone' नहीं. Sirf दो आदमी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"और कुछ?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"दूसरी बात — flight book कर. एक बार जा. दस दिन. Toronto में Salim के घर रह. खीर वाली अम्मी अगर वहीं हैं तो उनसे मिल. नहीं हैं तो Salim को बिठा के पूछ — 'अम्मी कैसी हैं?' यह सवाल lag में नहीं हो सकता."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"जय. तू जानता है तू क्या बोल रहा है? Toronto का flight! Visa! ₹डेढ़ लाख कम से कम!"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"Mustafa भाई का business है, वीरू. ₹डेढ़ लाख तीस साल की दोस्ती के सामने कुछ नहीं है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"और बेटी? वो 'who is uncle' वाली बात? वो दर्द?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"बेटी के सामने बैठ जाए दस दिन. वो ख़ुद पूछेगी सवाल. बच्चे पूछते हैं — 'Uncle, आप Dad को कब से जानते हो?' तब Mustafa भाई बता देंगे — 'मैं तेरे पैदा होने के दिन hospital में नौ घंटे था.' एक बार बताया, उम्र भर याद रहता है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"...जय यार. यह बात पते की है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"वीरू, एक बात और."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"बोल."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"Mustafa भाई 'खो रहा हूँ या खो चुका हूँ' पूछते हैं. दोनों ग़लत सवाल हैं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"फिर सही सवाल क्या है?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"'मैं अब क्या कर रहा हूँ?' Salim ने कुछ नहीं किया — बस move कर गया. यह उसकी ग़लती नहीं. पर अगले thirty साल कौन बनाएगा? वो अपने Toronto में busy है. यह काम Mustafa भाई का है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Veeru:</span>
+          <span class="conv-text">"दोस्ती का ज़्यादा भार एक तरफ़?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Jai:</span>
+          <span class="conv-text">"पुरानी दोस्ती में कोई खाता नहीं रखता, वीरू. जिसको ज़्यादा miss हो रहा है, वो उठ के flight ले लेता है. यह बेइज़्ज़ती नहीं है. यह दोस्ती है."</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Answer -->
+    <section class="answer-section">
+      <div class="section-label">Jawab</div>
+
+      <p class="answer-para"><span class="answer-speaker speaker-2">Jai:</span> Mustafa भाई. आप जो लिख रहे हो — "खो रहा हूँ या खो चुका हूँ" — यह दोनों सवाल ग़लत हैं. Salim Toronto गया है, आपकी ज़िंदगी से नहीं. ज़मीन के एक टुकड़े से दूसरे टुकड़े पे चला गया है, बस इतना. लेकिन एक बात साफ़ है — हर weekend की वो video call, lag वाली, formal वाली, बेटी पीछे से गुज़र जाने वाली — वो दोस्ती नहीं है. वो दोस्ती की duty है. Duty से कोई relationship ज़िंदा नहीं रहता. आप दोनों उसी ritual को इतनी देर से दोहरा रहे हो कि अब उसमें कुछ बचा नहीं है — सिवाय इसके कि "हम बात करते हैं" बोलने के लिए कुछ रहे.</p>
+
+      <p class="answer-para">पहली request — weekend video call बंद कर दीजिए. आज शाम Salim को message करिए — "यार, video call boring हो गई है. महीने में एक बार audio करते हैं — सिर्फ़ हम दो. एक घंटा, कोई और नहीं." वो हँसेगा, मानेगा. क्योंकि अंदर से उसको भी पता है — lag वाली call उसको भी थका रही है. महीने में एक बार बेहतर है हर हफ़्ते के "सब ठीक है" से. एक घंटा सिर्फ़ दोस्तों का — यह आज की चीज़ है, past tense नहीं.</p>
+
+      <p class="answer-para">दूसरी — और यह ज़रूरी है — flight ले लीजिए. Toronto. October के आसपास, weather ठीक होता है. दस दिन Salim के घर रहिए. ₹डेढ़ लाख का visa-flight package तीस साल की दोस्ती के सामने कुछ नहीं. वहाँ बेटी से दस दिन एक छत के नीचे रहिए — वो ख़ुद पूछेगी "Uncle, you knew Dad before I was born?" तब आप बताइए — पूरे नौ घंटे, hospital, खीर वाली अम्मी, cricket. एक बार बताया, उसको उम्र भर याद रहेगा. "Mustafa Uncle from India" अगली बार "Mustafa Uncle who was at the hospital" बन जाएगा. यह काम screen से नहीं हो सकता.</p>
+
+      <p class="answer-para"><span class="answer-speaker speaker-1">Veeru:</span> Mustafa भाई, एक छोटी बात मेरी तरफ़ से. आप लिख रहे हो "किसी से शिकायत नहीं कर रहा" — पर पूरा letter एक soft शिकायत है, और यह ठीक है, यार. इसको दबाओ मत. Salim से एक दिन बोल देना — "यार, तेरी बेटी मेरा नाम नहीं जानती. यह बात मुझे चुभी है." वो हिल जाएगा. वो उसी रात बैठ के अपनी बेटी को बताएगा — पूरी कहानी, गली, खीर, hospital, सब. क्योंकि Salim भी आदमी है, और आदमी को भी पता चलना चाहिए कि उसकी absence किसी को कितनी चुभ रही है. यह बेइज़्ज़ती नहीं — यह दोस्ती की honesty है. तीस साल बाद आप इतना तो कर सकते हैं एक-दूसरे के लिए.</p>
+    </section>
+
+    <!-- English summary -->
+    <section class="summary-section">
+      <div class="summary-label">Summary</div>
+      <p class="summary-text">Mustafa, 52, runs a paper-and-printing business in Kolkata and grew up in Shyambazar with his oldest friend Salim — same lane, same madrasa, same Eid kheer, same wedding month in 1996. Salim named Mustafa's son. Mustafa sat nine hours at Apollo when Salim's daughter was born. In 2018 the family moved to Toronto. They promised nothing would change. Seven years later, weekend video calls lag, words arrive ten seconds after lips move, and Salim's daughter recently walked past the screen and asked her father, in English, "Dad, who is uncle?" Mustafa is not bitter — he is bewildered. Jai cuts through it: the weekend ritual is duty, not friendship, and duty kills relationships. Stop the laggy weekly calls. Replace them with one monthly hour-long audio call between just the two men. Then book a flight. Ten days in Toronto, sleep under Salim's roof, let the daughter ask her own questions across a dinner table where she can hear the full story of nine hours at a hospital. ₹1.5 lakh is nothing against thirty years. And tell Salim, honestly, that the daughter not knowing his name has hurt — not as a complaint, as the kind of truth old friends owe each other. Old friendship doesn't keep score; whoever misses it more buys the ticket.</p>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="question-nav">
+      <span class="nav-link disabled">← Previous</span>
+      <button
+        class="nav-random-btn"
+        onclick="goRandom(this)"
+        data-open-urls='["pairs/amar-prem/gurpreet-brampton/","pairs/anand-bhaskar/firoz-kolkata/","pairs/anand-bhaskar/jagdish-barmer/","pairs/anand-bhaskar/kamala-varanasi/","pairs/anand-bhaskar/sumir-toronto/","pairs/anand-bhaskar/thomas-kottayam/","pairs/babu-raju/chetanya-hyderabad/","pairs/chulbul-makkhi/hemlata-bilaspur/","pairs/gabbar-samba/prakash-varanasi/","pairs/gabbar-samba/tanveer-bengaluru/","pairs/guddu-bablu/zeenat-varanasi/","pairs/ishaan-nikumbh/deepak-nagpur/","pairs/ishaan-nikumbh/suresh-mandya/","pairs/jai-veeru/ashraf-lucknow/","pairs/kabir-arjun/kabir-chandigarh/","pairs/kabir-arjun/shekhar-mumbai/","pairs/mohan-geeta/rohit-newjersey/","pairs/munna-circuit/devraj-sonipat/","pairs/munna-circuit/phulmaya-kalimpong/","pairs/munna-circuit/priya-pune/","pairs/munna-circuit/sangeeta-lucknow/","pairs/munna-circuit/saraswati-bettiah/","pairs/piku-bhashkor/ranjit-guwahati/","pairs/pk-jaggu/bhutia-gangtok/","pairs/rancho-farhan/hemant-patna/","pairs/rancho-farhan/sukhwinder-ludhiana/","pairs/rancho-raju/ranjit-jorhat/","pairs/rancho-raju/sarita-allahabad/","pairs/rancho-raju/siddharth-delhi/","pairs/rancho-raju/vivek-mangaluru/","pairs/teja-gogo/ananya-delhi/","pairs/teja-gogo/meenal-pune/","pairs/teja-gogo/selvam-coimbatore/","pairs/virus-chatur/asha-kota/","pairs/virus-chatur/saroja-tirunelveli/"]'
+        data-all-urls='["pairs/amar-prem/gurpreet-brampton/","pairs/anand-bhaskar/firoz-kolkata/","pairs/anand-bhaskar/jagdish-barmer/","pairs/anand-bhaskar/kamala-varanasi/","pairs/anand-bhaskar/sumir-toronto/","pairs/anand-bhaskar/thomas-kottayam/","pairs/babu-raju/chetanya-hyderabad/","pairs/chulbul-makkhi/hemlata-bilaspur/","pairs/gabbar-samba/prakash-varanasi/","pairs/gabbar-samba/tanveer-bengaluru/","pairs/guddu-bablu/zeenat-varanasi/","pairs/ishaan-nikumbh/deepak-nagpur/","pairs/ishaan-nikumbh/suresh-mandya/","pairs/jai-veeru/ashraf-lucknow/","pairs/kabir-arjun/kabir-chandigarh/","pairs/kabir-arjun/shekhar-mumbai/","pairs/mohan-geeta/rohit-newjersey/","pairs/munna-circuit/devraj-sonipat/","pairs/munna-circuit/phulmaya-kalimpong/","pairs/munna-circuit/priya-pune/","pairs/munna-circuit/sangeeta-lucknow/","pairs/munna-circuit/saraswati-bettiah/","pairs/piku-bhashkor/ranjit-guwahati/","pairs/pk-jaggu/bhutia-gangtok/","pairs/rancho-farhan/hemant-patna/","pairs/rancho-farhan/sukhwinder-ludhiana/","pairs/rancho-raju/ranjit-jorhat/","pairs/rancho-raju/sarita-allahabad/","pairs/rancho-raju/siddharth-delhi/","pairs/rancho-raju/vivek-mangaluru/","pairs/teja-gogo/ananya-delhi/","pairs/teja-gogo/meenal-pune/","pairs/teja-gogo/selvam-coimbatore/","pairs/virus-chatur/asha-kota/","pairs/virus-chatur/saroja-tirunelveli/"]'
+      >Random →</button>
+      <span class="nav-link disabled">Next →</span>
+    </nav>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2026 Seedha Jawab. All original content — questions, conversations, and answers — is protected by copyright. Unauthorised reproduction or scraping is not permitted. Characters are fictional.
+  </div>
+</footer>
+
+</body>
+</html>

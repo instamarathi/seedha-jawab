@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/seedha-jawab/">
+  <title>I am the only engineer in my family. My brothers have already decided I'll come back to manage the cloth shop. — Guddu + Bablu — Seedha Jawab</title>
+  <meta name="description" content="Zeenat, 24, in Varanasi, is the only engineering seat in her family. Her three older brothers have decided she will return after graduation to manage their cloth shop in Bansphatak. She has not agreed. She has not disagreed either. Guddu wants her to stand up. Bablu wants to know why she hasn't already.">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="firebase-auth.js"></script>
+</head>
+<body data-gated="false">
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="">Seedha Jawab</a>
+    <div class="header-right">
+      <span class="auth-user" id="auth-user"></span>
+      <button class="auth-btn" id="auth-btn">Sign in</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <nav class="breadcrumb">
+      <a href="">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="pairs/guddu-bablu/">Guddu + Bablu</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>Zeenat, Varanasi</span>
+    </nav>
+
+    <!-- सवाल -->
+    <section class="sawal-section">
+      <div class="section-label">सवाल</div>
+      <div class="sawal-card">
+        <p>आदाब, भैया. मेरा नाम Zeenat है, उम्र 24, Varanasi से — Bansphatak के पास, हमारा घर है, और उसी मोहल्ले में अब्बू की कपड़े की दुकान है — "Verma & Sons" नाम है, हालाँकि हम Verma नहीं हैं, अब्बू ने 1991 में दुकान खोलते समय यही नाम रख दिया था, बोले थे "नाम से grahak आते हैं, mazhab से नहीं." चार बच्चे हैं घर में — तीन भाई, फिर मैं. मैं सबसे छोटी, और घर में सबसे पहली इंजीनियर.</p>
+        <p>BTech IIT-BHU से, Electronics — final year में हूँ. JEE में 4,800 rank था, fee scholarship से थोड़ी कम हुई. परिवार में पहली बार किसी ने top-tier college में पैर रखा है. अब्बू, सच बोलूँ, मेरे ऊपर बहुत proud हैं — हर बार मेहमान आते हैं, बोलते हैं — "Zeenat IIT में है." बस "IIT" बोलते हैं, "BHU" छोड़ देते हैं, क्योंकि गाँव वाले अंतर नहीं जानते. मैं हँस देती हूँ.</p>
+        <p>लेकिन एक problem है, भैया — और लिखते हुए हाथ काँप रहा है. तीनों भाइयों ने आपस में, बिना मुझसे पूछे, decide कर लिया है कि graduation के बाद मैं वापस आऊँगी — दुकान को expand करूँगी. "Verma & Sons" को online ले जाऊँगी. Banaras saree, brocade, kurta — Instagram पे, Etsy पे, Amazon पे. बड़े भैया Faisal ने calculation भी कर ली है: "तू engineer है, तेरे पास computer का दिमाग़ है, तू दुकान को ₹25 lakh annual से ₹2 crore पे ले जा सकती है." छोटे भैया Asad बोलते हैं — "और हम तीनों backbone रहेंगे, तू brain.</p>
+        <p>भैया, मेरा एक offer है — Bengaluru की एक semiconductor company, ₹14 LPA. मेरा एक interest है — chip design, VLSI, जिसमें मैंने thesis किया है. मुझे Banaras saree का ज्ञान नहीं है — मैं Banaras की बेटी हूँ पर silk ख़रीदने अम्मी के साथ कभी नहीं गई. मुझे sales में interest नहीं है. लेकिन भैया लोग ख़ुश हैं — उन्होंने पहले ही दूकान का अगला 5-year plan बना लिया है मेरे ऊपर. अब्बू को नहीं बताया उन्होंने. अम्मी को थोड़ा hint मिला है, वो चुप हैं. मुझसे पूछा भी नहीं. मैंने हाँ नहीं बोली. मैंने ना भी नहीं बोली. मेरी shaadi की भी बात चल रही है साथ-साथ — एक रिश्ता आया है, सोच रहे हैं Banaras का लड़का अच्छा रहेगा "तू वहीं तो रहेगी." भैया, मैं छह महीने में graduate होने वाली हूँ. मेरे पास offer letter मेरे bag में है. मैंने sign नहीं किया अभी. मैं डरी हुई हूँ — और मुझे ख़ुद पे ग़ुस्सा है कि मैं इतनी डरी क्यों हूँ. आप दोनों Mirzapur से हैं — आप समझते हो, यहाँ किस तरह से बड़ा भाई "decide" करता है. मुझे क्या करना चाहिए?</p>
+        <div class="sawal-from">— Zeenat, Varanasi</div>
+      </div>
+    </section>
+
+    <!-- Conversation -->
+    <section class="conversation-section">
+      <div class="section-label">Conversation</div>
+      <div class="conversation">
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"भौकाली. भौकाली बात है ये भाई. इ ख़त Banaras से आइल बा. एगो लड़की है — Zeenat. इंजीनियर बन रही है. भाइयों ने decide कर लिया है — दूकान चलाएगी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"दुकान expand करेगी, Guddu. Online ले जाएगी. कपड़े का धंधा है — Verma & Sons."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"वही तो. भाई decide कर के बैठ गए हैं. लड़की से पूछा भी नहीं. इ बेइज़्ज़ती है, Bablu. इ हमको ज़ोर से लग रहा है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"रुक, Guddu भाई. एक चीज़ ध्यान से देख — लड़की लिख रही है 'मैंने हाँ नहीं बोली. मैंने ना भी नहीं बोली.' यह line important है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"मतलब?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"मतलब, Guddu भाई — सवाल यह नहीं है कि भाई decide कर रहे हैं. सवाल यह है कि लड़की ने अब तक 'ना' क्यों नहीं बोला. छह महीने बचे हैं graduation में — abhi तक कोई बात नहीं हुई, कोई argument नहीं हुई, और offer letter bag में है, sign नहीं किया."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"डर रही है, यार. इतना obvious है. बड़े भाई हैं, परिवार में सबसे छोटी है, अब्बू को नहीं बताया भाइयों ने, अम्मी चुप है — कौन खड़ा होगा उसके साथ?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"डर एक हिस्सा है, Guddu. पर पूरा सच नहीं है. एक और चीज़ है — guilt. यह लड़की परिवार में पहली IIT वाली है — IIT-BHU, पर अब्बू मेहमानों को 'IIT' ही बोलते हैं. यह proud-feeling लड़की को मीठी भी लगती है और भारी भी. भाइयों ने जो plan बनाया है, उसमें भी एक गहरी बात है — 'तू हमारी ज़िंदगी bhi बदल दे.' यह ख़ानदान के लिए wapsi का call है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"तो क्या उसी जाल में पैर डाल दे? अपना VLSI छोड़ दे? Bengaluru का ₹14 lakh का offer फेंक दे?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"नहीं Guddu भाई, मैं बस यह कह रहा हूँ — silence भी एक तरीक़ा है हाँ बोलने का. लड़की ने अब तक 'ना' नहीं बोला, क्योंकि 'ना' बोलने में जो कीमत है — परिवार में अकेलापन, अब्बू का चेहरा, भाइयों का तंज़, शादी का pending रिश्ता — वो कीमत वो अब तक नहीं देना चाहती. यह डर नहीं है, यह बहुत ईमानदार calculation है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"लेकिन calculation उसे एक ज़िंदगी में फँसा देगी जो उसकी नहीं है, Bablu."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"वही तो point है, भाई. इसलिए मैं चाहता हूँ कि वो डर नहीं, सच पहचाने. डर से लड़ना आसान है — सच से लड़ना मुश्किल है. और इस केस में सच यह है कि लड़की को 'ना' बोलने के बाद कुछ खोना पड़ेगा — कुछ tangible — और वो कुछ, अब, स्वीकार करना होगा."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"क्या खोएगी?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"पहली रात की चुप्पी — जब वो भाइयों को बोलेगी 'मैं Bengaluru जा रही हूँ.' अब्बू का चेहरा जो थोड़ा बदलेगा — proud से confused. अम्मी की आँखें. भाइयों का जो 'plan' था, वो टूटेगा — और भाइयों का अहंकार भी टूटेगा, क्योंकि उनको लग रहा था छोटी बहन उनके decision पे चलेगी. यह सब कीमत है. यह सच में कीमत है, Guddu — मैं इसे minimize नहीं कर रहा."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"और शादी का रिश्ता?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"वो pause होगा, Guddu भाई. परिवार बोलेगा — 'पहले career, फिर शादी.' पर यह pause उसी moment पर होगा जब उसने 'ना' बोल दी होगी — और उस moment के बाद, परिवार उसको देखेगा 'वो लड़की जो plan पे नहीं चली' की निगाह से. यह shaadi-rishta शायद टूट जाए."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"भाई, तुम बहुत calm बोल रहे हो, पर इ तो ज़ुल्म है यार. एक IIT engineer को बानारस में Verma & Sons चलाने ले आओ — इ कौन सा future है?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"Guddu भाई, future-question तो बाद में आता है. पहले एक consent-question है. भाइयों ने Zeenat से पूछा ही नहीं — यह सबसे बुनियादी अपराध है. परिवार में 'plan' बनाना ठीक है — 'plan' किसी पे थोपना नहीं ठीक है. Zeenat को पहले यह स्थापित करना है कि उसकी ज़िंदगी पे first-vote उसका है, बाक़ी सब का second-vote."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"तो हम क्या लिखें उसको? सीधा बोलें — Bengaluru चली जा?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"नहीं भाई, हम उसको Bengaluru नहीं भेजेंगे — वो ख़ुद जाएगी अगर जाना चाहती है. हम सिर्फ़ यह करेंगे — दिखाएँगे कि उसकी silence भी एक answer है, और वो answer 'हाँ' है — by default. जब तक वो ख़ुद ना नहीं बोलेगी, उसकी ख़ामोशी को परिवार सहमति समझता रहेगा. यह urgent है — आज नहीं, इस हफ़्ते."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"और भाइयों से कैसे बोले?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"पहले अब्बू से, Guddu. भाइयों से नहीं — अब्बू से. यह बहुत important है. अब्बू को confidence है उस पे, अब्बू ने ही Verma नाम रखा था बिना mazhab की चिंता के, अब्बू ने ही उसको IIT-BHU में admission दिलाया. भाई एक step ahead जा रहे हैं अब्बू को बताये बिना. Zeenat अब्बू को सीधे बोले — 'अब्बू, मुझे एक बात बतानी है. Bengaluru से ₹14 lakh का offer मिला है. मैं accept करना चाहती हूँ. भाइयों ने जो दूकान का plan बनाया है, वो मुझसे बिना पूछे है. आप क्या बोलते हैं?'"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"अब्बू क्या बोलेंगे?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"नौ में दस case में अब्बू बोलते हैं — 'जा बेटा.' क्योंकि अब्बू ने उसको पाला है IIT वाली बेटी की तरह, दुकान वाली नहीं. भाइयों का plan एक मीटिंग में टूटता है — अब्बू के एक sentence से. यही पुरानी पीढ़ी की ताक़त है — वो छोटी सी होती है, पर सच होती है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"और अगर अब्बू भी भाइयों के साथ हो गए?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"तब Zeenat को offer letter sign करना है, Guddu भाई. Sign करना है, और एक copy fridge पे चिपकानी है. यह declaration है. ज़बरदस्ती की adjustment भी एक तरह की हार है, और एक 24 साल की engineer को हारने की उम्र नहीं है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Guddu:</span>
+          <span class="conv-text">"Bablu, तू समझदार है यार."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Bablu:</span>
+          <span class="conv-text">"Guddu भाई, हमारी अम्मा ने भी हमें कभी पूछ के plan नहीं बनाए — पर अम्मा ने एक काम किया था, हम दोनों भाइयों को बहुत साफ़ बोल दिया था कि कौन सा रास्ता हमारा है, कौन सा नहीं. यह बात आज भी चुभती है पर सच थी. Zeenat के घर में अब तक यह साफ़-स्पष्ट नहीं हुआ — इसलिए वो डर रही है. हम उसको साफ़ करने का तरीक़ा बता रहे हैं."</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Answer -->
+    <section class="answer-section">
+      <div class="section-label">Jawab</div>
+
+      <p class="answer-para"><span class="answer-speaker speaker-2">Bablu:</span> Zeenat, सुनो. तुम्हारी letter में सबसे important line यह है — "मैंने हाँ नहीं बोली. मैंने ना भी नहीं बोली." यह silence डर नहीं है — यह एक calculation है, बहुत ईमानदार calculation. तुम जानती हो कि 'ना' बोलने की कीमत क्या है — पहली रात की चुप्पी, अब्बू का चेहरा, अम्मी की नज़रें, भाइयों का जो 'plan' था वो टूटना, शायद वो शादी का रिश्ता भी टूटना. यह कीमत असली है, और मैं इसको कम करके नहीं दिखाऊँगा. लेकिन एक चीज़ तुम्हें समझनी होगी — जब तक तुम 'ना' नहीं बोलोगी, परिवार तुम्हारी ख़ामोशी को 'हाँ' मान के plan आगे बढ़ाता रहेगा. हर हफ़्ता जो तुम चुप रहोगी, उतना ही तुम्हारा Bengaluru offer एक काल्पनिक चीज़ बनती जाएगी, और तुम्हारी पंद्रह दिन की कच्ची जुर्रत और कमज़ोर पड़ती जाएगी.</p>
+
+      <p class="answer-para">तो practical step. एक — इस सोमवार, अब्बू के साथ अकेले बैठो. भाइयों से नहीं — अब्बू से, सीधे. भाई एक step आगे जा रहे हैं अब्बू को बताये बिना; तुम उस loop को break कर सकती हो, और तुम्हें breaking-rights हैं क्योंकि यह तुम्हारी ज़िंदगी है. एक sentence: "अब्बू, Bengaluru से ₹14 lakh का offer है, semiconductor company. मैं इसे accept करना चाहती हूँ. भैया लोगों का दुकान वाला plan है, वो मुझसे पूछे बिना है. आप क्या कहते हैं?" बस इतना. अब्बू ने तुम्हें पाला है IIT वाली बेटी की तरह — जिस आदमी ने 1991 में 'Verma & Sons' नाम रखा था mazhab की दीवार तोड़ने के लिए, वो आदमी अपनी इकलौती बेटी को engineer से shopkeeper बनाने में आसान नहीं होगा. उम्मीद है उसका जवाब "जा बेटा" होगा. यह जवाब भाइयों के पूरे plan को एक sentence में तोड़ देगा.</p>
+
+      <p class="answer-para">दो — offer letter आज ही sign करो. आज, इस रात. Sign करने के बाद bag में मत रखो — एक PDF email कर दो ख़ुद को, एक print निकाल के अपनी study table पे रखो. यह physical commitment है — यह तुम्हें ख़ुद को proof देता है कि decision हो गया. क्योंकि unsigned offer letter एक सपना है — signed offer letter एक तथ्य है, और परिवार सपनों से argue करता है, तथ्यों से नहीं. तीन — अगर अब्बू पूरी तरह तुम्हारे साथ नहीं हैं, तब भी sign कर के Bengaluru join कर लो. पहले छह महीने मुश्किल होंगे — परिवार का कुछ रिश्ता ठंडा होगा, शादी का रिश्ता शायद टूटे, अम्मी की calls में चुप्पी रहेगी. यह सच है, यह झूठ नहीं है. लेकिन एक साल बाद जब तुम Bengaluru से अपनी पहली Diwali पे आओगी, अपनी पहली salary से अब्बू को कुछ लाओगी, अम्मी को कुछ लाओगी, भाइयों को भी कुछ लाओगी — सब कुछ बदल जाएगा. परिवार facts के साथ adjust हो जाते हैं — सिर्फ़ silence के साथ नहीं.</p>
+
+      <p class="answer-para"><span class="answer-speaker speaker-1">Guddu:</span> Zeenat, सुनो बहन. मैं Bablu भाई जैसा शांत आदमी नहीं हूँ — मेरा ख़ून थोड़ा गरम है, पर एक बात सच बोलूँगा. तुम्हारे तीनों भैया तुम्हें कमतर नहीं समझते — वो तुम्हें apna asset समझते हैं, और यह उससे बुरा है. कमतर समझने वाले को पता होता है वो ग़लत कर रहा है — asset समझने वाले को लगता है वो "family-strategy" बना रहा है. और family-strategy में अकेले Zeenat का consent नहीं है — यही उसका सबसे बड़ा गुनाह है. तुम जो chip design पढ़ रही हो — VLSI, semiconductor — यह Banaras की कोई बेटी पहली बार पढ़ रही है, यह बात बहुत बड़ी है. तुम्हारा 4,800 का rank, IIT-BHU की वो रात की पढ़ाई, thesis के वो महीने — यह सब Verma & Sons में नहीं घुसने चाहिए. दुकान चल रही है, चलेगी — भैया लोग खुद चलाएँगे, या किसी और को hire कर लेंगे, MBA कोई नहीं तो diploma वाला कोई आदमी मिल जाएगा. तुम्हारी जगह दुकान में नहीं है — तुम्हारी जगह उस chip में है जो शायद कल किसी ने Banaras में design की हो, उस आदमी के पीछे एक नाम होगा "Z. Verma" — हाँ, क्योंकि अब्बू ने यह नाम तुम्हें भी दिया है — और वो नाम Bansphatak से नहीं उठा. तुम Bengaluru जाओ, बहन. भौकाली बन के जाओ. भैया लोग अगर सच में भाई हैं, तो साल भर बाद maan जाएँगे. अगर नहीं माने — तब भी, तुम्हारी ज़िंदगी तुम्हारी है, और कोई भी, कोई भी, यह वसूल नहीं कर सकता.</p>
+    </section>
+
+    <!-- English summary -->
+    <section class="summary-section">
+      <div class="summary-label">Summary</div>
+      <p class="summary-text">Zeenat, 24, in Varanasi, is in her final year of Electronics at IIT-BHU — the first engineer in her family. Her father runs a small cloth shop named "Verma & Sons" near Bansphatak, even though they are not Verma; her father chose the name in 1991 so customers would walk in without thinking about religion. Her three older brothers have decided, without asking her, that after graduation she will return and turn the shop into a Banaras-saree e-commerce business — Instagram, Etsy, Amazon — and scale it from ₹25 lakh to ₹2 crore. They told their father nothing. They told her like a finished plan. She has a ₹14 LPA offer from a semiconductor company in Bengaluru and a thesis in VLSI. The offer letter is in her bag, unsigned. A marriage proposal is also moving in parallel, premised on her staying in Banaras. She has not said yes. She has not said no. Bablu pinpoints the real diagnosis: silence here is being read as consent by the family, and every week she stays silent, the Bengaluru offer becomes more imaginary while the brothers' plan hardens. The cost of saying no is real — a cold first night, her father's confused face, possibly the broken proposal — and that cost has to be acknowledged, not minimised. The path: this Monday, talk to her father alone, not the brothers. The man who chose 'Verma' over religion to feed his family will not now turn his only daughter from engineer into shopkeeper. Sign the offer letter tonight, before the conversation — physical commitment converts a dream into a fact, and families argue with facts more honestly than with dreams. If the father sides with the brothers, sign anyway, leave anyway. Six months will be hard. A year later, after the first Diwali home with her own salary, the family will adjust — they always do, but only to facts, never to silence. Guddu's last word: a chip designer with the surname Verma is not supposed to vanish into Bansphatak. Go.</p>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="question-nav">
+      <span class="nav-link disabled">← Previous</span>
+      <button
+        class="nav-random-btn"
+        onclick="goRandom(this)"
+        data-open-urls='["pairs/amar-prem/gurpreet-brampton/","pairs/anand-bhaskar/firoz-kolkata/","pairs/anand-bhaskar/jagdish-barmer/","pairs/anand-bhaskar/kamala-varanasi/","pairs/anand-bhaskar/sumir-toronto/","pairs/anand-bhaskar/thomas-kottayam/","pairs/babu-raju/chetanya-hyderabad/","pairs/chulbul-makkhi/hemlata-bilaspur/","pairs/gabbar-samba/prakash-varanasi/","pairs/gabbar-samba/tanveer-bengaluru/","pairs/ishaan-nikumbh/deepak-nagpur/","pairs/ishaan-nikumbh/suresh-mandya/","pairs/jai-veeru/ashraf-lucknow/","pairs/jai-veeru/mustafa-kolkata/","pairs/kabir-arjun/kabir-chandigarh/","pairs/kabir-arjun/shekhar-mumbai/","pairs/mohan-geeta/rohit-newjersey/","pairs/munna-circuit/devraj-sonipat/","pairs/munna-circuit/phulmaya-kalimpong/","pairs/munna-circuit/priya-pune/","pairs/munna-circuit/sangeeta-lucknow/","pairs/munna-circuit/saraswati-bettiah/","pairs/piku-bhashkor/ranjit-guwahati/","pairs/pk-jaggu/bhutia-gangtok/","pairs/rancho-farhan/hemant-patna/","pairs/rancho-farhan/sukhwinder-ludhiana/","pairs/rancho-raju/ranjit-jorhat/","pairs/rancho-raju/sarita-allahabad/","pairs/rancho-raju/siddharth-delhi/","pairs/rancho-raju/vivek-mangaluru/","pairs/teja-gogo/ananya-delhi/","pairs/teja-gogo/meenal-pune/","pairs/teja-gogo/selvam-coimbatore/","pairs/virus-chatur/asha-kota/","pairs/virus-chatur/saroja-tirunelveli/"]'
+        data-all-urls='["pairs/amar-prem/gurpreet-brampton/","pairs/anand-bhaskar/firoz-kolkata/","pairs/anand-bhaskar/jagdish-barmer/","pairs/anand-bhaskar/kamala-varanasi/","pairs/anand-bhaskar/sumir-toronto/","pairs/anand-bhaskar/thomas-kottayam/","pairs/babu-raju/chetanya-hyderabad/","pairs/chulbul-makkhi/hemlata-bilaspur/","pairs/gabbar-samba/prakash-varanasi/","pairs/gabbar-samba/tanveer-bengaluru/","pairs/ishaan-nikumbh/deepak-nagpur/","pairs/ishaan-nikumbh/suresh-mandya/","pairs/jai-veeru/ashraf-lucknow/","pairs/jai-veeru/mustafa-kolkata/","pairs/kabir-arjun/kabir-chandigarh/","pairs/kabir-arjun/shekhar-mumbai/","pairs/mohan-geeta/rohit-newjersey/","pairs/munna-circuit/devraj-sonipat/","pairs/munna-circuit/phulmaya-kalimpong/","pairs/munna-circuit/priya-pune/","pairs/munna-circuit/sangeeta-lucknow/","pairs/munna-circuit/saraswati-bettiah/","pairs/piku-bhashkor/ranjit-guwahati/","pairs/pk-jaggu/bhutia-gangtok/","pairs/rancho-farhan/hemant-patna/","pairs/rancho-farhan/sukhwinder-ludhiana/","pairs/rancho-raju/ranjit-jorhat/","pairs/rancho-raju/sarita-allahabad/","pairs/rancho-raju/siddharth-delhi/","pairs/rancho-raju/vivek-mangaluru/","pairs/teja-gogo/ananya-delhi/","pairs/teja-gogo/meenal-pune/","pairs/teja-gogo/selvam-coimbatore/","pairs/virus-chatur/asha-kota/","pairs/virus-chatur/saroja-tirunelveli/"]'
+      >Random →</button>
+      <span class="nav-link disabled">Next →</span>
+    </nav>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2026 Seedha Jawab. All original content — questions, conversations, and answers — is protected by copyright. Unauthorised reproduction or scraping is not permitted. Characters are fictional.
+  </div>
+</footer>
+
+</body>
+</html>

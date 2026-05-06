@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/seedha-jawab/">
+  <title>I am studying my roommate's notes, her timetable, her diet — I want to be her — Virus + Chatur — Seedha Jawab</title>
+  <meta name="description" content="Asha, 17, JEE aspirant in second year of Kota coaching, has started copying her roommate from Bihar — notes, timetable, even her dinner. The roommate's mock rank is always better. Virus and Chatur, two men whose entire lives were built on comparison, recognise something in this letter they did not want to.">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="firebase-auth.js"></script>
+</head>
+<body data-gated="false">
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="">Seedha Jawab</a>
+    <div class="header-right">
+      <span class="auth-user" id="auth-user"></span>
+      <button class="auth-btn" id="auth-btn">Sign in</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <nav class="breadcrumb">
+      <a href="">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="pairs/virus-chatur/">Virus + Chatur</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>Asha, Kota</span>
+    </nav>
+
+    <!-- सवाल -->
+    <section class="sawal-section">
+      <div class="section-label">सवाल</div>
+      <div class="sawal-card">
+        <p>Sir, मेरा नाम Asha है, उम्र 17, मैं Kota में हूँ — JEE की तैयारी कर रही हूँ, यह मेरा second year है coaching का. घर Sikar के पास के एक छोटे से गाँव में है — पापा primary school के teacher हैं, ₹38,000 की salary, उसमें से ₹22,000 मेरी coaching और hostel में जा रहे हैं. एक छोटा भाई है Class 9 में. माँ कहती है — "तू पढ़, बाक़ी हम देख लेंगे." मैं पढ़ रही हूँ. लेकिन एक problem है, sir, और मुझे शर्म आ रही है यह लिखते हुए. मेरी roommate है — Priyanka, Bihar से, Madhubani से. हम दोनों ने एक ही coaching join की, एक ही batch में बैठते हैं. हर mock test में उसकी rank मेरी से ऊपर है. हर एक. पिछले छह महीने से. शुरू में difference 200 ranks का था, अब 800 का है. मैं रोज़ रात उसकी notes देखती हूँ — चुपचाप, जब वो सो जाती है. उसके handwriting को copy करने की कोशिश करती हूँ. उसका timetable मैंने अपने register में लिख लिया है — वो 4:30 बजे उठती है, मैं भी 4:30 पे alarm लगाती हूँ. वो dinner में सिर्फ़ दाल-चावल खाती है, मैंने भी roti बंद कर दी. वो chai नहीं पीती, मैंने भी छोड़ दी. कल मैंने उसका pen चुराया — Reynolds 045, blue — सोचा शायद वही चलेगा मेरा भी. Sir, मुझे उसकी जैसी बनना है, या उसको हराना है, मुझे ख़ुद नहीं पता. एक बात पक्की है — Asha जो मैं पहले थी, उससे मुझे नफ़रत है. पापा का पैसा डूब रहा है. बताइए मैं क्या करूँ.</p>
+        <div class="sawal-from">— Asha, Kota</div>
+      </div>
+    </section>
+
+    <!-- Conversation -->
+    <section class="conversation-section">
+      <div class="section-label">Conversation</div>
+      <div class="conversation">
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"Sir, sir, एक letter आया है — Kota से. एक लड़की है, Asha. JEE aspirant. Sir, यह तो classic case है — under-performer trying to copy the topper. Sir, मैं इसे एक minute में solve कर दूँगा."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"Mr. Ramalingam. Patience. पढ़िए पहले."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"पढ़ ली, sir. लड़की ने roommate की notes चुराई, timetable copy किया, pen तक चुराया. Sir, यह तो... यह तो..."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"यह तो क्या?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"...."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"बोलिए, Mr. Ramalingam. यह तो क्या है? आप रुक क्यों गए?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"Sir, मैं भी ICE exam से पहले Rancho की notes चुराता था. और Farhan की handwriting copy करता था इसलिए कि मुझे लगता था neat handwriting वाले को extra marks मिलते हैं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"और pen?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"...Pilot V5 था. Rancho का. मैंने अपना नहीं ख़रीदा. Sir, please आगे न पूछिए."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"हम्म. यह बच्ची एक बहुत common ग़लती कर रही है. लेकिन यह common ग़लती है क्योंकि यह institutional ग़लती है — हम लोगों ने 50 साल से बच्चों को सिखाया है कि comparison ही motivation है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"Sir, but comparison तो काम करती है. मैंने ख़ुद..."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"Mr. Ramalingam. आप 14-15 lakh rupees की salary कमा रहे हैं US में. आप पिछले महीने अपनी ३rd ex-fiancée के engagement की news पढ़कर डेढ़ घंटे tense हुए थे, मेरे सामने. आप 'काम कर रही है' को define कैसे करते हैं?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"Sir, यह personal है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"बच्ची की letter भी personal है. वो pen चुरा रही है. वो chai छोड़ रही है क्योंकि roommate नहीं पीती. यह pathological है, और मैं यह शब्द हल्के में नहीं इस्तेमाल कर रहा."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"तो sir, क्या बोलें इसे? पढ़ाई छोड़ दे? 800 rank पीछे है, JEE में 6 महीने बचे हैं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"बोलें — comparison बंद करो. यह पूरी तरह से, ज़ाहिर सी, और तुरंत. क्योंकि comparison से सिर्फ़ एक चीज़ निकलती है — आप दूसरे आदमी का बेहतर copy बन जाते हैं, अपना original version नहीं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"Sir... यह बात तो..."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"मुझ पे भी apply होती है, हाँ. मैंने अपने पूरे college को pressure cooker बना दिया था यह सोच के कि बच्चे एक-दूसरे से compete करेंगे और top पर पहुँच जाएँगे. मेरा बेटा... मेरा बेटा एक poet था, Mr. Ramalingam. Engineer नहीं. मैंने उसे engineering में डाला क्योंकि मेरे neighbor का बेटा engineer था. मैंने comparison को बेटे की मौत तक चलाया."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"Sir..."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"बच्ची लिख रही है — 'Asha जो मैं पहले थी, उससे मुझे नफ़रत है.' Mr. Ramalingam, यह वही sentence है जो हर competitive system पैदा करती है. और जब बच्चा अपने आप से नफ़रत करने लगे, तो rank का कोई मतलब नहीं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"तो practical advice क्या है, sir? मैं उसको बोलूँ — 'आप से प्यार करो'? यह तो LinkedIn post है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"नहीं. Practical चीज़ें: एक — Priyanka की notes से अलग करो अपनी notes. आप दोनों का brain अलग है, notes अलग होंगी, यही ठीक है. दो — अपनी weak topics की एक list बनाओ — Priyanka की नहीं, आपकी. तीन — अगले mock में target उसको हराना नहीं — पिछले mock में आप जहाँ थीं, उससे थोड़ा ऊपर जाना. यह comparison है, पर self-comparison है — यही healthy है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"और pen?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"Pen वापस कर दो. कल सुबह. कोई बहाना नहीं — सिर्फ़ 'Priyanka, यह तेरा है, मैं सोरी हूँ.' यह छोटी सी बात है, पर इस छोटी सी बात के बिना बच्ची 6 महीने बाद exam में बैठेगी अपराधी मन से. अपराधी मन परीक्षा नहीं देता."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"Sir, पापा का पैसा? ₹22,000 हर महीने जा रहा है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"पापा का पैसा बच्ची की rank में नहीं है, उसकी पढ़ाई में है. Rank result है, पढ़ाई process है. यह बच्ची process भूल के result चुरा रही है. प्रोसेस वापस मिले, result अपने आप आएगा — जो भी आना है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"Sir... एक बात पूछूँ?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"पूछिए."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Chatur:</span>
+          <span class="conv-text">"मैं अब भी Rancho की किताब पे dust नहीं जमने देता. shelf पे रखी है. ख़ुद भी नहीं पढ़ता. क्या यह भी pathology है?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Virus:</span>
+          <span class="conv-text">"Mr. Ramalingam, यह मेरा answer नहीं है. यह आपका answer है. लेकिन — हाँ, शायद है. हम दोनों इस बच्ची को जो नहीं हो सका, वो होने से बचाने की कोशिश कर रहे हैं. यह काम पहली बार ईमानदारी से कर रहे हैं."</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Answer -->
+    <section class="answer-section">
+      <div class="section-label">Jawab</div>
+
+      <p class="answer-para"><span class="answer-speaker speaker-1">Virus:</span> Asha, सुनो. मैं Director of Imperial College of Engineering रहा हूँ — मैंने 32 साल बच्चों को pressure से ऊपर उठाने की कोशिश की, और बहुत बार ग़लत किया. एक बार मेरे एक student ने बहुत अच्छी कविता लिखी और मैंने उसको bin में फेंक दिया — कहा "engineering करो, कविता बाद में." बाद में नहीं आया. इसलिए तुमसे कहता हूँ, अनुभव से, बिना lecture के — Priyanka को copy करना बंद करो. आज. इस रात. क्योंकि comparison एक trap है — आप जब तक दूसरे को देख रहे हैं, आप अपना रास्ता नहीं देख रहे, और JEE आपकी पढ़ाई से pass होती है, Priyanka की पढ़ाई से नहीं.</p>
+
+      <p class="answer-para">Practical चीज़ें, क्योंकि philosophy 6 महीने में काम नहीं करती. एक — Priyanka की notes देखना आज से बंद. अपनी notes बनाओ, चाहे ख़राब हों, चाहे handwriting टेढ़ी हो — वो आपकी समझ का record है, उसकी नहीं. दो — कल सुबह Priyanka को pen वापस कर दो. एक sentence: "यह तेरा है, मैं ले गई थी, सोरी." बस. इससे आगे कुछ नहीं. यह बात आप अपराधी मन से exam नहीं देने के लिए कर रही हैं — और अपराधी मन से कोई exam pass नहीं होती. तीन — रोज़ रात ख़ुद से एक सवाल पूछो, register में लिख के: "आज मैं Asha की पढ़ाई में आगे बढ़ी या Priyanka की पढ़ाई में आगे बढ़ी?" अगर जवाब Asha है — सोने जाओ. अगर Priyanka है — कल सुधारो.</p>
+
+      <p class="answer-para">और सबसे ज़रूरी — chai वापस पीना शुरू करो. Roti वापस खाओ. 4:30 बजे उठना अगर आपके शरीर के अनुकूल नहीं है, 5:30 बजे उठो. यह छोटी चीज़ें हैं, पर इन छोटी चीज़ों में आपकी identity है. आप अपनी identity एक-एक करके मिटा रही हैं, और जब बच्चा identity मिटाने लगे, तो rank ऊपर भी आ जाए तो वो rank उसकी नहीं रहती. और एक बात — पापा का पैसा डूबा हुआ नहीं है. अभी तक नहीं. वो डूबेगा सिर्फ़ तब जब आप ख़ुद को मिटा के exam दोगी. Asha exam देगी तो result जो भी आए — पापा का पैसा सही जगह गया है.</p>
+
+      <p class="answer-para"><span class="answer-speaker speaker-2">Chatur:</span> Asha, मेरे सिर पे मुझे जो बोलना था वो मेरे सर ने बोल दिया. मैं तुम्हें सिर्फ़ एक बात कहूँगा — मैं Imperial College में Rancho नाम के एक लड़के के साथ पढ़ा था. मैं हर रात उसकी notes चुराता था, उसकी handwriting copy करता था, उसका pen रखता था. मैं सोचता था अगर मैं वो बन गया तो number-one आ जाऊँगा. मैं नंबर-वन आया, हाँ. ICE topper था. आज America में अच्छी salary है, अच्छा घर है, सब है. पर एक चीज़ नहीं है — एक भी रात ऐसी नहीं है जब मैं ख़ुद के साथ बैठ के खुश हूँ. मेरे पास हर समय एक तुलना चाहिए — किससे आगे हूँ, किससे पीछे. यह बीमारी है, बच्ची, और यह बीमारी 17 साल की उम्र में शुरू होती है और जीवन भर चलती है. आज इसे रोक दो. Priyanka से एक मीटर पीछे रहना मंज़ूर है — Asha से एक मीटर पीछे रहना नहीं. यह मेरा seedha jawab है — पहली बार किसी को ईमानदारी से दिया है.</p>
+    </section>
+
+    <!-- English summary -->
+    <section class="summary-section">
+      <div class="summary-label">Summary</div>
+      <p class="summary-text">Asha, 17, is in her second year of JEE coaching in Kota. Her father, a primary school teacher, sends ₹22,000 of his ₹38,000 salary every month to keep her there. Her roommate Priyanka, from Madhubani, has placed ahead of her in every mock test for six months — the gap has widened from 200 ranks to 800. Asha now copies Priyanka in everything: she reads her notes at night while she sleeps, copies her handwriting, wakes at 4:30 because Priyanka does, has stopped chai because Priyanka doesn't drink it, has stopped roti because Priyanka eats only dal-chawal. She has stolen Priyanka's pen. She writes that she hates the Asha she used to be. Virus, the man who once threw a student's poetry in a bin, and Chatur, who built his entire adult life on copying a roommate named Rancho, both recognise themselves in this letter and admit it for the first time. The advice is sharp and personal. Stop reading Priyanka's notes. Make your own, even if they are ugly. Return the pen tomorrow with a single sentence apology — a guilty mind does not pass any exam. Drink your chai again. Eat your roti again. Every night, ask one question: did I move ahead in Asha's syllabus today, or in Priyanka's? If the second, fix it tomorrow. The father's money is not wasted yet — it will only be wasted if she erases herself before the exam. Comparison is a disease that starts at seventeen and runs for life. Stop it tonight.</p>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="question-nav">
+      <span class="nav-link disabled">← Previous</span>
+      <button
+        class="nav-random-btn"
+        onclick="goRandom(this)"
+        data-open-urls='["pairs/amar-prem/gurpreet-brampton/","pairs/anand-bhaskar/firoz-kolkata/","pairs/anand-bhaskar/jagdish-barmer/","pairs/anand-bhaskar/kamala-varanasi/","pairs/anand-bhaskar/sumir-toronto/","pairs/anand-bhaskar/thomas-kottayam/","pairs/babu-raju/chetanya-hyderabad/","pairs/chulbul-makkhi/hemlata-bilaspur/","pairs/gabbar-samba/prakash-varanasi/","pairs/gabbar-samba/tanveer-bengaluru/","pairs/guddu-bablu/zeenat-varanasi/","pairs/ishaan-nikumbh/deepak-nagpur/","pairs/ishaan-nikumbh/suresh-mandya/","pairs/jai-veeru/ashraf-lucknow/","pairs/jai-veeru/mustafa-kolkata/","pairs/kabir-arjun/kabir-chandigarh/","pairs/kabir-arjun/shekhar-mumbai/","pairs/mohan-geeta/rohit-newjersey/","pairs/munna-circuit/devraj-sonipat/","pairs/munna-circuit/phulmaya-kalimpong/","pairs/munna-circuit/priya-pune/","pairs/munna-circuit/sangeeta-lucknow/","pairs/munna-circuit/saraswati-bettiah/","pairs/piku-bhashkor/ranjit-guwahati/","pairs/pk-jaggu/bhutia-gangtok/","pairs/rancho-farhan/hemant-patna/","pairs/rancho-farhan/sukhwinder-ludhiana/","pairs/rancho-raju/ranjit-jorhat/","pairs/rancho-raju/sarita-allahabad/","pairs/rancho-raju/siddharth-delhi/","pairs/rancho-raju/vivek-mangaluru/","pairs/teja-gogo/ananya-delhi/","pairs/teja-gogo/meenal-pune/","pairs/teja-gogo/selvam-coimbatore/","pairs/virus-chatur/saroja-tirunelveli/"]'
+        data-all-urls='["pairs/amar-prem/gurpreet-brampton/","pairs/anand-bhaskar/firoz-kolkata/","pairs/anand-bhaskar/jagdish-barmer/","pairs/anand-bhaskar/kamala-varanasi/","pairs/anand-bhaskar/sumir-toronto/","pairs/anand-bhaskar/thomas-kottayam/","pairs/babu-raju/chetanya-hyderabad/","pairs/chulbul-makkhi/hemlata-bilaspur/","pairs/gabbar-samba/prakash-varanasi/","pairs/gabbar-samba/tanveer-bengaluru/","pairs/guddu-bablu/zeenat-varanasi/","pairs/ishaan-nikumbh/deepak-nagpur/","pairs/ishaan-nikumbh/suresh-mandya/","pairs/jai-veeru/ashraf-lucknow/","pairs/jai-veeru/mustafa-kolkata/","pairs/kabir-arjun/kabir-chandigarh/","pairs/kabir-arjun/shekhar-mumbai/","pairs/mohan-geeta/rohit-newjersey/","pairs/munna-circuit/devraj-sonipat/","pairs/munna-circuit/phulmaya-kalimpong/","pairs/munna-circuit/priya-pune/","pairs/munna-circuit/sangeeta-lucknow/","pairs/munna-circuit/saraswati-bettiah/","pairs/piku-bhashkor/ranjit-guwahati/","pairs/pk-jaggu/bhutia-gangtok/","pairs/rancho-farhan/hemant-patna/","pairs/rancho-farhan/sukhwinder-ludhiana/","pairs/rancho-raju/ranjit-jorhat/","pairs/rancho-raju/sarita-allahabad/","pairs/rancho-raju/siddharth-delhi/","pairs/rancho-raju/vivek-mangaluru/","pairs/teja-gogo/ananya-delhi/","pairs/teja-gogo/meenal-pune/","pairs/teja-gogo/selvam-coimbatore/","pairs/virus-chatur/saroja-tirunelveli/"]'
+      >Random →</button>
+      <span class="nav-link disabled">Next →</span>
+    </nav>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2026 Seedha Jawab. All original content — questions, conversations, and answers — is protected by copyright. Unauthorised reproduction or scraping is not permitted. Characters are fictional.
+  </div>
+</footer>
+
+</body>
+</html>
