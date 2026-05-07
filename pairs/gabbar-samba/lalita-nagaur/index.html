@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/seedha-jawab/">
+  <title>I work sixteen days a month on a MGNREGA site and my account still shows zero — Gabbar + Samba — Seedha Jawab</title>
+  <meta name="description" content="Lalita, 27, a daily-wage MGNREGA labourer in a Nagaur village, has worked sixteen days a month for three months — her Jan Dhan account still shows zero, the contractor blames 'system error', the panchayat tells her to come back next week. Gabbar and Samba see exactly which kind of theft this is.">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="firebase-auth.js"></script>
+</head>
+<body data-gated="false">
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="">Seedha Jawab</a>
+    <div class="header-right">
+      <span class="auth-user" id="auth-user"></span>
+      <button class="auth-btn" id="auth-btn">Sign in</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <nav class="breadcrumb">
+      <a href="">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="pairs/gabbar-samba/">Gabbar + Samba</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>Lalita, Nagaur</span>
+    </nav>
+
+    <!-- सवाल -->
+    <section class="sawal-section">
+      <div class="section-label">सवाल</div>
+      <div class="sawal-card">
+        <p>नमस्ते साहब. मेरा नाम Lalita है, उम्र 27, Nagaur ज़िले के एक गाँव से लिख रही हूँ — गाँव का नाम नहीं लिखूँगी, माफ़ कीजिए, पर Rajasthan है, और हमारे यहाँ MGNREGA का काम चल रहा है — गाँव की कच्ची सड़क पे gravel और मिट्टी डालने का. मैं रोज़ हाज़िरी लगाती हूँ. मेरे पास job card है — पुरानी, 2019 की बनी हुई. Jan Dhan account भी है, Aadhaar भी linked है, account passbook में print होता है हर बार जब मैं Bank Mitra के पास जाती हूँ. मैं तीन महीने से site पे काम कर रही हूँ — November, December, और January. हर महीने तक़रीबन 16 दिन की हाज़िरी मेरे नाम लगी है, muster roll में. यह मैंने ख़ुद देखा है — supervisor ने एक बार दिखाया भी था.</p>
+        <p>साहब, तीन महीने हो गए — मेरे account में एक रुपया नहीं आया. ₹0. November का भी, December का भी, January का भी. एक दिन की मज़दूरी ₹266 बनती है हमारी तरफ़ — 16 दिन का मतलब ₹4,256 एक महीने का. तीन महीने का ₹12,768. यह पैसा घर के लिए है — मेरे पति मज़दूरी करते हैं Jaipur में, महीने में दो बार आते हैं, जो भेजते हैं वो ₹4,000-5,000. हम चार लोग हैं घर में — सास, मैं, दो बच्चे (एक 6 का, एक 3 की). दूध का ख़र्चा, स्कूल की fee, राशन — मेरा यह पैसा हमारा बचाव था.</p>
+        <p>Contractor साहब को पूछा — एक बार, दो बार, तीसरी बार. हर बार जवाब अलग है. पहली बार बोले — "system slow है, अगले हफ़्ते आ जाएगा." दूसरी बार बोले — "तेरा Aadhaar mismatch है, बैंक वालों ने reject किया है." मैंने बैंक में जाकर पूछा — Bank Mitra ने passbook print किया, mismatch जैसी कोई बात नहीं — और उन्होंने ख़ुद बोला — "बहन, सरकार से कोई transfer आया ही नहीं तुम्हारे नाम पे." तीसरी बार contractor बोला — "computer error है, ऊपर से ठीक होगा." साहब, एक बात और है जो मैं ज़ोर से नहीं बोल सकती — हमारे गाँव में एक और औरत है, Reshma, उसका भी account zero दिखा रहा है पिछले दो महीने. हम दोनों एक ही site पे लगती हैं. Contractor साहब ऊँची जात के हैं, साहब, हमारे गाँव में उनकी बात उठाना ख़तरे की बात है. मैं panchayat office दो बार गई — pradhan जी ने कहा "अगले हफ़्ते आना, file देख लेंगे." अगला हफ़्ता आता है, अगला हफ़्ता जाता है. मेरा बेटा कल रात बोला — "माँ, आज रोटी पे क्या है?" कुछ नहीं था. साहब, मैं कहाँ जाऊँ?</p>
+        <div class="sawal-from">— Lalita, Nagaur</div>
+      </div>
+    </section>
+
+    <!-- Conversation -->
+    <section class="conversation-section">
+      <div class="section-label">Conversation</div>
+      <div class="conversation">
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"Samba! सरकार ने पैसा भेजा है. Bank account का number Aadhaar से linked है. Muster roll में हाज़िरी लगी है. तो पैसा कहाँ है?!"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"Sardar, Lalita का तीन महीने का pending है — ₹12,768. एक और औरत Reshma का भी account zero — दो महीने से."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"और contractor क्या बोलता है?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"Sardar, हर बार नया बहाना. एक बार 'system slow', एक बार 'Aadhaar mismatch', एक बार 'computer error'. Bank Mitra ने ख़ुद बोला है — सरकार से transfer ही नहीं आया."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"Samba. यह 'system error' नहीं है. इसका नाम कुछ और है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"Sardar, बिल्कुल. यह fund diversion है. Contractor ने Lalita के नाम पे हाज़िरी लगवाई, सरकार से पैसा निकलवाया, और Lalita के account में जाने से पहले बीच में फँसा लिया. Section 25 of MGNREGA — payment delay या non-payment penalty लगा सकती है, और criminal liability भी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"और panchayat? Pradhan क्या कर रहा है?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"Sardar, panchayat दो बार 'अगले हफ़्ते आना' बोल चुका है. Pradhan या तो contractor का साथी है, या डरा हुआ है. किसी भी case में — panchayat के through रास्ता बंद है. यह compromised channel है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"Samba. और contractor ऊँची जात का है. Lalita छोटी जात की औरत. यह Lalita अकेले गाँव में एक आदमी पे ज़ुबान खोले — यह उसकी जान का मसला है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"Sardar, इसीलिए local से लड़ाई बंद. यह fight अब गाँव की नहीं — Block और District की है. और कागज़ की है, ज़ुबान की नहीं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"बता रास्ता."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"Sardar, चार जगह एक साथ शिकायत — एक ही दिन, एक ही file. एक जगह नहीं, चार. ताकि कोई एक officer फ़ाइल दबा न सके."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"पहला?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"पहला Sardar — NREGA Helpline 1800-345-22-44, toll-free, Hindi में register होती है शिकायत. एक complaint number generate होता है — यह file का सबसे important सबूत है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"दूसरा?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"दूसरा — Block Development Officer, Nagaur के Block office में written complaint, MGNREGA Act Section 25 के तहत. हाथ से देनी है, और date-stamped acknowledgment लेनी है — एक copy पे officer का stamp."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"तीसरा?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"तीसरा — Social Audit की demand. MGNREGA Act में लिखा है — हर 6 महीने में एक social audit होनी चाहिए हर worksite की. यह कानूनन आपका हक़ है. लिख के माँगना है — Gram Sabha में, और Block office में simultaneously."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"चौथा?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"चौथा — Banking Ombudsman, RBI. bankingombudsman.rbi.org.in. Bank-side का complaint — कि Bank Mitra ने confirm किया है transfer आया ही नहीं, तो पैसा कहाँ रुका है — यह banking channel का सवाल है, इसका जवाब बैंक को देना पड़ेगा."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"और जात की धमकी, Samba?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"Sardar, अगर contractor या उसके आदमी कोई धमकी देते हैं, तो SC/ST Atrocities Act 1989 के तहत FIR — यह non-bailable है. और Women's Helpline 181, यह 24 घंटे चलती है. Reshma के साथ Lalita — दो complainants हैं, अकेली नहीं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"Samba — दो औरतें. दो complainants. यह बात दबती नहीं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"नहीं Sardar. एक की आवाज़ village में फँसती है. दो की आवाज़ Block तक जाती है. और चार जगह कागज़ — File दब नहीं सकती."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"और सबूत?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"Sardar, सबसे बड़ा सबूत — muster roll की photocopy. वो worksite पे है, supervisor के पास. हर मज़दूर का कानूनन हक़ है उसकी अपनी हाज़िरी का record देखना और copy माँगना. यह Lalita का सोना है — एक बार हाथ में आ गया, contractor 'computer error' नहीं बोल सकता."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"Samba. बेटा कल रात माँ से पूछा — 'रोटी पे क्या है.' और हमारी सरकार ₹12,768 बीच में फँसा के बैठी है. यह नाइन्साफ़ी सबसे ज़ोर की है, क्योंकि बेज़ुबान है — एक 6 साल का बच्चा."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Samba:</span>
+          <span class="conv-text">"Sardar, इसीलिए Lalita अकेली नहीं लड़ेगी. कानून उसके साथ है, Reshma उसके साथ है, और हम उसके साथ हैं. लिखिए."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Gabbar:</span>
+          <span class="conv-text">"लिख Lalita को. यह 'system error' नहीं है — यह उसके बच्चे की रोटी की चोरी है, और हम चोर का नाम लेंगे — कागज़ पे, चार जगह, एक ही दिन."</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Answer -->
+    <section class="answer-section">
+      <div class="section-label">Jawab</div>
+
+      <p class="answer-para"><span class="answer-speaker speaker-1">Gabbar:</span> Lalita, नमस्ते. आपकी letter पढ़ी — और एक बात पहले बोल देता हूँ: आप अपने आप पे शक मत कीजिए. आपकी हाज़िरी लगी है, आपका Aadhaar link है, आपका Jan Dhan account चल रहा है — आपके साथ कोई "system error" नहीं हुआ है. आपके साथ चोरी हुई है. ₹12,768 तीन महीने का — सरकार ने भेजा, बीच में किसी ने रोक लिया. Contractor साहब के तीन बहाने — "system slow", "Aadhaar mismatch", "computer error" — एक भी सच नहीं है. Bank Mitra ने ख़ुद आपको बोल दिया है: सरकार से transfer आया ही नहीं. इसका मतलब साफ़ है — पैसा contractor के level पे या ऊपर के level पे रोका गया है, आपके account तक भेजा ही नहीं गया. यह Section 25 of MGNREGA Act का सीधा उल्लंघन है, और criminal misappropriation है.</p>
+
+      <p class="answer-para">और एक बात — आप panchayat के दो चक्कर लगा चुकी हैं, "अगले हफ़्ते आना" सुन चुकी हैं. अब panchayat छोड़ दीजिए. Pradhan या तो contractor का साझी है, या डरा हुआ है — दोनों case में वो आपकी मदद नहीं करेगा. यह fight अब गाँव की नहीं है, Block और District की है — और कागज़ की है, ज़ुबान की नहीं. आप गाँव में किसी पे आरोप मत लगाइए, ज़ोर से कुछ मत बोलिए. आप शांत रहिए, और चार जगह एक ही दिन कागज़ डालिए, ताकि कोई एक officer फ़ाइल दबा न सके. यह तरीक़ा designed है इसलिए — ताकि चारों जगह एक साथ हलचल हो, और हर जगह को पता चले कि बाक़ी तीन जगह भी file है.</p>
+
+      <p class="answer-para"><strong>एक — सबसे पहले muster roll की photocopy.</strong> इस हफ़्ते worksite पे जाइए, supervisor से बोलिए — "मेरी हाज़िरी का record मुझे चाहिए, MGNREGA Act के तहत यह मेरा कानूनन हक़ है." तीन महीने की हाज़िरी — November, December, January — हर दिन का record. Photocopy माँगिए, या कम से कम photo खींच लीजिए (किसी जान-पहचान के बेटे या भाई से phone पे). यह आपका सबसे बड़ा सबूत है. एक बार यह आपके हाथ में आ गया, contractor किसी भी court या officer के सामने "हाज़िरी ही नहीं थी" नहीं बोल सकता. Reshma का भी record इसी तरह — दोनों एक साथ, एक file.</p>
+
+      <p class="answer-para"><strong>दो — NREGA Helpline 1800-345-22-44 और Block Development Officer (BDO) के पास written complaint.</strong> Helpline toll-free है, Hindi में बात होती है, और एक complaint number generate होता है — यह number लिख के रखिए, यह आपकी file का सबूत है. इसके बाद उसी हफ़्ते Nagaur के Block Development Officer के office जाइए — Reshma के साथ. एक written complaint, MGNREGA Act Section 25 के तहत, हाथ से देनी है — मेरा 16 दिन × 3 महीने का काम है, ₹12,768 का payment due है, account में ₹0 है, contractor ने तीन अलग-अलग बहाने दिए हैं, Bank Mitra ने confirm किया है सरकार से transfer आया ही नहीं. साथ में muster roll की photocopy. और सबसे important — एक copy पे BDO के office का date-stamped acknowledgment लीजिए. वो stamp आपके कागज़ पे लगना चाहिए — यह सबूत है कि शिकायत file हुई.</p>
+
+      <p class="answer-para"><strong>तीन — Social Audit की लिखित demand.</strong> MGNREGA Act में साफ़ लिखा है — हर worksite की हर 6 महीने में एक social audit होनी चाहिए, Gram Sabha के सामने. यह आपका कानूनन हक़ है, और यह वो process है जिसमें contractor को पूरे गाँव के सामने हिसाब देना पड़ता है — कितना पैसा आया, किसको कितना गया, बाक़ी कहाँ गया. आप एक written application दीजिए — Gram Sabha में और Block office में दोनों जगह — कि "मेरी worksite की social audit छह महीने से नहीं हुई है, MGNREGA Act के तहत मैं इसकी माँग करती हूँ." यह application Reshma के signature के साथ हो तो और भी ज़ोरदार है. Audit होने के बाद चोरी छिप नहीं सकती.</p>
+
+      <p class="answer-para"><strong>चार — और अगर कोई धमकी मिले, तो Women's Helpline 181 तुरंत.</strong> यह 24 घंटे चलने वाली helpline है, free है. Contractor ऊँची जात के हैं, आप नहीं — अगर कोई — कोई भी — आपको या Reshma को धमकाए, तो यह SC/ST (Prevention of Atrocities) Act 1989 का case बन जाता है, जो non-bailable है. आप अकेले नहीं हैं इसमें. 181 पे call कीजिए, उनके पास automatic record हो जाता है, और वो District Magistrate office को alert करते हैं. यह last resort है — पर रास्ता खुला है.</p>
+
+      <p class="answer-para">और एक बात — आप अकेली नहीं हैं. Reshma का account भी zero दिखा रहा है — वो आपकी witness है, और आप उसकी. दो complainants एक से बहुत बड़ा होता है — एक की file दब सकती है, दो की file ज़्यादा मुश्किल से दबती है. हो सके तो worksite पे और औरतों से भी पूछिए — अगर तीसरी, चौथी मिले, तो file और भारी. और सबसे ज़रूरी — सब काम कागज़ पे, हर कागज़ की एक copy अपने पास, हर visit पे date-stamped acknowledgment. यह fight ज़ुबान की नहीं है, कागज़ की है — और कागज़ हम जीतते हैं.</p>
+
+      <p class="answer-para"><span class="answer-speaker speaker-2">Samba:</span> Lalita जी, Sardar के बाद एक बात मेरी तरफ़ से. एक चीज़ और है जो आपने letter में नहीं पूछी पर मैं बोल देता हूँ — Bank-side का complaint भी एक है. आप या आपके पति में जिसको पढ़ने-लिखने का mauka मिला हो, वो Banking Ombudsman के पास एक online शिकायत डालें — bankingombudsman.rbi.org.in — RBI की official site है, मुफ़्त है, Hindi में form भरने का option है. Bank Mitra ने जो आपको बताया — कि सरकार से transfer आया ही नहीं — वही बात इस form में लिखनी है: "मेरा MGNREGA payment तीन महीने से due है, मेरा Aadhaar-linked Jan Dhan account चल रहा है, Bank Mitra ने passbook दिखाकर confirm किया है कि कोई transfer आया नहीं, फिर पैसा कहाँ रुका है — यह जानकारी मुझे चाहिए." 30 दिन में बैंक को जवाब देना है, कानूनन. यह एक और चौथा रास्ता है जो file को आगे बढ़ाएगा. और एक छोटी बात — Helpline 1800-345-22-44 पे call तुरंत कर सकती हैं, इसमें पढ़ाई-लिखाई की ज़रूरत नहीं है, सीधे बोल के शिकायत होती है, complaint number SMS में आ जाता है. आज शाम का काम यही — एक phone call, ₹0 ख़र्च. कल का काम — muster roll की photocopy. परसों — BDO office, Reshma के साथ. एक हफ़्ते में चारों रास्ते खुले होंगे. और एक बात Lalita जी, यह आपकी ग़लती नहीं है, और यह आपकी शर्म नहीं है. आपका बेटा रोटी का पूछता है — यह आपका सवाल नहीं, सरकार का सवाल है. हम आपके साथ हैं.</p>
+    </section>
+
+    <!-- English summary -->
+    <section class="summary-section">
+      <div class="summary-label">Summary</div>
+      <p class="summary-text">Lalita, 27, is a daily-wage MGNREGA labourer in a Nagaur village in Rajasthan, working on gravel-road repair. She has a valid job card, an Aadhaar-linked Jan Dhan account, and roughly sixteen days of attendance correctly marked on the muster roll for each of the past three months — November, December, January. Her account still shows zero. At ₹266 per day, three months of work is ₹12,768 — the money she counts on for her two small children's milk and school fees while her husband works in Jaipur. The contractor has offered three different excuses on three visits: "system slow", "Aadhaar mismatch", "computer error". The Bank Mitra has confirmed in person that no government transfer has arrived in her account — meaning the payment was blocked before it reached her, not after. Another woman from the same worksite, Reshma, has the same problem. The panchayat pradhan has told her twice to "come back next week". She cannot speak openly in the village — the contractor is from a dominant caste, she is not. Gabbar names the design plainly: this is not a system error, this is fund diversion under Section 25 of the MGNREGA Act, and the panchayat channel is compromised so the fight must move to Block and District level, on paper, in parallel. The plan is four complaints filed in the same week so no single officer can sit on the file. One: get a paper or photo copy of the muster roll from the worksite supervisor — every MGNREGA worker has the legal right to her own attendance record, and this is the strongest piece of evidence. Two: call the NREGA helpline 1800-345-22-44, free, Hindi, generating a complaint number, and within the same week walk into the Nagaur Block Development Officer's office with Reshma to file a written complaint under MGNREGA Section 25 with date-stamped acknowledgment. Three: a written demand for a Social Audit of the worksite — mandated by law every six months and almost certainly overdue — submitted at both the Gram Sabha and the Block office. Four: an online Banking Ombudsman complaint at bankingombudsman.rbi.org.in asking the bank itself to confirm where the transfer is — a thirty-day legal response window. If any caste-based threat or intimidation follows, Women's Helpline 181 is open twenty-four hours, and the SC/ST (Prevention of Atrocities) Act 1989 makes such intimidation non-bailable. The most important shift is from one complainant to two: Lalita and Reshma together. One file can be buried; two files with two signatures and two muster-roll copies cannot. The shame is not Lalita's. It is the system's. She is not asking for charity; she is asking for sixteen days a month of work she has already done.</p>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="question-nav">
+      <span class="nav-link disabled">← Previous</span>
+      <button
+        class="nav-random-btn"
+        onclick="goRandom(this)"
+        data-open-urls='["pairs/akash-sameer/arjun-bengaluru/", "pairs/akash-sameer/kabir-london/", "pairs/akash-sameer/nandini-dehradun/", "pairs/akash-sameer/sheela-kochi/", "pairs/amar-prem/bindiya-ahmedabad/", "pairs/amar-prem/dhanraj-surat/", "pairs/amar-prem/gurpreet-brampton/", "pairs/amar-prem/lalitha-coimbatore/", "pairs/anand-bhaskar/firoz-kolkata/", "pairs/anand-bhaskar/jagdish-barmer/", "pairs/anand-bhaskar/kamala-varanasi/", "pairs/anand-bhaskar/ratna-dharamsala/", "pairs/anand-bhaskar/sumir-toronto/", "pairs/anand-bhaskar/thomas-kottayam/", "pairs/anand-bhaskar/usha-bhubaneswar/", "pairs/anand-bhaskar/venkataraman-hyderabad/", "pairs/babu-raju/chetanya-hyderabad/", "pairs/babu-raju/meenakshi-coimbatore/", "pairs/babu-raju/pappu-gorakhpur/", "pairs/babu-raju/sunder-jaipur/", "pairs/chulbul-makkhi/deepak-kanpur/", "pairs/chulbul-makkhi/hemlata-bilaspur/", "pairs/chulbul-makkhi/savitri-barabanki/", "pairs/chulbul-makkhi/tilak-patna/", "pairs/gabbar-samba/lalita-nagaur/", "pairs/gabbar-samba/prakash-varanasi/", "pairs/gabbar-samba/subramanian-chennai/", "pairs/gabbar-samba/sunita-ranchi/", "pairs/gabbar-samba/tanveer-bengaluru/", "pairs/guddu-bablu/aryan-gurugram/", "pairs/guddu-bablu/ramesh-indore/", "pairs/guddu-bablu/zeenat-varanasi/", "pairs/ishaan-nikumbh/arjun-dehradun/", "pairs/ishaan-nikumbh/bhaskar-bhubaneswar/", "pairs/ishaan-nikumbh/deepak-nagpur/", "pairs/ishaan-nikumbh/priya-patna/", "pairs/ishaan-nikumbh/suresh-mandya/", "pairs/jai-veeru/ashraf-lucknow/", "pairs/jai-veeru/geeta-patna/", "pairs/jai-veeru/manvendra-chandigarh/", "pairs/jai-veeru/mustafa-kolkata/", "pairs/jai-veeru/rukmini-mysuru/", "pairs/kabir-arjun/kabir-chandigarh/", "pairs/kabir-arjun/rajan-indore/", "pairs/kabir-arjun/shekhar-mumbai/", "pairs/kabir-arjun/vikram-gurugram/", "pairs/kanji-kanha/arun-mysuru/", "pairs/kanji-kanha/malathi-madurai/", "pairs/kanji-kanha/moinuddin-lucknow/", "pairs/kanji-kanha/siddharth-mumbai/", "pairs/mohan-geeta/asha-toronto/", "pairs/mohan-geeta/geeta-imphal/", "pairs/mohan-geeta/rohit-newjersey/", "pairs/munna-circuit/arjun-ahmedabad/", "pairs/munna-circuit/devraj-sonipat/", "pairs/munna-circuit/hema-bengaluru/", "pairs/munna-circuit/kamala-thanjavur/", "pairs/munna-circuit/phulmaya-kalimpong/", "pairs/munna-circuit/priya-pune/", "pairs/munna-circuit/sangeeta-lucknow/", "pairs/munna-circuit/saraswati-bettiah/", "pairs/piku-bhashkor/nalini-chennai/", "pairs/piku-bhashkor/preeti-jaipur/", "pairs/piku-bhashkor/ranjit-guwahati/", "pairs/piku-bhashkor/usha-muzaffarpur/", "pairs/pk-jaggu/bhutia-gangtok/", "pairs/pk-jaggu/gopal-vrindavan/", "pairs/pk-jaggu/meenakshi-madurai/", "pairs/pk-jaggu/vivek-delhi/", "pairs/rancho-farhan/ananya-thrissur/", "pairs/rancho-farhan/hemant-patna/", "pairs/rancho-farhan/preetam-raipur/", "pairs/rancho-farhan/rajan-gorakhpur/", "pairs/rancho-farhan/sukhwinder-ludhiana/", "pairs/rancho-raju/amitabha-kolkata/", "pairs/rancho-raju/fatima-hyderabad/", "pairs/rancho-raju/lakshmi-coimbatore/", "pairs/rancho-raju/ranjit-jorhat/", "pairs/rancho-raju/sarita-allahabad/", "pairs/rancho-raju/siddharth-delhi/", "pairs/rancho-raju/vivek-mangaluru/", "pairs/teja-gogo/ananya-delhi/", "pairs/teja-gogo/chandrakant-ahmedabad/", "pairs/teja-gogo/gopal-jaipur/", "pairs/teja-gogo/harshvardhan-udaipur/", "pairs/teja-gogo/meenal-pune/", "pairs/teja-gogo/selvam-coimbatore/", "pairs/vijay-ravi/devyani-itanagar/", "pairs/vijay-ravi/mohan-das-raipur/", "pairs/vijay-ravi/priya-bengaluru/", "pairs/vijay-ravi/sunita-dharamshala/", "pairs/virus-chatur/asha-kota/", "pairs/virus-chatur/chandrahas-indore/", "pairs/virus-chatur/ramesh-lucknow/", "pairs/virus-chatur/saroja-tirunelveli/", "pairs/virus-chatur/surekha-chennai/"]'
+        data-all-urls='["pairs/akash-sameer/arjun-bengaluru/", "pairs/akash-sameer/kabir-london/", "pairs/akash-sameer/nandini-dehradun/", "pairs/akash-sameer/sheela-kochi/", "pairs/amar-prem/bindiya-ahmedabad/", "pairs/amar-prem/dhanraj-surat/", "pairs/amar-prem/gurpreet-brampton/", "pairs/amar-prem/lalitha-coimbatore/", "pairs/anand-bhaskar/firoz-kolkata/", "pairs/anand-bhaskar/jagdish-barmer/", "pairs/anand-bhaskar/kamala-varanasi/", "pairs/anand-bhaskar/ratna-dharamsala/", "pairs/anand-bhaskar/sumir-toronto/", "pairs/anand-bhaskar/thomas-kottayam/", "pairs/anand-bhaskar/usha-bhubaneswar/", "pairs/anand-bhaskar/venkataraman-hyderabad/", "pairs/babu-raju/chetanya-hyderabad/", "pairs/babu-raju/meenakshi-coimbatore/", "pairs/babu-raju/pappu-gorakhpur/", "pairs/babu-raju/sunder-jaipur/", "pairs/chulbul-makkhi/deepak-kanpur/", "pairs/chulbul-makkhi/hemlata-bilaspur/", "pairs/chulbul-makkhi/savitri-barabanki/", "pairs/chulbul-makkhi/tilak-patna/", "pairs/gabbar-samba/lalita-nagaur/", "pairs/gabbar-samba/prakash-varanasi/", "pairs/gabbar-samba/subramanian-chennai/", "pairs/gabbar-samba/sunita-ranchi/", "pairs/gabbar-samba/tanveer-bengaluru/", "pairs/guddu-bablu/aryan-gurugram/", "pairs/guddu-bablu/ramesh-indore/", "pairs/guddu-bablu/zeenat-varanasi/", "pairs/ishaan-nikumbh/arjun-dehradun/", "pairs/ishaan-nikumbh/bhaskar-bhubaneswar/", "pairs/ishaan-nikumbh/deepak-nagpur/", "pairs/ishaan-nikumbh/priya-patna/", "pairs/ishaan-nikumbh/suresh-mandya/", "pairs/jai-veeru/ashraf-lucknow/", "pairs/jai-veeru/geeta-patna/", "pairs/jai-veeru/manvendra-chandigarh/", "pairs/jai-veeru/mustafa-kolkata/", "pairs/jai-veeru/rukmini-mysuru/", "pairs/kabir-arjun/kabir-chandigarh/", "pairs/kabir-arjun/rajan-indore/", "pairs/kabir-arjun/shekhar-mumbai/", "pairs/kabir-arjun/vikram-gurugram/", "pairs/kanji-kanha/arun-mysuru/", "pairs/kanji-kanha/malathi-madurai/", "pairs/kanji-kanha/moinuddin-lucknow/", "pairs/kanji-kanha/siddharth-mumbai/", "pairs/mohan-geeta/asha-toronto/", "pairs/mohan-geeta/geeta-imphal/", "pairs/mohan-geeta/rohit-newjersey/", "pairs/munna-circuit/arjun-ahmedabad/", "pairs/munna-circuit/devraj-sonipat/", "pairs/munna-circuit/hema-bengaluru/", "pairs/munna-circuit/kamala-thanjavur/", "pairs/munna-circuit/phulmaya-kalimpong/", "pairs/munna-circuit/priya-pune/", "pairs/munna-circuit/sangeeta-lucknow/", "pairs/munna-circuit/saraswati-bettiah/", "pairs/piku-bhashkor/nalini-chennai/", "pairs/piku-bhashkor/preeti-jaipur/", "pairs/piku-bhashkor/ranjit-guwahati/", "pairs/piku-bhashkor/usha-muzaffarpur/", "pairs/pk-jaggu/bhutia-gangtok/", "pairs/pk-jaggu/gopal-vrindavan/", "pairs/pk-jaggu/meenakshi-madurai/", "pairs/pk-jaggu/vivek-delhi/", "pairs/rancho-farhan/ananya-thrissur/", "pairs/rancho-farhan/hemant-patna/", "pairs/rancho-farhan/preetam-raipur/", "pairs/rancho-farhan/rajan-gorakhpur/", "pairs/rancho-farhan/sukhwinder-ludhiana/", "pairs/rancho-raju/amitabha-kolkata/", "pairs/rancho-raju/fatima-hyderabad/", "pairs/rancho-raju/lakshmi-coimbatore/", "pairs/rancho-raju/ranjit-jorhat/", "pairs/rancho-raju/sarita-allahabad/", "pairs/rancho-raju/siddharth-delhi/", "pairs/rancho-raju/vivek-mangaluru/", "pairs/teja-gogo/ananya-delhi/", "pairs/teja-gogo/chandrakant-ahmedabad/", "pairs/teja-gogo/gopal-jaipur/", "pairs/teja-gogo/harshvardhan-udaipur/", "pairs/teja-gogo/meenal-pune/", "pairs/teja-gogo/selvam-coimbatore/", "pairs/vijay-ravi/devyani-itanagar/", "pairs/vijay-ravi/mohan-das-raipur/", "pairs/vijay-ravi/priya-bengaluru/", "pairs/vijay-ravi/sunita-dharamshala/", "pairs/virus-chatur/asha-kota/", "pairs/virus-chatur/chandrahas-indore/", "pairs/virus-chatur/ramesh-lucknow/", "pairs/virus-chatur/saroja-tirunelveli/", "pairs/virus-chatur/surekha-chennai/"]'
+      >Random →</button>
+      <span class="nav-link disabled">Next →</span>
+    </nav>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2026 Seedha Jawab. All original content — questions, conversations, and answers — is protected by copyright. Unauthorised reproduction or scraping is not permitted. Characters are fictional.
+  </div>
+</footer>
+
+</body>
+</html>
