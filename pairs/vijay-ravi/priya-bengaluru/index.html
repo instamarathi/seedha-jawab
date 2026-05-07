@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/seedha-jawab/">
+  <title>My team lead is faking safety data on a product going to rural hospitals. Reporting him ends my visa and my mother's cancer fund. — Vijay + Ravi — Seedha Jawab</title>
+  <meta name="description" content="Priya, 38, senior engineer at an MNC in Bengaluru, has found a paper trail showing her team lead is falsifying safety test results on a medical product shipped to rural hospitals. Reporting him collapses her H1B sponsorship and the funds keeping her mother's cancer treatment running. Vijay and Ravi sit with the cost of each road.">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="firebase-auth.js"></script>
+</head>
+<body data-gated="false">
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="">Seedha Jawab</a>
+    <div class="header-right">
+      <span class="auth-user" id="auth-user"></span>
+      <button class="auth-btn" id="auth-btn">Sign in</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <nav class="breadcrumb">
+      <a href="">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="pairs/vijay-ravi/">Vijay + Ravi</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>Priya, Bengaluru</span>
+    </nav>
+
+    <!-- सवाल -->
+    <section class="sawal-section">
+      <div class="section-label">सवाल</div>
+      <div class="sawal-card">
+        <p>Sir, मेरा naam Priya है, उम्र 38, Bengaluru से लिख रही हूँ — Whitefield. Senior engineer हूँ एक US-headquartered medical devices MNC में, India design centre. Specifically मैं reliability testing team में हूँ — मतलब जो product shipped होने वाला है, उसके stress test, leakage test, sterility test — मैं उन reports पे sign-off करती हूँ. 13 साल hue हैं इस company में. पिछले डेढ़ साल से US में हूँ short-term assignment पे — H1B-equivalent intra-company transfer visa है, मेरे पति और 9 साल का बेटा भी साथ हैं Boston में.</p>
+        <p>एक product है — एक portable IV infusion pump. ₹38,000 का एक unit. इसकी bulk order Government of India से ली है, Rural Health Mission के तहत — Tier 3 districts के Primary Health Centres के लिए, total 11,000 units. बच्चों, pregnant women, dehydration patients के लिए use होगा. Three-month batch testing अभी पूरी हुई. Lead Reliability Engineer हैं Mr. R — मेरे direct manager, US में बैठते हैं. पिछले 60 दिन से मैं हर हफ़्ते उनसे एक particular sub-test की राw data माँग रही हूँ — flow rate accuracy under low-battery condition. यह test critical है क्योंकि rural PHCs में battery backup unstable है.</p>
+        <p>दो हफ़्ते पहले मैंने shared drive के ek पुराने version-control folder में accidentally वो raw data देख लिया जिसकी मुझे summary दी गई थी. 23 of 50 units fail कर रहे थे ±5% flow accuracy threshold पे — over-delivery 12-18% तक. Summary report में लिखा था "47/50 pass, 3 marginal — within acceptable variance." Mr. R के dashboard में timestamps हैं — raw data delete होकर एक "cleaned" file आई है, signed by him. Flow over-delivery का मतलब है paediatric patients में fluid overload — pulmonary edema, in worst case death. Specifically यह risk बच्चों और low-weight patients में सबसे ज़्यादा है.</p>
+        <p>मेरे पास सब है — raw CSVs के timestamps, version history, उनकी सब signed-off summaries, और एक recorded internal call जिसमें Mr. R ने एक junior को बोला था "let's not put marginal failures in the deck, FDA-equivalent में simpler है." यह सब मेरे personal laptop पे है — corporate device पे नहीं. मैं ज़मीन पे आँखें गाड़ के लिख रही हूँ. अगर मैं internal compliance पे जाती हूँ — Mr. R के साथ इस company में मेरा 13 साल का relationship है, उन्होंने मुझे US assignment recommend किया था, और investigation शुरू होते ही मेरा visa sponsorship suspend हो जाएगा (यह company policy है अंदर). Visa गई तो 60 दिन में देश छोड़ना है. मेरी माँ की breast cancer Stage 3 चल रही है — Bengaluru के एक private hospital में, monthly ₹4.5 lakh — और उस fund में मेरी US salary का बहुत बड़ा हिस्सा जा रहा है. India में मेरी इसी company में अब jobs hiring freeze पे हैं.</p>
+        <p>अगर मैं FDA equivalent (US) या CDSCO (India) पे whistleblower complaint करूँ — protections हैं, पर वो छह-नौ महीने बाद activate होते हैं. इन छह महीनों में मैं unemployed, country-changing, और माँ का treatment पैसे की वजह से रुक सकता है. और अगर मैं चुप रहूँ — 11,000 IV pumps वो PHCs में जाएँगे जहाँ कोई dispute भी नहीं उठाएगा. Sir, मुझे बताइए कौन सा रास्ता. मैं रोज़ रात अपनी माँ के बारे में सोचती हूँ, और रोज़ सुबह उन बच्चों के बारे में जो मुझे कभी नहीं मिलेंगे.</p>
+        <div class="sawal-from">— Priya, Bengaluru</div>
+      </div>
+    </section>
+
+    <!-- Conversation -->
+    <section class="conversation-section">
+      <div class="section-label">Conversation</div>
+      <div class="conversation">
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"Ravi."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"Bhai."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"Bengaluru से letter है. एक engineer है — Priya, 38. मेडिकल device company. उसके manager ने safety data में झूठ डाल दिया है — 11,000 IV pumps rural PHCs में जा रहे हैं. वो pumps बच्चों के लिए हैं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"...कितने fail हैं?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"50 में से 23. मतलब लगभग half. Flow rate over-delivery — बच्चे की body में पानी ज़्यादा जा सकता है. Pulmonary edema, worst में मौत."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"और proof?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"पूरा. Raw CSVs, version history, manager का signed-off summary — और एक recording जिसमें वो junior को बोल रहा है 'marginal failures deck में मत डालो.' सब Priya के personal laptop पे है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"तो यह simple है, Bhai. Report करो."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"रुक, Ravi. एक बात बताऊँ?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"बोलो."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"Priya US में है intra-company visa पे. Report करते ही sponsorship suspend — 60 दिन में देश छोड़ो. India में same company में hiring freeze. माँ Bengaluru में Stage 3 cancer, ₹4.5 lakh महीने का treatment, उसका funder Priya है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"...भगवान."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"वही, Ravi. तू बोलने में आधा second लगा — 'simple है, report करो.' अगर तेरी माँ हो, तेरा बच्चा हो, तेरा visa हो — फिर भी आधा second में बोलेगा?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"Bhai... नहीं. आधा second में नहीं बोल सकता."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"लेकिन एक बात भी सच है, Ravi. वो 11,000 pumps PHCs में जाएँगे जहाँ कोई lawyer नहीं है, कोई FDA monitor नहीं है, कोई engineer audit करने नहीं आएगा. एक 8 महीने के बच्चे की body में 18% extra fluid जाएगा — वो बच्चा एक रात में चला जाएगा. Doctor लिखेगा 'pulmonary complications.' पंप वापस factory नहीं आएगा. कोई पकड़ नहीं पाएगा. और यह pump 5-7 साल चलेगा."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"मतलब Priya की चुप्पी का बिल बच्चे चुकाएँगे."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"और Priya की awaaz का बिल — Priya, उसका बेटा, उसकी माँ चुकाएगी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"Bhai, यह वो जगह है जहाँ कोई आसान जवाब नहीं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"नहीं है, Ravi. लेकिन एक चीज़ साफ़ है. कोई भी रास्ता जो Priya चुनेगी, वो ख़ुद चुनेगी — हम उसको bullet point नहीं देंगे. हम उसको दो रास्ते दिखाएँगे, दोनों के bill पूरे साफ़ रखेंगे. वो decide करेगी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"पहला रास्ता?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"पहला रास्ता — सच का. पर सच का रास्ता मूर्ख की तरह नहीं चलना है. एक रात में internal compliance को email नहीं करना. क्योंकि internal compliance Mr. R को तीन घंटे में बता देगा, और raw data uske server से delete हो जाएगा. यह game वो जीतेगा, Priya हारेगी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"तो?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"पहले — सब evidence triplicate. Personal laptop, encrypted external drive, और एक trusted lawyer की email पे sealed PDF. यह कभी delete नहीं होगा, कोई कुछ भी करे. यह foundation है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"दूसरा कदम?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"Whistleblower lawyer — US side. Priya US में है, US whistleblower laws strong हैं — Sarbanes-Oxley Section 806 medical device fraud पे apply होता है, FDA Modernization Act 2002 के Section 17 के तहत internal report करने वाले को retaliation पे damages मिलते हैं. एक consultation 90 minutes — कुछ firms pro bono करती हैं medical fraud में, कुछ contingency पे. यह ख़ास है — lawyer protection देगा before company को पता चले."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"और CDSCO India?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"Parallel, simultaneous. Central Drugs Standard Control Organisation — Drugs and Cosmetics Act के तहत. Plus CVC India का whistleblower portal अगर government tender involved है — और यह Rural Health Mission की tender है, government का पैसा है. यह second front."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"Bhai, और visa? बेटा? माँ?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"यही असली सवाल है, Ravi. यहाँ मैं झूठ नहीं बोलूँगा. Whistleblower lawyer पहले step पे एक clean separation negotiate कर सकता है — voluntary resignation with severance, retaliation clause invoked, मतलब company उसको terminate नहीं कर सकती बिना consequence के. यह pe उसे 6-12 महीने का runway देता है — pay continues, sponsorship कुछ हफ़्ते से कुछ महीने तक extended."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"और 12 महीने बाद?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"12 महीने बाद वो India में हो सकती है, या किसी और US company में जिसने इस story को सुना और respect किया. 13 साल की senior reliability engineer, regulatory whistleblower track record — कुछ ख़ास companies actively hire करती हैं ऐसे लोगों को. Easy नहीं है, lekin बंद रास्ता नहीं है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"और माँ?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"Ravi, यह सबसे कठिन हिस्सा है. ₹4.5 lakh महीने का treatment Stage 3 cancer में 12-18 महीने का है ज़्यादातर. Priya अपने पति से बात करे — पति की भी salary है, savings हैं, US की healthcare gap-coverage है. Government schemes — Ayushman Bharat private hospitals में partial cover है कुछ cancers में, और कुछ private trusts हैं — Tata Memorial Outreach, HCG hospitals का financial assistance, Indian Cancer Society. Crowdfunding — Ketto, ImpactGuru — 13 साल की senior engineer का network, यह genuine case है, ₹15-25 lakh easy raise हो जाता है ऐसे cases में."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"लेकिन Bhai, यह सब uncertainty है. कोई guarantee नहीं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"नहीं है, Ravi. लेकिन दूसरा रास्ता भी uncertainty है — एक different shape की."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"दूसरा रास्ता — चुप रहना?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"नहीं, Ravi. चुप रहना मुझे allowed नहीं है किसी को बताना. लेकिन एक middle रास्ता है — और यह middle रास्ता दिखता simple है, पर इसका भी बिल है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"बता."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"Anonymous tip. CDSCO के online complaint portal पे, FDA's MedWatch reporter portal पे — both anonymous. Evidence upload — masked. Mr. R का नाम, batch number, raw data CSVs, recording. यह action है, और यह visa बचाता है, और यह माँ का treatment बचाता है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"फिर bill क्या है?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"Bill यह है, Ravi — anonymous tip बहुत बार slow चलती है. Investigator को verify करना पड़ता है. इस बीच 11,000 pumps शायद ship हो जाएँ. जब investigation शुरू हो तब तक product PHCs में पहुँच चुका होगा. Anonymous tip में urgency नहीं होती क्योंकि कोई accountable नहीं होता."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"मतलब Priya अपना सब कुछ बचाएगी, और कुछ बच्चे फिर भी मरेंगे."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"शायद. कम — पर शायद. यह दूसरा रास्ता है, Ravi. यह कायरता नहीं है — यह compromise है. लेकिन हर compromise के साथ कुछ रहता है — एक छोटी सी आवाज़ जो रात को 3 बजे पूछती है 'और तेज़ क्या होता तो?' Priya की चुप्पी 18 साल नहीं, पूरी ज़िंदगी रहेगी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"Bhai, तुमने यह आवाज़ सुनी है, ना?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"...हाँ. मैं बहुत साल तक यह आवाज़ सुनता रहा, Ravi. मैंने एक बार इसी तरह का choice किया था — आसान वाला. आज भी रात को कभी-कभी वो आवाज़ आती है. इसलिए मैं Priya को यह नहीं कह सकता कि 'तुम्हें मालूम नहीं क्या होता है.' मुझे मालूम है क्या होता है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"फिर हम Priya को क्या लिखें?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"दोनों रास्ते — पूरी ईमानदारी से. Bill दोनों के पूरे लिखे. और एक hybrid भी — अगर वो लिखी जा सकती है — जिसमें वो सबसे कम चीज़ खोए और सबसे ज़्यादा बच्चे बचें. Priya engineer है — वो trade-off समझती है. हम उसको option देंगे, हुक्म नहीं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Ravi:</span>
+          <span class="conv-text">"लिखो, Bhai."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Vijay:</span>
+          <span class="conv-text">"लिखता हूँ. और एक बात Ravi — यह बहन है, नौ साल का बच्चा है उसका, माँ है. हम moralise नहीं करेंगे. हम साथ खड़े होंगे, चाहे जो रास्ता वो चुने."</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Answer -->
+    <section class="answer-section">
+      <div class="section-label">Jawab</div>
+
+      <p class="answer-para"><span class="answer-speaker speaker-1">Vijay:</span> Priya, बहन. एक बात पहले बोल देता हूँ. इस letter का जवाब मैं easy नहीं दे सकता, क्योंकि easy जवाब नहीं है. कोई जो तुम्हें बोले "तुरंत report कर दो, बच्चे बचाओ" — वो तुम्हारी माँ का medical bill नहीं देख रहा. कोई जो तुम्हें बोले "अपना घर बचाओ, चुप रहो" — वो उन 11,000 pumps के अंदर बैठे बच्चों को नहीं गिन रहा. दोनों आसान जवाब झूठे हैं. एक रात पहले मैं तुम्हारी जगह खड़ा था बहुत साल पहले — एक road सच की थी, एक road घर की थी. मैं घर वाली पे चला गया था. आज भी रात के 3 बजे एक आवाज़ आती है — "अगर थोड़ी और हिम्मत होती तो?" इसलिए तुम्हें गुरु बनके नहीं, बहन की एक आवाज़ की तरह बोलूँगा. तीन रास्ते हैं, तीनों के बिल पूरे साफ़ रखूँगा. तुम engineer हो — trade-off तुम समझती हो. Decision तुम्हारा है.</p>
+
+      <p class="answer-para"><strong>आज ही, सबसे पहले — चाहे कोई भी रास्ता चुनो — Evidence triplicate.</strong> यह foundation है, इसमें कोई choice नहीं. आज रात: एक encrypted external drive (₹3000, BitLocker या VeraCrypt से encrypted), एक trusted lawyer की email पे password-protected ZIP, और एक sealed copy माँ-पापा वाले घर में Bengaluru में किसी भरोसे के दोस्त के पास. Files: raw CSVs (timestamps preserved), version history screenshots, summary reports (signed), call recording, और एक one-page chronology — कब क्या मिला, कब किसने क्या deleted, कब manager ने क्या email की. यह paper trail कभी delete नहीं होगा, कोई भी कुछ भी करे.</p>
+
+      <p class="answer-para"><strong>रास्ता एक — सच का रास्ता, सबसे महँगा, और सबसे टिकाऊ.</strong> US whistleblower lawyer से 90-minute consultation इस हफ़्ते. फ़र्मे जो पकड़ती हैं ऐसे cases — Phillips & Cohen, Constantine Cannon, Tycko & Zavareei — कई contingency पे काम करती हैं (matlab उनकी fees recovered settlement से आती हैं), कुछ pro bono करती हैं medical device fraud में. SOX Section 806 और FDA Modernization Act Section 17 तुम्हें retaliation से protect करते हैं — यानी company तुम्हें fire या visa-suspend नहीं कर सकती बिना damages के. Lawyer का काम है — एक clean separation negotiate करना: voluntary resignation with severance + retaliation indemnity + visa transition runway. यह 6-12 महीने का financial cushion देता है, इसी के अंदर FDA या CDSCO investigation activate हो जाती है. यह रास्ता तुम्हें एक whistleblower बनाता है — और कुछ ख़ास US/EU companies (Olympus, Becton Dickinson की integrity team, कुछ smaller medical-device firms) actively ऐसे लोगों को hire करती हैं reliability lead positions पे. यह दरवाज़ा बंद नहीं है — यह दरवाज़ा एक साल मुश्किल है, फिर खुलता है. माँ का treatment fund इस रास्ते पे severance + पति की salary + crowdfunding (Ketto, ImpactGuru — Stage 3 cancer का genuine case + tier-1 engineer का network से ₹15-25 lakh raise होता है) + कुछ trust assistance (Tata Memorial Outreach, HCG, Indian Cancer Society) — यह combination workable है. Hard है — मगर workable.</p>
+
+      <p class="answer-para"><strong>रास्ता दो — Anonymous tip, सबसे कम महँगा, पर bill बच्चे चुकाते हैं.</strong> CDSCO का online complaint portal (cdsco.gov.in) और FDA MedWatch reporter — दोनों anonymous tip accept करते हैं. Evidence upload, Mr. R का नाम, batch numbers, raw data, recording. यह तुम्हारी visa, job, माँ का fund — सब बचाता है. यह कायरता नहीं है, यह एक compromise है, और compromise एक legitimate adult choice है. लेकिन इसका bill — anonymous tips slow होती हैं. Investigator को independently verify करना पड़ता है, urgency नहीं होती क्योंकि कोई accountable पीछे नहीं है. इन 4-9 महीनों में बहुत सारे pumps PHCs में पहुँच जाएँगे. कुछ बच्चों की body में extra fluid जाएगा. कुछ death certificates पे "pulmonary complications" लिखा होगा. कोई pump वापस factory नहीं आएगा. यह bill तुम्हारे conscience पे रहेगा — पूरी ज़िंदगी, रात के 3 बजे की आवाज़ की तरह. मैं तुम्हें moralise नहीं कर रहा, सिर्फ़ बता रहा हूँ कि यह आवाज़ कब आती है, क्योंकि मैं जानता हूँ.</p>
+
+      <p class="answer-para"><strong>रास्ता तीन — Hybrid. यह सबसे smart है.</strong> Anonymous tip + एक parallel internal escalation जो urgency बनाए, बिना तुम्हें expose किए — fully तुरंत. Steps: (1) आज रात evidence triplicate. (2) कल morning anonymous tip CDSCO + FDA MedWatch — masked. (3) अगले 48 घंटों में एक whistleblower lawyer से consultation, सिर्फ़ option open रखने के लिए. (4) Mr. R के ऊपर वाले — VP of Quality, या Chief Medical Officer — को एक "professional concern" वाली technical email — तुम्हारे नाम से, पर सीधे fraud का आरोप नहीं — सिर्फ़ "raw data audit request" तकनीकी ground पे, जो तुम्हारी job description के अंदर है, retaliation cleanly trigger नहीं करता. इसका असर — investigation accelerate होती है क्योंकि अब anonymous tip + internal data audit request + लiteralreply trail एक साथ हैं. Mr. R को 11,000 pump shipment hold करना पड़ता है compliance review pending. तुम्हारी visa एक senior engineer के technical request की वजह से suspend नहीं होती immediately — कुछ हफ़्ते मिलते हैं lawyer setup के लिए. यह रास्ता perfect नहीं है — पर तीनों bills को shrink करता है: बच्चों का bill (shipment hold), तुम्हारी ज़िंदगी का bill (lawyer + runway), conscience का bill (तुमने technically सच का रास्ता चुना).</p>
+
+      <p class="answer-para"><strong>एक practical बात — पति को आज रात बताओ.</strong> सब कुछ. यह अकेले उठाने का बोझ नहीं है. वो भी partner है इस decision में — माँ का treatment, बेटे का school, US में next 12 months. एक रात बात करो, कोई decision आज ही नहीं. Sunday तक decision. Sunday तक triplicate evidence ready. यह तुम्हारी ज़िंदगी का सबसे बड़ा एक हफ़्ता है — पर एक हफ़्ते में decide हो सकता है. लंबा नहीं खींचना है, क्योंकि लंबा खींचने में Mr. R के पास raw data delete करने का time है, और तुम्हारी position weaker होती जाती है.</p>
+
+      <p class="answer-para"><span class="answer-speaker speaker-2">Ravi:</span> Priya बहन, मैं Bhai के बाद एक बात जोड़ता हूँ — एक law-and-paperwork वाली. तुम engineer हो, तुम्हें structure पसंद होगा. तुम्हारे पास जो evidence है, वो US और India दोनों jurisdictions में admissible है — पर कैसे collect किया, यह matter करता है. एक trick — सब कुछ अब तक तुमने जो देखा है, वो तुम्हारी "regular job duties" का हिस्सा है (reliability sign-off तुम्हारी responsibility है). इसलिए personal laptop पे data रखना technically grey area है — पर "good faith preservation of evidence pending compliance escalation" के तहत protected है ज़्यादातर whistleblower frameworks में. एक सलाह — अब और evidence personal laptop पे मत डालो, सब company-owned device पे रहे जब तक तुम formally lawyer के साथ चलो. यह तुम्हें "data theft" वाले counter-allegation से बचाता है, जो company पहले case में डालती है whistleblower पे. दूसरी बात — Whistleblower Hotline India जैसे options भी हैं (independent NGOs जो CVC के साथ काम करते हैं), और Indian Whistleblowers Protection Act 2014 government schemes के लिए apply होता है — और यह Rural Health Mission एक central government scheme है, इसलिए act का coverage तुम्हें मिलता है. आख़िरी एक बात — तुम्हारी माँ का name सुना तो मेरा भी हाथ काँप गया. Stage 3 cancer के बीच ये decision सोचना — बहुत भारी है. पर एक सच है: माँ अपनी बेटी से एक चीज़ चाहती है हमेशा — कि बेटी ठीक हो, और बेटी ख़ुद से ख़ुश हो. कौन सा रास्ता तुमको ख़ुद से ज़्यादा reconcile करता है, उस रास्ते पे जाओ. और जो भी रास्ता हो — हम — मैं और Bhai — तुम्हारे साथ हैं इस letter में, और जब तुम लिखोगी कि क्या decide किया, हम वहाँ भी होंगे.</p>
+    </section>
+
+    <!-- English summary -->
+    <section class="summary-section">
+      <div class="summary-label">Summary</div>
+      <p class="summary-text">Priya, 38, a senior reliability engineer in Bengaluru, has spent thirteen years at a US-headquartered medical devices MNC. She is currently on an intra-company transfer assignment in Boston with her husband and nine-year-old son. She signs off on safety reports for an Indian Rural Health Mission tender — eleven thousand portable IV infusion pumps destined for tier-three Primary Health Centres for use on children, pregnant women and dehydration patients. Two weeks ago, in an old version-control folder, she accidentally found the raw data for a critical low-battery flow accuracy test. Twenty-three of fifty units fail the threshold; her manager's signed-off summary records only three "marginal" failures. There is timestamped evidence of the raw data being deleted and replaced, a recording of him telling a junior to leave marginal failures out of the deck, and a complete paper trail on her personal laptop. Flow over-delivery in paediatric IV pumps means fluid overload, pulmonary edema, in worst cases death — and these pumps go to PHCs where no one will audit them. If she reports through internal compliance, her visa sponsorship suspends, she has sixty days to leave the country, and the funding line for her mother's Stage 3 breast cancer treatment in Bengaluru — four and a half lakhs a month — collapses. Her company has a hiring freeze in India. Vijay does not give her an easy answer because there isn't one — both easy answers are lies. He lays out three roads with full bills attached. The truth road: a US whistleblower lawyer this week (Phillips & Cohen, Constantine Cannon and others handle medical-device fraud on contingency or pro bono); SOX Section 806 and FDA Modernization Act Section 17 protect her from retaliation; the lawyer negotiates voluntary resignation with severance, retaliation indemnity and a visa runway, giving six to twelve months of cushion; her mother's treatment is then funded by severance plus husband's salary plus crowdfunding (Ketto, ImpactGuru — a senior engineer's network easily raises fifteen to twenty-five lakhs for a genuine Stage 3 case) plus assistance trusts (Tata Memorial Outreach, HCG, Indian Cancer Society); after twelve months, certain US and EU medical-device firms actively hire whistleblower-track engineers. The anonymous-tip road: CDSCO online complaint portal and FDA MedWatch both accept anonymous reports — saves her job, visa and mother's fund, but anonymous tips move slowly without an accountable reporter, and many pumps will reach PHCs before investigation activates. She will live with that bill in the small hours of the morning, for life. The hybrid road, which Vijay calls smartest: triplicate evidence tonight; anonymous tip filed tomorrow; whistleblower lawyer consultation within forty-eight hours to keep options open; a carefully framed technical "raw data audit request" emailed to a senior officer above her manager — using language inside her job description so retaliation isn't cleanly triggered, but accelerating compliance review enough to hold the eleven thousand pump shipment. This shrinks all three bills at once. Across all three, the foundation is the same and not optional: tonight, encrypt the evidence, triplicate it, and tell her husband everything. The decision should land by Sunday — longer delay only weakens her position as her manager continues to delete what he can. Ravi adds the legal scaffolding: do not put more evidence on the personal laptop from now on, to avoid a "data theft" counter-allegation; Indian Whistleblowers Protection Act 2014 covers central government schemes (this tender qualifies); and the deepest truth — every mother wants only that her daughter be okay, and at peace with herself. Whichever road reconciles Priya with herself is the road. Both Bollywood brothers will be standing with her on whichever one she chooses.</p>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="question-nav">
+      <span class="nav-link disabled">← Previous</span>
+      <button
+        class="nav-random-btn"
+        onclick="goRandom(this)"
+        data-open-urls='["pairs/akash-sameer/arjun-bengaluru/", "pairs/akash-sameer/kabir-london/", "pairs/akash-sameer/nandini-dehradun/", "pairs/amar-prem/bindiya-ahmedabad/", "pairs/amar-prem/dhanraj-surat/", "pairs/amar-prem/gurpreet-brampton/", "pairs/anand-bhaskar/firoz-kolkata/", "pairs/anand-bhaskar/jagdish-barmer/", "pairs/anand-bhaskar/kamala-varanasi/", "pairs/anand-bhaskar/ratna-dharamsala/", "pairs/anand-bhaskar/sumir-toronto/", "pairs/anand-bhaskar/thomas-kottayam/", "pairs/anand-bhaskar/venkataraman-hyderabad/", "pairs/babu-raju/chetanya-hyderabad/", "pairs/babu-raju/meenakshi-coimbatore/", "pairs/babu-raju/sunder-jaipur/", "pairs/chulbul-makkhi/hemlata-bilaspur/", "pairs/chulbul-makkhi/savitri-barabanki/", "pairs/chulbul-makkhi/tilak-patna/", "pairs/gabbar-samba/prakash-varanasi/", "pairs/gabbar-samba/subramanian-chennai/", "pairs/gabbar-samba/sunita-ranchi/", "pairs/gabbar-samba/tanveer-bengaluru/", "pairs/guddu-bablu/ramesh-indore/", "pairs/guddu-bablu/zeenat-varanasi/", "pairs/ishaan-nikumbh/arjun-dehradun/", "pairs/ishaan-nikumbh/deepak-nagpur/", "pairs/ishaan-nikumbh/priya-patna/", "pairs/ishaan-nikumbh/suresh-mandya/", "pairs/jai-veeru/ashraf-lucknow/", "pairs/jai-veeru/manvendra-chandigarh/", "pairs/jai-veeru/mustafa-kolkata/", "pairs/jai-veeru/rukmini-mysuru/", "pairs/kabir-arjun/kabir-chandigarh/", "pairs/kabir-arjun/shekhar-mumbai/", "pairs/kabir-arjun/vikram-gurugram/", "pairs/kanji-kanha/arun-mysuru/", "pairs/kanji-kanha/malathi-madurai/", "pairs/kanji-kanha/siddharth-mumbai/", "pairs/mohan-geeta/asha-toronto/", "pairs/mohan-geeta/rohit-newjersey/", "pairs/munna-circuit/arjun-ahmedabad/", "pairs/munna-circuit/devraj-sonipat/", "pairs/munna-circuit/hema-bengaluru/", "pairs/munna-circuit/phulmaya-kalimpong/", "pairs/munna-circuit/priya-pune/", "pairs/munna-circuit/sangeeta-lucknow/", "pairs/munna-circuit/saraswati-bettiah/", "pairs/piku-bhashkor/nalini-chennai/", "pairs/piku-bhashkor/preeti-jaipur/", "pairs/piku-bhashkor/ranjit-guwahati/", "pairs/pk-jaggu/bhutia-gangtok/", "pairs/pk-jaggu/meenakshi-madurai/", "pairs/pk-jaggu/vivek-delhi/", "pairs/rancho-farhan/ananya-thrissur/", "pairs/rancho-farhan/hemant-patna/", "pairs/rancho-farhan/rajan-gorakhpur/", "pairs/rancho-farhan/sukhwinder-ludhiana/", "pairs/rancho-raju/amitabha-kolkata/", "pairs/rancho-raju/lakshmi-coimbatore/", "pairs/rancho-raju/ranjit-jorhat/", "pairs/rancho-raju/sarita-allahabad/", "pairs/rancho-raju/siddharth-delhi/", "pairs/rancho-raju/vivek-mangaluru/", "pairs/teja-gogo/ananya-delhi/", "pairs/teja-gogo/chandrakant-ahmedabad/", "pairs/teja-gogo/harshvardhan-udaipur/", "pairs/teja-gogo/meenal-pune/", "pairs/teja-gogo/selvam-coimbatore/", "pairs/vijay-ravi/devyani-itanagar/", "pairs/vijay-ravi/mohan-das-raipur/", "pairs/vijay-ravi/priya-bengaluru/", "pairs/virus-chatur/asha-kota/", "pairs/virus-chatur/chandrahas-indore/", "pairs/virus-chatur/ramesh-lucknow/", "pairs/virus-chatur/saroja-tirunelveli/"]'
+        data-all-urls='["pairs/akash-sameer/arjun-bengaluru/", "pairs/akash-sameer/kabir-london/", "pairs/akash-sameer/nandini-dehradun/", "pairs/amar-prem/bindiya-ahmedabad/", "pairs/amar-prem/dhanraj-surat/", "pairs/amar-prem/gurpreet-brampton/", "pairs/anand-bhaskar/firoz-kolkata/", "pairs/anand-bhaskar/jagdish-barmer/", "pairs/anand-bhaskar/kamala-varanasi/", "pairs/anand-bhaskar/ratna-dharamsala/", "pairs/anand-bhaskar/sumir-toronto/", "pairs/anand-bhaskar/thomas-kottayam/", "pairs/anand-bhaskar/venkataraman-hyderabad/", "pairs/babu-raju/chetanya-hyderabad/", "pairs/babu-raju/meenakshi-coimbatore/", "pairs/babu-raju/sunder-jaipur/", "pairs/chulbul-makkhi/hemlata-bilaspur/", "pairs/chulbul-makkhi/savitri-barabanki/", "pairs/chulbul-makkhi/tilak-patna/", "pairs/gabbar-samba/prakash-varanasi/", "pairs/gabbar-samba/subramanian-chennai/", "pairs/gabbar-samba/sunita-ranchi/", "pairs/gabbar-samba/tanveer-bengaluru/", "pairs/guddu-bablu/ramesh-indore/", "pairs/guddu-bablu/zeenat-varanasi/", "pairs/ishaan-nikumbh/arjun-dehradun/", "pairs/ishaan-nikumbh/deepak-nagpur/", "pairs/ishaan-nikumbh/priya-patna/", "pairs/ishaan-nikumbh/suresh-mandya/", "pairs/jai-veeru/ashraf-lucknow/", "pairs/jai-veeru/manvendra-chandigarh/", "pairs/jai-veeru/mustafa-kolkata/", "pairs/jai-veeru/rukmini-mysuru/", "pairs/kabir-arjun/kabir-chandigarh/", "pairs/kabir-arjun/shekhar-mumbai/", "pairs/kabir-arjun/vikram-gurugram/", "pairs/kanji-kanha/arun-mysuru/", "pairs/kanji-kanha/malathi-madurai/", "pairs/kanji-kanha/siddharth-mumbai/", "pairs/mohan-geeta/asha-toronto/", "pairs/mohan-geeta/rohit-newjersey/", "pairs/munna-circuit/arjun-ahmedabad/", "pairs/munna-circuit/devraj-sonipat/", "pairs/munna-circuit/hema-bengaluru/", "pairs/munna-circuit/phulmaya-kalimpong/", "pairs/munna-circuit/priya-pune/", "pairs/munna-circuit/sangeeta-lucknow/", "pairs/munna-circuit/saraswati-bettiah/", "pairs/piku-bhashkor/nalini-chennai/", "pairs/piku-bhashkor/preeti-jaipur/", "pairs/piku-bhashkor/ranjit-guwahati/", "pairs/pk-jaggu/bhutia-gangtok/", "pairs/pk-jaggu/meenakshi-madurai/", "pairs/pk-jaggu/vivek-delhi/", "pairs/rancho-farhan/ananya-thrissur/", "pairs/rancho-farhan/hemant-patna/", "pairs/rancho-farhan/rajan-gorakhpur/", "pairs/rancho-farhan/sukhwinder-ludhiana/", "pairs/rancho-raju/amitabha-kolkata/", "pairs/rancho-raju/lakshmi-coimbatore/", "pairs/rancho-raju/ranjit-jorhat/", "pairs/rancho-raju/sarita-allahabad/", "pairs/rancho-raju/siddharth-delhi/", "pairs/rancho-raju/vivek-mangaluru/", "pairs/teja-gogo/ananya-delhi/", "pairs/teja-gogo/chandrakant-ahmedabad/", "pairs/teja-gogo/harshvardhan-udaipur/", "pairs/teja-gogo/meenal-pune/", "pairs/teja-gogo/selvam-coimbatore/", "pairs/vijay-ravi/devyani-itanagar/", "pairs/vijay-ravi/mohan-das-raipur/", "pairs/vijay-ravi/priya-bengaluru/", "pairs/virus-chatur/asha-kota/", "pairs/virus-chatur/chandrahas-indore/", "pairs/virus-chatur/ramesh-lucknow/", "pairs/virus-chatur/saroja-tirunelveli/"]'
+      >Random →</button>
+      <span class="nav-link disabled">Next →</span>
+    </nav>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2026 Seedha Jawab. All original content — questions, conversations, and answers — is protected by copyright. Unauthorised reproduction or scraping is not permitted. Characters are fictional.
+  </div>
+</footer>
+
+</body>
+</html>
