@@ -388,25 +388,17 @@ main {
   font-size: 0.9rem;
 }
 
-/* English summary */
+/* English summary — hidden from readers (don't spoil the story), kept in DOM for crawlers */
 .summary-section {
-  border-top: 1px solid var(--border);
-  padding-top: 1.75rem;
-  margin-bottom: 2.5rem;
-}
-
-.summary-label {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-dim);
-  margin-bottom: 0.6rem;
-}
-
-.summary-text {
-  color: var(--text-dim);
-  font-size: 0.9rem;
-  line-height: 1.7;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* Nav: prev/next/random */
