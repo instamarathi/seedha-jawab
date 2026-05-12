@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/seedha-jawab/">
+  <title>I am 7 and I am tired of school feeling like a test every day — Ishaan + Nikumbh — Seedha Jawab</title>
+  <meta name="description" content="A letter typed by Nargis, 33, in Mumbai, exactly as her 7-year-old daughter Shirin spoke it. Shirin is not bad at school, just tired of every day feeling like a test, and her teacher shouted when she shared a pencil. Nikumbh answers Shirin directly, and a brief note to her mother at the end.">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="firebase-auth.js"></script>
+</head>
+<body data-gated="false">
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="">Seedha Jawab</a>
+    <div class="header-right">
+      <span class="auth-user" id="auth-user"></span>
+      <button class="auth-btn" id="auth-btn">Sign in</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <nav class="breadcrumb">
+      <a href="">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="pairs/ishaan-nikumbh/">Ishaan + Nikumbh</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>Shirin, Mumbai</span>
+    </nav>
+
+    <!-- सवाल -->
+    <section class="sawal-section">
+      <div class="section-label">सवाल</div>
+      <div class="sawal-card">
+        <p><em>Note from Shirin's mother — Nargis, 33, Mumbai (Bandra East). मेरी बेटी 7 साल की है, उसने यह बोला है, मैं type कर रही हूँ exactly जैसे उसने बोला. कुछ नहीं बदला, कुछ नहीं जोड़ा. वो यहाँ बैठी है मेरे पास, सो गई है अब. — Nargis</em></p>
+        <p>Hello. मेरा नाम Shirin है. मैं 7 साल की हूँ. मैं Class 2 में हूँ. Mumbai में रहती हूँ.</p>
+        <p>मुझे एक problem है. School में बहुत homework मिलता है रोज़. मेरी class teacher Sandhya ma'am हैं. वो ठीक हैं. पर हमारी geography की teacher Mira ma'am हैं — वो ज़ोर से चिल्लाती हैं. कल geography की teacher ने मुझे और दो बच्चों को खड़ा कर के डाँटा क्योंकि हमने pencils share कर ली थी. Aanya की pencil टूट गई थी और मैंने उसको अपनी extra pencil दी थी. ma'am ने बोला हम "cheating" कर रहे थे. हम cheating नहीं कर रहे थे. हम बस pencil दे रहे थे.</p>
+        <p>मैं school जाती हूँ हर रोज़. Bus में बैठती हूँ subah 7:15 पे. School में 8 से 2 तक. Bus में वापस. घर 3 बजे. जब मैं घर आती हूँ Mummy भी पूछती है पहले homework फिर खाना. कभी कभी मैं चाहती हूँ खाना पहले. पर Mummy गुस्सा हो जाती हैं इसलिए मैं homework करती हूँ. कभी कभी homework में चार books होती हैं. कभी कभी पाँच.</p>
+        <p>एक बात और. मेरी best friend Aanya है. Aanya भी थक जाती है. हम tiffin break में बात करते हैं — मैं बोलती हूँ "मैं थकी हूँ", Aanya भी बोलती है "मैं भी." पर हमको कोई कुछ नहीं बोलता क्योंकि हम 7 साल के हैं. बड़े लोग बोलते हैं "तुम क्या थक सकते हो? तुम्हारा तो बस school है."</p>
+        <p>मैं school में बुरी नहीं हूँ. मेरे marks ठीक आते हैं. last test में Maths में 18/20 आए. Hindi में 17. EVS में 19. मैं slow नहीं हूँ. पर मुझे रोज़ रोज़ test जैसा feel क्यों होता है? क्या school को हमेशा hard होना होता है? क्या मुझे यह जो feel हो रहा है ग़लत है?</p>
+        <p>एक last बात. परसों Mummy मुझे रात को सुला रही थी और मैंने पूछा — "Mummy, क्या मैं ख़ुश बच्चा हूँ?" Mummy ने कुछ नहीं बोला, बस मेरे बाल सहलाती रहीं. फिर मैं सो गई. तो मेरा सवाल है आपसे — मैं ख़ुश बच्ची हूँ या नहीं? और अगर नहीं, तो क्या यह मेरी ग़लती है?</p>
+        <p>Thank you. आप मुझे जवाब दीजिए please. Mummy मुझे पढ़ के सुनाएँगी.</p>
+        <div class="sawal-from">— Shirin (typed by Nargis), Mumbai</div>
+      </div>
+    </section>
+
+    <!-- Conversation -->
+    <section class="conversation-section">
+      <div class="section-label">Conversation</div>
+      <div class="conversation">
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir... एक letter आया है. Mumbai से."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"पढ़, Ishaan."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, यह 7 साल की बच्ची ने बोली है, उसकी माँ ने type की है. नाम Shirin. Class 2 में."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"7 की?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, बहुत precise letter है. वो बोल रही है — homework बहुत है, geography की teacher pencils share करने पे डाँटी, और Mummy भी पहले homework फिर खाना बोलती हैं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"Pencils share करने पे डाँट?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Aanya की pencil टूटी थी. Shirin ने अपनी extra दी. ma'am ने "cheating" बोल के खड़ा कर दिया दोनों को."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"...sir."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Yes sir."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"यह बच्ची "I am tired" नहीं बोल रही actually. यह बच्ची एक और precise बात बोल रही है — "I shared a pencil and I got punished for kindness." यह दोनों अलग शिकायतें हैं."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, और एक बात — उसने Mummy से पूछा "क्या मैं ख़ुश बच्ची हूँ?" Mummy ने जवाब नहीं दिया."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"...Ishaan, यह सवाल 7 साल की बच्ची से नहीं उठना चाहिए."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, मुझे यह बच्ची से directly बात करनी है. वो माँ पढ़ के सुनाएगी उसको — वो request कर रही है letter में."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"बात कर, Ishaan. पर पहले एक बात तय कर — तू Shirin से 7 साल की भाषा में बात करेगा. कोई psychology lecture नहीं, कोई "you are special" वाला speech नहीं. वो detect करेगी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, उसको क्या बोलूँ?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"पहले — सच बोल. वो thakaan असली है. यह "school में slow होने" वाली बात नहीं है — Shirin के marks ठीक हैं. यह "school के feel" वाली बात है. वो पूरी बच्ची को सिर्फ़ marks से नापते हैं — और वो बच्ची को थका रहा है, marks ठीक होते हुए भी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, और pencil वाली बात? वो line मुझे बहुत खाई — "हम बस pencil दे रहे थे.""</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"वो line भी directly Shirin को बताना है — "तू ने एक kindness की और तुझे डाँट पड़ी. यह तेरी ग़लती नहीं है. यह वो ma'am की समझ की limitation है, तेरी नहीं." 7 साल की बच्ची को यह सुनना ज़रूरी है — अभी, इसी letter में. नहीं तो वो आगे जा के kindness को ही suppress करना सीख जाएगी."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, और thakaan के लिए practical क्या?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"पहले माँ को. Shirin के through नहीं — सीधे. एक छोटी सी note Nargis ji के लिए. एक — रोज़ "homework पहले" rule तोड़े, हफ़्ते में दो दिन "खाना पहले" करें, बच्चे को choice दे. दो — pencil वाली incident के लिए class teacher Sandhya ma'am से बात करें — geography teacher को नहीं — और formally बोलें कि "मेरी बच्ची ने एक kindness की और उसको cheating बोल के खड़ा किया गया, यह review कीजिए." तीन — रात को सोने से पहले कोई "Mummy क्या मैं ख़ुश बच्ची हूँ?" वाला सवाल आए, तो जवाब दीजिए — चुप मत रहिए. चुप्पी बच्चे के लिए "नहीं" का जवाब बन जाती है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, और मेरी तरफ़ से Shirin को कुछ?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"तू तो सबसे बड़ा हक़ रखता है. तू वो था जो रोज़ school जाता था और रोज़ feel होता था कि कुछ ग़लत है, और कोई समझता नहीं था. तू Shirin से सीधे बोल — एक जैसा बच्चा दूसरे एक जैसे बच्चे को. वो last line तेरी होगी — एक छोटी सी, बिना psychology वाली, सिर्फ़ एक 7-वाले की honesty."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, और एक बात — letter में कोई "lazy", "slow" वाला label नहीं है. यह बच्ची exhausted है, lazy नहीं. यह fatigue है — depression नहीं, पर depression की तरफ़ चलने वाला रास्ता है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"Exactly. और यही reason है कि अभी intervene करना ज़रूरी है. 7 साल की बच्ची को अगर यह feel होने लगे कि "school का मतलब test है, हर रोज़, हमेशा" — यह एक conditioning है जो 12-13 की उम्र तक hardened हो जाती है, और तब कोई therapist भी एक थका हुआ adolescent ही देखता है."</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-1">Ishaan:</span>
+          <span class="conv-text">"Sir, मैं लिखना शुरू करूँ?"</span>
+        </div>
+
+        <div class="conv-line">
+          <span class="speaker-name speaker-2">Nikumbh:</span>
+          <span class="conv-text">"लिख Ishaan. Shirin को directly. कोई lecture नहीं — सिर्फ़ एक बच्चा दूसरे बच्चे से."</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Answer -->
+    <section class="answer-section">
+      <div class="section-label">Jawab</div>
+
+      <p class="answer-para"><span class="answer-speaker speaker-2">Nikumbh:</span> Shirin बेटा, सबसे पहले एक बात — तू "ख़राब" बच्ची नहीं है. तू "slow" नहीं है, "lazy" नहीं है, और तेरे साथ कुछ ग़लत नहीं है. तेरे marks बहुत अच्छे हैं — Maths में 18, Hindi में 17, EVS में 19. यह बहुत-बहुत अच्छे हैं. तू तेज़ बच्ची है.</p>
+
+      <p class="answer-para">अब असली बात — तू school से थकी हुई नहीं है, बेटा. तू एक specific चीज़ से थकी हुई है — कि school में हर रोज़ कुछ साबित करना पड़ता है. हर रोज़ test, हर रोज़ marks, हर रोज़ "तू अच्छी है या ख़राब?" का जवाब. यह सही नहीं है किसी 7 साल की बच्ची के लिए — और यह तेरी ग़लती नहीं है कि तू थक रही है. बड़े लोग बोलते हैं "तुम क्या थक सकते हो?" — पर बेटा, तू सच बोल रही है. Thakaan असली है. Bachhon की thakaan असली है — adults ज़्यादा देर तक थक नहीं सकते क्योंकि उनको बहाने लिखने आते हैं. तेरी thakaan को तेरी माँ believe कर रही हैं — इसीलिए वो letter type कर रही हैं रात को. तेरी माँ बहुत समझदार हैं.</p>
+
+      <p class="answer-para">अब pencil वाली बात — Shirin, ध्यान से सुन. Aanya की pencil टूटी थी. तूने अपनी pencil उसे दी. यह "cheating" नहीं था — यह "kindness" था. तूने एक अच्छा काम किया था. Mira ma'am ने उसको ग़लत समझा. तेरी ग़लती नहीं थी. ma'am की समझ कम थी उस moment में, तेरी समझ नहीं. यह बहुत important बात है — कभी मत भूलना. जब आगे ज़िंदगी में कोई तुझे डाँटे एक kindness के लिए — पहले एक minute रुक के सोचना — "क्या मैंने सच में कुछ ग़लत किया?" — और अगर जवाब "नहीं" है, तो उस डाँट को अपने ऊपर मत लेना. वो उनकी होती है, तेरी नहीं.</p>
+
+      <p class="answer-para">और एक बात — परसों रात तूने Mummy से पूछा "क्या मैं ख़ुश बच्ची हूँ?" Mummy ने जवाब नहीं दिया, बस बाल सहलाए. वो जवाब "हाँ" था बेटा — Mummy को शब्द नहीं मिले, पर बाल सहलाना भी एक भाषा है, और उसका मतलब था "हाँ, मेरी बच्ची, तू ख़ुश है, और जो तू नहीं है उसे हम मिल के ठीक करेंगे." Mummy तेरी side पर हैं — हमेशा. यह तू पक्का जान.</p>
+
+      <p class="answer-para">अब छोटे काम जो हम मिल के करेंगे. Mummy को बोलना — कि "Sir ने कहा है हफ़्ते में दो दिन खाना पहले, homework बाद में." यह OK है. यह बच्चों के लिए सही है. और tiffin में Aanya के साथ जो बात होती है — "मैं थकी हूँ, तू भी थकी है" — वो बात ज़रूरी है. वो बात अपनी रहने दे — वो तेरी अपनी friendship है, उसको कोई कुछ नहीं बोल सकता.</p>
+
+      <p class="answer-para"><strong>Nargis ji, please trust her.</strong> Bachhon की thakaan असली है — adults ज़्यादा देर तक थक नहीं सकते क्योंकि उनको बहाने लिखने आते हैं. इसको आ गए तो भी. आपकी बच्ची जो लिख रही है — "मैं slow नहीं हूँ, मेरे marks ठीक आते हैं, पर मुझे test जैसा feel क्यों होता है?" — यह exact precise observation है. यह बच्ची observation में बहुत strong है. इसको बहलाइए मत — सुनिए. आज़ शाम Sandhya ma'am से एक formal email — pencil वाला incident, geography teacher का "cheating" वाला reaction, और एक request कि class में ऐसी छोटी kindnesses को punish न किया जाए — यह आपका हक़ है as a parent. Mira ma'am से सीधे मत भिड़िए, principal-route लीजिए class teacher के through. और रात को जब Shirin पूछे "क्या मैं ख़ुश बच्ची हूँ?" — कुछ बोलिए, चाहे "हाँ बेटा," चाहे "मुझे पता नहीं, पर हम पता लगाएँगे साथ में." चुप्पी अच्छी नहीं — चुप्पी 7 साल की बच्ची के लिए "नहीं" बन जाती है. एक last बात — homework rule हफ़्ते में दो दिन तोड़ें, बस इतना. खाना पहले, फिर 30 minute कुछ भी जो Shirin को पसंद हो — drawing, story, गाना — फिर homework. यह "indulgence" नहीं है, यह oxygen है. आप समझदार माँ हैं — letter type करना यह proof है. Trust your instinct — आपके अंदर पहले से सब जवाब हैं.</p>
+
+      <p class="answer-para"><span class="answer-speaker speaker-1">Ishaan:</span> Shirin, मैं भी एक बार थका हुआ बच्चा था. मुझे भी कोई समझता नहीं था. एक बात तू मुझसे सीख — Aanya का हाथ tiffin break में पकड़ के रखना, हमेशा. वो दूसरी थकी हुई बच्ची है — तेरी army है. हम बड़े लोग कुछ-कुछ ठीक कर देंगे — तू बस Aanya से दोस्ती मत छोड़ना. और एक बात — homework नहीं हुआ एक रात तो आसमान नहीं गिरता. यह मैंने ख़ुद देखा है, बहुत बार.</p>
+    </section>
+
+    <!-- English summary -->
+    <section class="summary-section">
+      <div class="summary-label">Summary</div>
+      <p class="summary-text">A letter typed by Nargis, 33, in Bandra East, Mumbai — exactly as her seven-year-old daughter Shirin spoke it, while Shirin slept beside her. Shirin is in Class 2. She gets good marks — 18 in Maths, 17 in Hindi, 19 in EVS. She is not slow, not bad at school. But she is exhausted. The day before, her geography teacher Mira ma'am made her stand up and called it cheating because she had given her broken-pencil friend Aanya her spare pencil. Her own mother makes her do homework before food. At tiffin break she and Aanya tell each other "I am tired" because no adult will accept that a seven-year-old can be tired. Two nights ago Shirin asked her mother whether she was a happy child, and her mother gave no answer, only stroked her hair. Nikumbh refuses to let her be reframed as slow or lazy. The fatigue is real and very specific: she is not tired of school in general, she is tired of every day at school feeling like a test, of every day having to prove she is good. The pencil incident matters even more — she got punished for kindness, and a seven-year-old who learns that kindness is punished will start to suppress kindness as she grows. So Nikumbh writes directly to Shirin, in her own register: she is tez, not slow; her marks are good; the tiredness is real and adults cannot stay tired for long because they have learnt how to invent excuses to stop, but children haven't yet so their tiredness is more honest; sharing the pencil was not cheating, it was kindness, and the teacher's response was the limit of the teacher's understanding, not Shirin's mistake — a sentence she should remember the rest of her life when adults misread her good intent. Her mother's silence the other night was not "no" but "yes" without words — hair-stroking is a language, and Mummy is on her side. Then a brief, direct note to Nargis: trust your daughter — children's tiredness is real, and yours has spotted it precisely; this week, break the homework-first rule on two days; let it be food first, then thirty minutes of drawing, story or singing, then homework — this is oxygen, not indulgence. Email Sandhya ma'am, the class teacher, formally about the pencil incident with a request that small kindnesses not be punished — go via the class-teacher route, not directly to the geography teacher. And the next time Shirin asks if she is a happy child, say something — anything — because silence to a seven-year-old becomes "no." Ishaan closes in seven-year-old solidarity: hold Aanya's hand at tiffin break, she is the other tired child and your army; the adults will fix the rest; and one missed homework night will not bring the sky down — he has tested this many times.</p>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="question-nav">
+      <span class="nav-link disabled">← Previous</span>
+      <button
+        class="nav-random-btn"
+        onclick="goRandom(this)"
+        data-open-urls='["pairs/akash-sameer/arjun-bengaluru/", "pairs/akash-sameer/kabir-london/", "pairs/akash-sameer/mahesh-nashik/", "pairs/akash-sameer/nandini-dehradun/", "pairs/akash-sameer/sheela-kochi/", "pairs/amar-prem/bindiya-ahmedabad/", "pairs/amar-prem/dhanraj-surat/", "pairs/amar-prem/gurpreet-brampton/", "pairs/amar-prem/lalitha-coimbatore/", "pairs/amar-prem/pooja-navi-mumbai/", "pairs/amar-prem/saurabh-kanpur/", "pairs/anand-bhaskar/amrita-shillong/", "pairs/anand-bhaskar/firoz-kolkata/", "pairs/anand-bhaskar/jagdish-barmer/", "pairs/anand-bhaskar/kamala-varanasi/", "pairs/anand-bhaskar/ratna-dharamsala/", "pairs/anand-bhaskar/sumir-toronto/", "pairs/anand-bhaskar/thomas-kottayam/", "pairs/anand-bhaskar/usha-bhubaneswar/", "pairs/anand-bhaskar/venkataraman-hyderabad/", "pairs/babu-raju/chetanya-hyderabad/", "pairs/babu-raju/harpal-amritsar/", "pairs/babu-raju/meenakshi-coimbatore/", "pairs/babu-raju/pappu-gorakhpur/", "pairs/babu-raju/rohit-gurgaon/", "pairs/babu-raju/sunder-jaipur/", "pairs/chulbul-makkhi/deepak-kanpur/", "pairs/chulbul-makkhi/hemlata-bilaspur/", "pairs/chulbul-makkhi/rohit-dimapur/", "pairs/chulbul-makkhi/santosh-thrissur/", "pairs/chulbul-makkhi/savitri-barabanki/", "pairs/chulbul-makkhi/tilak-patna/", "pairs/gabbar-samba/gurmeet-ludhiana/", "pairs/gabbar-samba/lalita-nagaur/", "pairs/gabbar-samba/prakash-varanasi/", "pairs/gabbar-samba/subramanian-chennai/", "pairs/gabbar-samba/sunita-ranchi/", "pairs/gabbar-samba/tanveer-bengaluru/", "pairs/guddu-bablu/aryan-gurugram/", "pairs/guddu-bablu/jitendra-hazaribagh/", "pairs/guddu-bablu/ramesh-indore/", "pairs/guddu-bablu/sumitra-imphal/", "pairs/guddu-bablu/zeenat-varanasi/", "pairs/ishaan-nikumbh/arjun-dehradun/", "pairs/ishaan-nikumbh/bhaskar-bhubaneswar/", "pairs/ishaan-nikumbh/deepak-nagpur/", "pairs/ishaan-nikumbh/fatima-srinagar/", "pairs/ishaan-nikumbh/priya-patna/", "pairs/ishaan-nikumbh/shirin-mumbai/", "pairs/ishaan-nikumbh/suresh-mandya/", "pairs/jai-veeru/ashraf-lucknow/", "pairs/jai-veeru/bhagirath-bikaner/", "pairs/jai-veeru/geeta-patna/", "pairs/jai-veeru/manvendra-chandigarh/", "pairs/jai-veeru/mustafa-kolkata/", "pairs/jai-veeru/priyanka-shillong/", "pairs/jai-veeru/rukmini-mysuru/", "pairs/kabir-arjun/kabir-chandigarh/", "pairs/kabir-arjun/prashant-pune/", "pairs/kabir-arjun/rajan-indore/", "pairs/kabir-arjun/shekhar-mumbai/", "pairs/kabir-arjun/vikram-gurugram/", "pairs/kanji-kanha/arun-mysuru/", "pairs/kanji-kanha/jagdish-bikaner/", "pairs/kanji-kanha/malathi-madurai/", "pairs/kanji-kanha/moinuddin-lucknow/", "pairs/kanji-kanha/padmini-agartala/", "pairs/kanji-kanha/siddharth-mumbai/", "pairs/mohan-geeta/asha-toronto/", "pairs/mohan-geeta/dhruv-aizawl/", "pairs/mohan-geeta/geeta-imphal/", "pairs/mohan-geeta/ramesh-varanasi/", "pairs/mohan-geeta/rohit-newjersey/", "pairs/munna-circuit/arjun-ahmedabad/", "pairs/munna-circuit/devraj-sonipat/", "pairs/munna-circuit/hema-bengaluru/", "pairs/munna-circuit/kamala-thanjavur/", "pairs/munna-circuit/phulmaya-kalimpong/", "pairs/munna-circuit/priya-pune/", "pairs/munna-circuit/rahul-dubai/", "pairs/munna-circuit/sangeeta-lucknow/", "pairs/munna-circuit/saraswati-bettiah/", "pairs/munna-circuit/zainab-srinagar/", "pairs/piku-bhashkor/nalini-chennai/", "pairs/piku-bhashkor/preeti-jaipur/", "pairs/piku-bhashkor/ranjit-guwahati/", "pairs/piku-bhashkor/sameer-singapore/", "pairs/piku-bhashkor/sunanda-kolkata/", "pairs/piku-bhashkor/usha-muzaffarpur/", "pairs/pk-jaggu/archana-kochi/", "pairs/pk-jaggu/bhutia-gangtok/", "pairs/pk-jaggu/gopal-vrindavan/", "pairs/pk-jaggu/meenakshi-madurai/", "pairs/pk-jaggu/vivek-delhi/", "pairs/rancho-farhan/ananya-thrissur/", "pairs/rancho-farhan/dilnaz-shillong/", "pairs/rancho-farhan/hemant-patna/", "pairs/rancho-farhan/preetam-raipur/", "pairs/rancho-farhan/rajan-gorakhpur/", "pairs/rancho-farhan/sukhwinder-ludhiana/", "pairs/rancho-raju/amitabha-kolkata/", "pairs/rancho-raju/celestine-shillong/", "pairs/rancho-raju/fatima-hyderabad/", "pairs/rancho-raju/lakshmi-coimbatore/", "pairs/rancho-raju/ranjit-jorhat/", "pairs/rancho-raju/sarita-allahabad/", "pairs/rancho-raju/siddharth-delhi/", "pairs/rancho-raju/vivek-mangaluru/", "pairs/teja-gogo/ananya-delhi/", "pairs/teja-gogo/chandrakant-ahmedabad/", "pairs/teja-gogo/gopal-jaipur/", "pairs/teja-gogo/harshvardhan-udaipur/", "pairs/teja-gogo/meenal-pune/", "pairs/teja-gogo/ruksana-bhopal/", "pairs/teja-gogo/selvam-coimbatore/", "pairs/teja-gogo/veena-bandra/", "pairs/vijay-ravi/devyani-itanagar/", "pairs/vijay-ravi/harbhajan-amritsar/", "pairs/vijay-ravi/mohan-das-raipur/", "pairs/vijay-ravi/priya-bengaluru/", "pairs/vijay-ravi/sunita-dharamshala/", "pairs/vijay-ravi/vikrant-guwahati/", "pairs/virus-chatur/asha-kota/", "pairs/virus-chatur/chandrahas-indore/", "pairs/virus-chatur/nirmala-delhi/", "pairs/virus-chatur/ramesh-lucknow/", "pairs/virus-chatur/saroja-tirunelveli/", "pairs/virus-chatur/surekha-chennai/"]'
+        data-all-urls='["pairs/akash-sameer/arjun-bengaluru/", "pairs/akash-sameer/kabir-london/", "pairs/akash-sameer/mahesh-nashik/", "pairs/akash-sameer/nandini-dehradun/", "pairs/akash-sameer/sheela-kochi/", "pairs/amar-prem/bindiya-ahmedabad/", "pairs/amar-prem/dhanraj-surat/", "pairs/amar-prem/gurpreet-brampton/", "pairs/amar-prem/lalitha-coimbatore/", "pairs/amar-prem/pooja-navi-mumbai/", "pairs/amar-prem/saurabh-kanpur/", "pairs/anand-bhaskar/amrita-shillong/", "pairs/anand-bhaskar/firoz-kolkata/", "pairs/anand-bhaskar/jagdish-barmer/", "pairs/anand-bhaskar/kamala-varanasi/", "pairs/anand-bhaskar/ratna-dharamsala/", "pairs/anand-bhaskar/sumir-toronto/", "pairs/anand-bhaskar/thomas-kottayam/", "pairs/anand-bhaskar/usha-bhubaneswar/", "pairs/anand-bhaskar/venkataraman-hyderabad/", "pairs/babu-raju/chetanya-hyderabad/", "pairs/babu-raju/harpal-amritsar/", "pairs/babu-raju/meenakshi-coimbatore/", "pairs/babu-raju/pappu-gorakhpur/", "pairs/babu-raju/rohit-gurgaon/", "pairs/babu-raju/sunder-jaipur/", "pairs/chulbul-makkhi/deepak-kanpur/", "pairs/chulbul-makkhi/hemlata-bilaspur/", "pairs/chulbul-makkhi/rohit-dimapur/", "pairs/chulbul-makkhi/santosh-thrissur/", "pairs/chulbul-makkhi/savitri-barabanki/", "pairs/chulbul-makkhi/tilak-patna/", "pairs/gabbar-samba/gurmeet-ludhiana/", "pairs/gabbar-samba/lalita-nagaur/", "pairs/gabbar-samba/prakash-varanasi/", "pairs/gabbar-samba/subramanian-chennai/", "pairs/gabbar-samba/sunita-ranchi/", "pairs/gabbar-samba/tanveer-bengaluru/", "pairs/guddu-bablu/aryan-gurugram/", "pairs/guddu-bablu/jitendra-hazaribagh/", "pairs/guddu-bablu/ramesh-indore/", "pairs/guddu-bablu/sumitra-imphal/", "pairs/guddu-bablu/zeenat-varanasi/", "pairs/ishaan-nikumbh/arjun-dehradun/", "pairs/ishaan-nikumbh/bhaskar-bhubaneswar/", "pairs/ishaan-nikumbh/deepak-nagpur/", "pairs/ishaan-nikumbh/fatima-srinagar/", "pairs/ishaan-nikumbh/priya-patna/", "pairs/ishaan-nikumbh/shirin-mumbai/", "pairs/ishaan-nikumbh/suresh-mandya/", "pairs/jai-veeru/ashraf-lucknow/", "pairs/jai-veeru/bhagirath-bikaner/", "pairs/jai-veeru/geeta-patna/", "pairs/jai-veeru/manvendra-chandigarh/", "pairs/jai-veeru/mustafa-kolkata/", "pairs/jai-veeru/priyanka-shillong/", "pairs/jai-veeru/rukmini-mysuru/", "pairs/kabir-arjun/kabir-chandigarh/", "pairs/kabir-arjun/prashant-pune/", "pairs/kabir-arjun/rajan-indore/", "pairs/kabir-arjun/shekhar-mumbai/", "pairs/kabir-arjun/vikram-gurugram/", "pairs/kanji-kanha/arun-mysuru/", "pairs/kanji-kanha/jagdish-bikaner/", "pairs/kanji-kanha/malathi-madurai/", "pairs/kanji-kanha/moinuddin-lucknow/", "pairs/kanji-kanha/padmini-agartala/", "pairs/kanji-kanha/siddharth-mumbai/", "pairs/mohan-geeta/asha-toronto/", "pairs/mohan-geeta/dhruv-aizawl/", "pairs/mohan-geeta/geeta-imphal/", "pairs/mohan-geeta/ramesh-varanasi/", "pairs/mohan-geeta/rohit-newjersey/", "pairs/munna-circuit/arjun-ahmedabad/", "pairs/munna-circuit/devraj-sonipat/", "pairs/munna-circuit/hema-bengaluru/", "pairs/munna-circuit/kamala-thanjavur/", "pairs/munna-circuit/phulmaya-kalimpong/", "pairs/munna-circuit/priya-pune/", "pairs/munna-circuit/rahul-dubai/", "pairs/munna-circuit/sangeeta-lucknow/", "pairs/munna-circuit/saraswati-bettiah/", "pairs/munna-circuit/zainab-srinagar/", "pairs/piku-bhashkor/nalini-chennai/", "pairs/piku-bhashkor/preeti-jaipur/", "pairs/piku-bhashkor/ranjit-guwahati/", "pairs/piku-bhashkor/sameer-singapore/", "pairs/piku-bhashkor/sunanda-kolkata/", "pairs/piku-bhashkor/usha-muzaffarpur/", "pairs/pk-jaggu/archana-kochi/", "pairs/pk-jaggu/bhutia-gangtok/", "pairs/pk-jaggu/gopal-vrindavan/", "pairs/pk-jaggu/meenakshi-madurai/", "pairs/pk-jaggu/vivek-delhi/", "pairs/rancho-farhan/ananya-thrissur/", "pairs/rancho-farhan/dilnaz-shillong/", "pairs/rancho-farhan/hemant-patna/", "pairs/rancho-farhan/preetam-raipur/", "pairs/rancho-farhan/rajan-gorakhpur/", "pairs/rancho-farhan/sukhwinder-ludhiana/", "pairs/rancho-raju/amitabha-kolkata/", "pairs/rancho-raju/celestine-shillong/", "pairs/rancho-raju/fatima-hyderabad/", "pairs/rancho-raju/lakshmi-coimbatore/", "pairs/rancho-raju/ranjit-jorhat/", "pairs/rancho-raju/sarita-allahabad/", "pairs/rancho-raju/siddharth-delhi/", "pairs/rancho-raju/vivek-mangaluru/", "pairs/teja-gogo/ananya-delhi/", "pairs/teja-gogo/chandrakant-ahmedabad/", "pairs/teja-gogo/gopal-jaipur/", "pairs/teja-gogo/harshvardhan-udaipur/", "pairs/teja-gogo/meenal-pune/", "pairs/teja-gogo/ruksana-bhopal/", "pairs/teja-gogo/selvam-coimbatore/", "pairs/teja-gogo/veena-bandra/", "pairs/vijay-ravi/devyani-itanagar/", "pairs/vijay-ravi/harbhajan-amritsar/", "pairs/vijay-ravi/mohan-das-raipur/", "pairs/vijay-ravi/priya-bengaluru/", "pairs/vijay-ravi/sunita-dharamshala/", "pairs/vijay-ravi/vikrant-guwahati/", "pairs/virus-chatur/asha-kota/", "pairs/virus-chatur/chandrahas-indore/", "pairs/virus-chatur/nirmala-delhi/", "pairs/virus-chatur/ramesh-lucknow/", "pairs/virus-chatur/saroja-tirunelveli/", "pairs/virus-chatur/surekha-chennai/"]'
+      >Random →</button>
+      <span class="nav-link disabled">Next →</span>
+    </nav>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    © 2026 Seedha Jawab. All original content — questions, conversations, and answers — is protected by copyright. Unauthorised reproduction or scraping is not permitted. Characters are fictional.
+  </div>
+</footer>
+
+</body>
+</html>

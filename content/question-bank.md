@@ -17,11 +17,11 @@
 
 - [x] 5. ✅ **Arjun, 43, Ahmedabad (metro, Gujarat)** — Successful textile businessman, large house, two cars. Comes home every night to a family that arranges itself around him but does not include him. He has provided everything. He does not know why he feels like a guest. → [pairs/munna-circuit/arjun-ahmedabad/](../pairs/munna-circuit/arjun-ahmedabad/)
 
-- [ ] 6. **Zainab, 19, Srinagar (tier-2 city, J&K)** — College student, first in her family to study beyond Class 10. Brilliant, anxious. Her mother cries every time she leaves for campus, not from pride — from fear that Zainab will become someone her family no longer recognizes. Zainab is becoming that someone.
+- [x] 6. ✅ **Zainab, 19, Srinagar (tier-2 city, J&K)** — College student, first in her family to study beyond Class 10. Brilliant, anxious. Her mother cries every time she leaves for campus, not from pride — from fear that Zainab will become someone her family no longer recognizes. Zainab is becoming that someone. → [pairs/munna-circuit/zainab-srinagar/](../pairs/munna-circuit/zainab-srinagar/)
 
 - [x] 7. ✅ **Kamala, 72, Thanjavur (village, Tamil Nadu)** — Cannot read or write; question written by her literate neighbor. Her son built her a new house with a flush toilet and tiled floors. She is grateful but finds herself sitting on the old verandah of the demolished house every morning, because that's where the light used to fall. → [pairs/munna-circuit/kamala-thanjavur/](../pairs/munna-circuit/kamala-thanjavur/)
 
-- [ ] 8. **Rahul Nair, 27, Dubai (NRI, Gulf)** — Software engineer, sends money home to Thrissur every month. His parents keep his room exactly as it was in Class 12. When he calls, they update him on neighbors he doesn't remember. He is homesick for a home that no longer matches the one in his head.
+- [x] 8. ✅ **Rahul Nair, 27, Dubai (NRI, Gulf)** — Software engineer, sends money home to Thrissur every month. His parents keep his room exactly as it was in Class 12. When he calls, they update him on neighbors he doesn't remember. He is homesick for a home that no longer matches the one in his head. → [pairs/munna-circuit/rahul-dubai/](../pairs/munna-circuit/rahul-dubai/)
 
 - [x] 9. ✅ **Sangeeta Agarwal, 51, Lucknow (tier-2 city, UP)** — Upper-middle. Her husband retired early. He is now home all day. She has run the house alone for 25 years and has a system. He keeps helpfully rearranging her kitchen. She doesn't want to be ungrateful. She is losing her mind. → [pairs/munna-circuit/sangeeta-lucknow/](../pairs/munna-circuit/sangeeta-lucknow/)
 - [ ] 10. **Biswajit, 38, Durgapur (tier-2 city, West Bengal)** — Factory supervisor. His mother-in-law moved in after her husband died, and she and his wife now make every decision together. He is neither consulted nor complained to. He exists in the house like furniture. He is not sure if he is angry or just confused about what he expected marriage to be.
@@ -34,7 +34,7 @@
 
 - [x] 2. ✅ **Meenakshi, 33, Coimbatore (tier-2 city, Tamil Nadu)** — Lower-middle class, works in a textile showroom. She lent her entire Diwali bonus to her brother-in-law for "two months." It has been eleven months. She sees him at every family gathering. He talks to her normally. She smiles normally. The money is never mentioned. → [pairs/babu-raju/meenakshi-coimbatore/](../pairs/babu-raju/meenakshi-coimbatore/)
 
-- [ ] 3. **Harpal Singh, 55, Amritsar (tier-2 city, Punjab)** — Small farmer. Took a crop loan three years ago. Two bad monsoons and one stolen irrigation pump later, he now owes more than the land is worth. His son keeps saying "Papa, we'll manage." Harpal is 55, not naive. He knows what manage means.
+- [x] 3. ✅ **Harpal Singh, 55, Amritsar (tier-2 city, Punjab)** — Small farmer. Took a crop loan three years ago. Two bad monsoons and one stolen irrigation pump later, he now owes more than the land is worth. His son keeps saying "Papa, we'll manage." Harpal is 55, not naive. He knows what manage means. → [pairs/babu-raju/harpal-amritsar/](../pairs/babu-raju/harpal-amritsar/)
 
 - [ ] 4. **Bindiya, 28, Dharavi (metro, Maharashtra)** — Daily wage worker. Her husband fell from scaffolding four months ago and can't work. She is managing rent, children's school fees, and his medicines on her earnings alone. She is not writing for sympathy. She wants to know if there is any government scheme she hasn't found yet.
 
@@ -48,7 +48,7 @@
 
 - [ ] 9. **Hamida Begum, 71, Murshidabad (village, West Bengal)** — Extremely poor. Cannot read; question written by her granddaughter. Her son, a migrant worker in Surat, sends ₹3,000 a month. The local money-lender has convinced her that ₹500 of this should go toward an "insurance policy" he manages personally. She thinks this is normal. Her granddaughter is worried.
 
-- [ ] 10. **Rohit Kapoor, 29, Gurgaon (metro, Delhi-NCR)** — IT sector, good salary. Has four active personal loans, two credit cards at limit, and one app-based loan he forgot he took. His EMIs exceed his take-home by ₹6,000 every month. He has been making up the difference with a new loan each month for almost a year. He is cheerful in his message. Almost too cheerful.
+- [x] 10. ✅ **Rohit Kapoor, 29, Gurgaon (metro, Delhi-NCR)** — IT sector, good salary. Has four active personal loans, two credit cards at limit, and one app-based loan he forgot he took. His EMIs exceed his take-home by ₹6,000 every month. He has been making up the difference with a new loan each month for almost a year. He is cheerful in his message. Almost too cheerful. → [pairs/babu-raju/rohit-gurgaon/](../pairs/babu-raju/rohit-gurgaon/)
 
 ---
 
@@ -56,7 +56,7 @@
 
 - [x] 1. ✅ **Manvendra, 44, Chandigarh (metro, Punjab)** — Senior government officer. His best friend of 20 years, also a civil servant, got a promotion he was passed over for. Neither has spoken about it. They still have chai together on Tuesdays but the silences are longer. Both are too proud to name what's changed. → [pairs/jai-veeru/manvendra-chandigarh/](../pairs/jai-veeru/manvendra-chandigarh/)
 
-- [ ] 2. **Priyanka, 17, Shillong (small town, Meghalaya)** — Her best friend since nursery school got into a different stream in Class 11 and has a new friend group that Priyanka doesn't fit into. They are still technically friends. Her friend has started talking in ways she doesn't recognize. She doesn't know if people are allowed to change this much.
+- [x] 2. ✅ **Priyanka, 17, Shillong (small town, Meghalaya)** — Her best friend since nursery school got into a different stream in Class 11 and has a new friend group that Priyanka doesn't fit into. They are still technically friends. Her friend has started talking in ways she doesn't recognize. She doesn't know if people are allowed to change this much. → [pairs/jai-veeru/priyanka-shillong/](../pairs/jai-veeru/priyanka-shillong/)
 
 - [x] 3. ✅ **Mustafa, 52, Kolkata (metro, West Bengal)** — Upper-middle, established business. His closest friend of 30 years — they grew up in the same lane in Shyambazar — moved to Canada with his family. They were supposed to stay in touch. They do, but it's video calls with lag, and the friend's children don't know Mustafa's name. Bitter, but hides it well. → [pairs/jai-veeru/mustafa-kolkata/](../pairs/jai-veeru/mustafa-kolkata/)
 - [x] 4. ✅ **Geeta Devi, 38, Patna (tier-2 city, Bihar)** — Lower-middle class, schoolteacher. She and her college best friend had a fight three years ago over something small — a misunderstanding at Geeta's wedding — and neither apologized because neither was entirely wrong. Both have moved on, allegedly. Geeta dreams about her sometimes. → [pairs/jai-veeru/geeta-patna/](../pairs/jai-veeru/geeta-patna/)
@@ -70,7 +70,7 @@
 - [x] 8. ✅ **Ashraf, 57, Lucknow (tier-2 city, UP)** — Government clerk, lower-middle. He and his best friend since childhood — both grew up in the same mohalla — had a falling out during the 2019 elections. Different sides, things said in anger. The mohalla is the same. The friendship is not. He doesn't want to talk about politics. He just wants his friend back. → [pairs/jai-veeru/ashraf-lucknow/](../pairs/jai-veeru/ashraf-lucknow/)
 - [ ] 9. **Disha, 13, Raipur (small town, Chhattisgarh)** — Her best friend moved to a different school after her parents divorced and now attends classes in the morning shift while Disha is in the afternoon. They keep saying they'll meet. They haven't in three months. She is not sure if this is how friendships end or just how they pause.
 
-- [ ] 10. **Bhagirath, 70, Bikaner (tier-2 city, Rajasthan)** — Retired, extremely poor. His childhood friend — they herded goats together as boys — became a small contractor and is now comfortable. They still talk but the friend gives him small "gifts" now and Bhagirath doesn't know whether to feel grateful or diminished. He takes the gifts. He does not feel good about it.
+- [x] 10. ✅ **Bhagirath, 70, Bikaner (tier-2 city, Rajasthan)** — Retired, extremely poor. His childhood friend — they herded goats together as boys — became a small contractor and is now comfortable. They still talk but the friend gives him small "gifts" now and Bhagirath doesn't know whether to feel grateful or diminished. He takes the gifts. He does not feel good about it. → [pairs/jai-veeru/bhagirath-bikaner/](../pairs/jai-veeru/bhagirath-bikaner/)
 
 ---
 
@@ -91,7 +91,7 @@
 
 - [ ] 8. **Ananya Krishnan, 31, Mumbai (metro, Maharashtra)** — Corporate lawyer, upper-middle. Has filed an RTI asking why her society's swimming pool, funded by BMC, was quietly transferred to a private sports club. The RTI was forwarded to the club itself for response. The club responded that the information was "commercially sensitive."
 
-- [ ] 9. **Gurmeet, 19, Ludhiana (tier-2 city, Punjab)** — First-generation college student, poor-lower middle. Got admission to a government engineering college under OBC quota. Three weeks before classes began, told his category certificate format was "outdated" and he must reapply — which takes 60 days. He has already left his factory job. He is currently neither a student nor an employee.
+- [x] 9. ✅ **Gurmeet, 19, Ludhiana (tier-2 city, Punjab)** — First-generation college student, poor-lower middle. Got admission to a government engineering college under OBC quota. Three weeks before classes began, told his category certificate format was "outdated" and he must reapply — which takes 60 days. He has already left his factory job. He is currently neither a student nor an employee. → [pairs/gabbar-samba/gurmeet-ludhiana/](../pairs/gabbar-samba/gurmeet-ludhiana/)
 
 - [ ] 10. **Meghna Roy, 44, Guwahati (metro, Assam)** — Schoolteacher, lower-middle. Her NRC documents were rejected because her mother's name is spelled "Sushila" in one document and "Susheela" in another. These are the same woman. She has been in appeals for three years. She has never left Assam in her life.
 
@@ -116,13 +116,13 @@
 - [ ] 8. **Poonam, 11, Bikaner (village, Rajasthan)** — Question written by her schoolteacher, on behalf of the girl's widowed mother. Poonam is top of her class every year. Her mother wants to pull her out after Class 8 to help at home. The teacher is asking the question on behalf of both the mother and herself. It is unclear whose question this is.
 
 - [x] 9. ✅ **Siddharth Malhotra, 39, Delhi (metro, Delhi)** — Runs his family's steel trading business. Good money. He did an MBA in London, came back because his father's health declined, and never left. Has not made a single unilateral decision in the business since 2014. He doesn't know anymore if he'd be good at something on his own. → [pairs/rancho-raju/siddharth-delhi/](../pairs/rancho-raju/siddharth-delhi/)
-- [ ] 10. **Celestine Lyngdoh, 22, Shillong (small town, Meghalaya)** — Matrilineal family, she is the youngest daughter, which in her community means inheritance and responsibility. She wants to move to Delhi to study fashion design. Her mother is not opposed in principle but the extended family has opinions. She's been accepted to a Delhi institute and has told no one yet. She has three weeks before the fee is due.
+- [x] 10. ✅ **Celestine Lyngdoh, 22, Shillong (small town, Meghalaya)** — Matrilineal family, she is the youngest daughter, which in her community means inheritance and responsibility. She wants to move to Delhi to study fashion design. Her mother is not opposed in principle but the extended family has opinions. She's been accepted to a Delhi institute and has told no one yet. She has three weeks before the fee is due. → [pairs/rancho-raju/celestine-shillong/](../pairs/rancho-raju/celestine-shillong/)
 
 ---
 
 ## rancho-farhan
 
-- [ ] 1. **Dilnaz, 19, Shillong (tier-2 city, Meghalaya)** — First-generation college student, studying commerce because her father sold paddy fields to pay for it. She writes short stories in Khasi on her phone at night. She deleted the one she finished because she thought it was selfish to want more.
+- [x] 1. ✅ **Dilnaz, 19, Shillong (tier-2 city, Meghalaya)** — First-generation college student, studying commerce because her father sold paddy fields to pay for it. She writes short stories in Khasi on her phone at night. She deleted the one she finished because she thought it was selfish to want more. → [pairs/rancho-farhan/dilnaz-shillong/](../pairs/rancho-farhan/dilnaz-shillong/)
 
 - [x] 2. ✅ **Rajan, 52, Gorakhpur (tier-2 city, UP)** — Retired railway supervisor, boastful, unself-aware. His son is a software engineer in Pune. Rajan spent thirty years maintaining signal systems and secretly believes it was the most creative work in the world. His son disagrees. Rajan wants someone to tell his son he's wrong. → [pairs/rancho-farhan/rajan-gorakhpur/](../pairs/rancho-farhan/rajan-gorakhpur/)
 
@@ -144,7 +144,7 @@
 
 ## amar-prem
 
-- [ ] 1. **Saurabh, 23, Kanpur (tier-2 city, UP)** — Lower-middle class, completely unself-aware. Has been trying to impress a girl at his bank job by demonstrating his knowledge of cricket statistics. She is from Australia. He has now memorized all of Australia's Test history. She still calls him "the cricket guy."
+- [x] 1. ✅ **Saurabh, 23, Kanpur (tier-2 city, UP)** — Lower-middle class, completely unself-aware. Has been trying to impress a girl at his bank job by demonstrating his knowledge of cricket statistics. She is from Australia. He has now memorized all of Australia's Test history. She still calls him "the cricket guy." → [pairs/amar-prem/saurabh-kanpur/](../pairs/amar-prem/saurabh-kanpur/)
 
 - [x] 2. ✅ **Bindiya, 38, Ahmedabad (metro, Gujarat)** — Upper-middle class, pragmatic. Has been set up for matrimonial meetings seventeen times. Her checklist is four pages long. She recently realized she might be the reason none of them worked, but she can't figure out which item on the checklist to remove. → [pairs/amar-prem/bindiya-ahmedabad/](../pairs/amar-prem/bindiya-ahmedabad/)
 
@@ -162,7 +162,7 @@
 
 - [ ] 9. **Birendra, 68, Ranchi (tier-2 city, Jharkhand)** — Upper-middle class, resigned. Widower, retired. His children want him to join a "senior friendship group" at the community hall. He went once. He ended up trying to flirt with a woman who turned out to be the group coordinator's mother. He is not sure he wants advice so much as amnesia.
 
-- [ ] 10. **Pooja, 24, Navi Mumbai (metro, Maharashtra)** — Middle class, hopeful. Has engineered twelve "accidental" meetings with her college senior at the local gym, train station, and once at a doctor's office. She maintains a spreadsheet. She is starting to wonder if this is romantic or a restraining order in progress.
+- [x] 10. ✅ **Pooja, 24, Navi Mumbai (metro, Maharashtra)** — Middle class, hopeful. Has engineered twelve "accidental" meetings with her college senior at the local gym, train station, and once at a doctor's office. She maintains a spreadsheet. She is starting to wonder if this is romantic or a restraining order in progress. → [pairs/amar-prem/pooja-navi-mumbai/](../pairs/amar-prem/pooja-navi-mumbai/)
 
 - [x] 11. ✅ **Dhanraj Shah, 74, Surat (metro, Gujarat)** — Diamond merchant, extremely rich. Second marriage at 71 to a woman 36 years younger. He establishes his net worth in the first sentence. His question: how to make her laugh. He has given her jewelry, foreign trips, a car with a driver. She is very polite. He wants more than polite. He does not seem to understand why this is complicated. → [pairs/amar-prem/dhanraj-surat/](../pairs/amar-prem/dhanraj-surat/)
 
@@ -188,7 +188,7 @@
 
 - [ ] 9. **Jyothi, 13, Imphal (small town, Manipur)** — Poor-lower middle. Her best friend got a smartphone first and now mostly talks to people online. Jyothi doesn't have one. They still walk to school together but her friend is always half somewhere else. Jyothi doesn't know how to say "come back" without it sounding like a complaint.
 
-- [ ] 10. **Mahesh, 57, Nashik (tier-2 city, Maharashtra)** — Middle class, resigned. His oldest friends want to do a Goa trip for their sixtieth birthdays, three years away. He agreed. He has since been diagnosed with a heart condition his doctor says is "manageable." He hasn't told any of them. He's trying to figure out whether this is a secret he's protecting them from, or himself.
+- [x] 10. ✅ **Mahesh, 57, Nashik (tier-2 city, Maharashtra)** — Middle class, resigned. His oldest friends want to do a Goa trip for their sixtieth birthdays, three years away. He agreed. He has since been diagnosed with a heart condition his doctor says is "manageable." He hasn't told any of them. He's trying to figure out whether this is a secret he's protecting them from, or himself. → [pairs/akash-sameer/mahesh-nashik/](../pairs/akash-sameer/mahesh-nashik/)
 
 ---
 
@@ -212,7 +212,7 @@
 - [x] 9. ✅ **Saroja, 72, Tirunelveli (small town, Tamil Nadu)** — Lower-middle class, philosophical. Ran the top saree shop in her district for thirty years. Retired six years ago and handed it to her son. He has since expanded, added a website, and doubled revenue. She is proud. She is also, she admits, a little devastated that it turned out not to need her. → [pairs/virus-chatur/saroja-tirunelveli/](../pairs/virus-chatur/saroja-tirunelveli/)
 - [ ] 10. **Vikram, 26, Bhopal (tier-2 city, MP)** — Extremely poor background, now lower-middle class. Daily wage laborer's son, first in family to get a salaried desk job. His colleagues from "good families" go out for Friday lunches he can't afford. He goes anyway and orders water. He wants to know at what point pretending to belong becomes actually belonging.
 
-- [ ] 11. **Nirmala Singhania, 63, Delhi (metro)** — Old money, extremely rich. Her son married a woman from a middle-class family who is better educated, better paid, and better liked at gatherings. Nirmala mentions the cost of her sarees at family dinners. She frames this as sharing information. She wants to know why her son has started taking his wife's side "about everything."
+- [x] 11. ✅ **Nirmala Singhania, 63, Delhi (metro)** — Old money, extremely rich. Her son married a woman from a middle-class family who is better educated, better paid, and better liked at gatherings. Nirmala mentions the cost of her sarees at family dinners. She frames this as sharing information. She wants to know why her son has started taking his wife's side "about everything." → [pairs/virus-chatur/nirmala-delhi/](../pairs/virus-chatur/nirmala-delhi/)
 
 ---
 
@@ -224,7 +224,7 @@
 - [x] 3. ✅ **Ratna, 48, Dharamsala (small town, HP)** — Middle class, hopeful. Her mother has been given a terminal diagnosis. Ratna has begun making a list of things to do before her mother goes: a trip to Amritsar, her mother's favourite film on a projector, a saree she always wanted but never bought. She wants to know if this is grief or just love in a hurry. → [pairs/anand-bhaskar/ratna-dharamsala/](../pairs/anand-bhaskar/ratna-dharamsala/)
 
 - [x] 4. ✅ **Firoz, 74, Kolkata (metro, West Bengal)** — Lower-middle class, worldly-wise. Retired schoolteacher. Has lived through Partition's shadow, two floods, and a heart surgery. He has stopped being afraid of dying. What scares him now is dying before he finishes the history of his neighbourhood he has been writing, by hand, for eleven years. → [pairs/anand-bhaskar/firoz-kolkata/](../pairs/anand-bhaskar/firoz-kolkata/)
-- [ ] 5. **Amrita, 22, Shillong (tier-2 city, Meghalaya)** — Middle class, angry. Her younger brother died in a road accident fourteen months ago. Everyone around her has "moved on." She hasn't. She is angry at the phrase "moved on" and at the people who use it and at time for continuing to pass without asking her permission.
+- [x] 5. ✅ **Amrita, 22, Shillong (tier-2 city, Meghalaya)** — Middle class, angry. Her younger brother died in a road accident fourteen months ago. Everyone around her has "moved on." She hasn't. She is angry at the phrase "moved on" and at the people who use it and at time for continuing to pass without asking her permission. → [pairs/anand-bhaskar/amrita-shillong/](../pairs/anand-bhaskar/amrita-shillong/)
 
 - [x] 6. ✅ **Jagdish, 53, remote village near Barmer (remote village, Rajasthan)** — Question written by a literate neighbour. Extremely poor. Daily wage farmer. His wife has been bedridden for two years. He works all day and sits beside her all night. He wants to ask one question: is it wrong to sometimes wish it was over, when you love someone that much? → [pairs/anand-bhaskar/jagdish-barmer/](../pairs/anand-bhaskar/jagdish-barmer/)
 - [x] 7. ✅ **Usha, 41, Bhubaneswar (tier-2 city, Odisha)** — Middle class, pragmatic. Lost her father to cancer three years ago. She managed everything — the hospital, the paperwork, the relatives, the cremation. She was the capable one. She still hasn't cried. She recently found his reading glasses in a drawer and sat on the floor for a long time. → [pairs/anand-bhaskar/usha-bhubaneswar/](../pairs/anand-bhaskar/usha-bhubaneswar/)
@@ -240,7 +240,7 @@
 
 - [x] 1. ✅ **Priya, 38, Bengaluru (metro, Karnataka)** — Senior engineer at an MNC. Her team lead is falsifying safety test data on a product shipped to rural hospitals. Reporting him ends her visa sponsorship and her mother's cancer treatment fund. She has found the paper trail. → [pairs/vijay-ravi/priya-bengaluru/](../pairs/vijay-ravi/priya-bengaluru/)
 
-- [ ] 2. **Harbhajan, 61, Amritsar (tier-2, Punjab)** — Retired school principal. His younger son borrowed the family home as loan collateral without telling anyone. The EMIs are failing. The older son wants to sell. The younger son has disappeared to Chandigarh.
+- [x] 2. ✅ **Harbhajan, 61, Amritsar (tier-2, Punjab)** — Retired school principal. His younger son borrowed the family home as loan collateral without telling anyone. The EMIs are failing. The older son wants to sell. The younger son has disappeared to Chandigarh. → [pairs/vijay-ravi/harbhajan-amritsar/](../pairs/vijay-ravi/harbhajan-amritsar/)
 
 - [x] 3. ✅ **Devyani, 17, Itanagar (small town, Arunachal Pradesh)** — Tribal scholarship student. Her government scholarship requires she study in her home state, but the only good college in her subject is in Delhi. She could lie on the form. She is the first in her family to pass Class 12. → [pairs/vijay-ravi/devyani-itanagar/](../pairs/vijay-ravi/devyani-itanagar/)
 
@@ -256,7 +256,7 @@
 
 - [ ] 9. **Faridah, 71, Srinagar (tier-2, J&K)** — Widow. Her son, a government officer, has been asked to approve a contract she knows is rigged. He says it's the only way he won't be transferred out. She raised him to be honest. She is proud and terrified.
 
-- [ ] 10. **Vikrant, 33, Guwahati (tier-2, Assam)** — Factory floor supervisor. His company pours chemical waste into a nearby stream at night. He has asthma. The village downstream has five hundred people. The job pays three times any other offer he has had.
+- [x] 10. ✅ **Vikrant, 33, Guwahati (tier-2, Assam)** — Factory floor supervisor. His company pours chemical waste into a nearby stream at night. He has asthma. The village downstream has five hundred people. The job pays three times any other offer he has had. → [pairs/vijay-ravi/vikrant-guwahati/](../pairs/vijay-ravi/vikrant-guwahati/)
 
 ---
 
@@ -266,7 +266,7 @@
 
 - [x] 2. ✅ **Chandrakant, 55, Ahmedabad (metro, Gujarat)** — Retired bank officer, now on the building committee. The society has voted to change the WhatsApp group name from "Shanti Nagar Residents" to "Shanti Nagar Familia." He finds this undignified. He has prepared a seven-point objection. → [pairs/teja-gogo/chandrakant-ahmedabad/](../pairs/teja-gogo/chandrakant-ahmedabad/)
 
-- [ ] 3. **Ruksana, 13, Bhopal (tier-2, MP)** — Her school assigned group project partners. She got the three worst students in class. She made a PowerPoint with thirty slides. They contributed a hand-drawn pie chart with wrong percentages. The teacher praised the whole group equally.
+- [x] 3. ✅ **Ruksana, 13, Bhopal (tier-2, MP)** — Her school assigned group project partners. She got the three worst students in class. She made a PowerPoint with thirty slides. They contributed a hand-drawn pie chart with wrong percentages. The teacher praised the whole group equally. → [pairs/teja-gogo/ruksana-bhopal/](../pairs/teja-gogo/ruksana-bhopal/)
 
 - [x] 4. ✅ **Selvam, 48, Coimbatore (tier-2, Tamil Nadu)** — Small textile mill owner. His neighbour has placed a decorative windmill in his garden that squeaks. It squeaks at 4am. It also squeaks at 3am. Selvam has bought earplugs. The earplugs are insufficient.
 
@@ -284,7 +284,7 @@
 
 - [x] 11. ✅ **Harshvardhan Singh, 70, Udaipur (tier-2, Rajasthan)** — Former royal family, extremely rich. Married a 29-year-old three years ago. Opens his letter by describing her beauty and grace at considerable length. His actual problem, mentioned almost as an afterthought: she seems bored. He has already bought her two cars. He does not understand why this has not solved it. → [pairs/teja-gogo/harshvardhan-udaipur/](../pairs/teja-gogo/harshvardhan-udaipur/)
 
-- [ ] 12. **Veena, 8, Bandra (metro, Maharashtra)** — Extremely rich household. Question typed by her au pair. Veena's birthday party had 47 guests. She had invited 50. The three who didn't come cited illness. She wants to know how to handle people who waste her invitations. She finds the whole situation very disappointing.
+- [x] 12. ✅ **Veena, 8, Bandra (metro, Maharashtra)** — Extremely rich household. Question typed by her au pair. Veena's birthday party had 47 guests. She had invited 50. The three who didn't come cited illness. She wants to know how to handle people who waste her invitations. She finds the whole situation very disappointing. → [pairs/teja-gogo/veena-bandra/](../pairs/teja-gogo/veena-bandra/)
 
 ---
 
@@ -292,7 +292,7 @@
 
 - [x] 1. ✅ **Savitri, 46, Barabanki (small town, UP)** — ASHA worker. The PHC doctor has been marking patients as visited who were never seen. Medicines are going missing. She has reported this to the block medical officer. He plays cricket with the doctor on Sundays. → [pairs/chulbul-makkhi/savitri-barabanki/](../pairs/chulbul-makkhi/savitri-barabanki/)
 
-- [ ] 2. **Rohit, 19, Dimapur (small town, Nagaland)** — First-generation college student working part-time at a petrol pump. His employer has been selling adulterated fuel and forging the quality register. Rohit has to sign the register. He needs the job to pay fees.
+- [x] 2. ✅ **Rohit, 19, Dimapur (small town, Nagaland)** — First-generation college student working part-time at a petrol pump. His employer has been selling adulterated fuel and forging the quality register. Rohit has to sign the register. He needs the job to pay fees. → [pairs/chulbul-makkhi/rohit-dimapur/](../pairs/chulbul-makkhi/rohit-dimapur/)
 
 - [ ] 3. **Lakshmi Bai, 63, Kurnool (tier-2, Andhra Pradesh)** — Widow, landless farmer. Cannot read; question written by a literate neighbour. The Gram Panchayat head has assigned her MGNREGA job card to his wife's relative. She has never received a day's wages under the scheme despite being eligible for years.
 
@@ -308,7 +308,7 @@
 
 - [ ] 9. **Malti, 14, Shivpuri district (village, MP)** — Her school principal collects money from students for a "smart classroom" fund every term. There is no smart classroom. The projector in the existing classroom is from 2004 and does not turn on.
 
-- [ ] 10. **Santosh, 43, Thrissur (tier-2, Kerala)** — Small hotel owner. A local ward councillor demands a monthly "goodwill amount" in exchange for no health inspections. Santosh has paid for two years. The councillor recently increased the amount. Santosh is polite and seething.
+- [x] 10. ✅ **Santosh, 43, Thrissur (tier-2, Kerala)** — Small hotel owner. A local ward councillor demands a monthly "goodwill amount" in exchange for no health inspections. Santosh has paid for two years. The councillor recently increased the amount. Santosh is polite and seething. → [pairs/chulbul-makkhi/santosh-thrissur/](../pairs/chulbul-makkhi/santosh-thrissur/)
 
 ---
 
@@ -317,9 +317,9 @@
 - [x] 1. ✅ **Zeenat, 24, Varanasi (tier-2, UP)** — Youngest of four siblings. She got the only engineering seat in the family. Her three older brothers have already decided she'll come back after graduation to manage their cloth shop. She has not agreed to this. She has not disagreed either. → [pairs/guddu-bablu/zeenat-varanasi/](../pairs/guddu-bablu/zeenat-varanasi/)
 - [x] 2. ✅ **Ramesh, 37, Indore (tier-2, MP)** — Government school teacher's son who now works at a private equity fund in Mumbai. His father wants him to quit and return to help run the family's struggling small-town provisions store. His salary is forty times his father's pension. → [pairs/guddu-bablu/ramesh-indore/](../pairs/guddu-bablu/ramesh-indore/)
 
-- [ ] 3. **Sumitra, 51, Imphal (tier-2, Manipur)** — Runs a small tailoring shop. Her son got selected at a fashion school in Delhi but her daughter, who is equally talented, wasn't selected. The son wants to go. The daughter is pretending she doesn't care. The mother is pretending not to notice.
+- [x] 3. ✅ **Sumitra, 51, Imphal (tier-2, Manipur)** — Runs a small tailoring shop. Her son got selected at a fashion school in Delhi but her daughter, who is equally talented, wasn't selected. The son wants to go. The daughter is pretending she doesn't care. The mother is pretending not to notice. → [pairs/guddu-bablu/sumitra-imphal/](../pairs/guddu-bablu/sumitra-imphal/)
 
-- [ ] 4. **Jitendra, 16, Hazaribagh (small town, Jharkhand)** — Top student in his district. His older brother left to work in Surat and sends money home monthly. His parents want Jitendra to take the same route next year. He wants to appear for JEE. He has not told anyone.
+- [x] 4. ✅ **Jitendra, 16, Hazaribagh (small town, Jharkhand)** — Top student in his district. His older brother left to work in Surat and sends money home monthly. His parents want Jitendra to take the same route next year. He wants to appear for JEE. He has not told anyone. → [pairs/guddu-bablu/jitendra-hazaribagh/](../pairs/guddu-bablu/jitendra-hazaribagh/)
 
 - [ ] 5. **Poonam, 29, Dubai (NRI, from Rajasthan)** — Left Sikar at 22 to work in a hotel in Dubai. She has saved enough to start a business back home. Her family says it's time to get married first, then her husband will decide where she lives. She wants to ask who made that rule.
 
@@ -354,7 +354,7 @@
 - [ ] 8. **Nandita, 36, Pune (metro, Maharashtra)** — Raised in a secular household. Had a baby last year. Every relative has a different ritual the baby must undergo. Her mother-in-law's list conflicts with her mother's list. Nobody agrees on which rituals are mandatory. She just wants to know how many are.
 
 - [x] 9. ✅ **Bhutia, 53, Gangtok (small town, Sikkim)** — Buddhist. His neighbour's religious ceremony ran until 2am and shook the building with drums. When Bhutia played recorded prayers in the morning, the neighbour complained to the building committee. The committee sided with the neighbour. Both are Buddhist. → [pairs/pk-jaggu/bhutia-gangtok/](../pairs/pk-jaggu/bhutia-gangtok/)
-- [ ] 10. **Archana, 66, Kochi (metro, Kerala)** — Retired nurse, upper-middle class, widowed. Her children want to perform an elaborate annual death anniversary ritual for her late husband every year at significant cost. Her husband was an atheist. She is fairly sure he would have hated this. She is not sure she has the right to say so.
+- [x] 10. ✅ **Archana, 66, Kochi (metro, Kerala)** — Retired nurse, upper-middle class, widowed. Her children want to perform an elaborate annual death anniversary ritual for her late husband every year at significant cost. Her husband was an atheist. She is fairly sure he would have hated this. She is not sure she has the right to say so. → [pairs/pk-jaggu/archana-kochi/](../pairs/pk-jaggu/archana-kochi/)
 
 ---
 
@@ -364,7 +364,7 @@
 
 - [x] 2. ✅ **Suresh, 41, Mandya (small town, Karnataka)** — Lower-middle class government clerk. His 10-year-old daughter draws maps of imaginary countries in her notebooks during maths class. The teacher tore one up in front of the whole class. His daughter hasn't spoken much since. → [pairs/ishaan-nikumbh/suresh-mandya/](../pairs/ishaan-nikumbh/suresh-mandya/)
 
-- [ ] 3. **Fatima, 29, Srinagar (tier-2 city, J&K)** — A young schoolteacher herself. Has a student, 11 years old, who clearly thinks in a different language than the classroom allows. She wants to help him but doesn't know how without undermining the principal's authority.
+- [x] 3. ✅ **Fatima, 29, Srinagar (tier-2 city, J&K)** — A young schoolteacher herself. Has a student, 11 years old, who clearly thinks in a different language than the classroom allows. She wants to help him but doesn't know how without undermining the principal's authority. → [pairs/ishaan-nikumbh/fatima-srinagar/](../pairs/ishaan-nikumbh/fatima-srinagar/)
 
 - [ ] 4. **Manohar, 67, remote village near Bastar (remote village, Chhattisgarh)** — Daily wage farmer, low literacy. His grandson was sent back from the city school because he "cannot sit still." The boy is back in the village. Manohar thinks the boy is fine. He wonders if the school was the problem. (Question written by Manohar's neighbour, a retired postman.)
 
@@ -375,7 +375,7 @@
 - [ ] 7. **Kavitha, 38, Coimbatore (tier-2 city, Tamil Nadu)** — Factory worker, poor-lower middle class. Her 11-year-old has been identified as gifted by one teacher and labelled a troublemaker by three others. She cannot afford a special school. She is asking on behalf of herself and every mother who cannot afford to fight.
 
 - [x] 8. ✅ **Deepak, 44, Nagpur (tier-2 city, Maharashtra)** — Small business owner. His 13-year-old was caught stealing from classmates. The school wants to expel him. Deepak knows his son is being bullied but the principal says that is "no excuse." Deepak is more sad than angry, which surprises him. → [pairs/ishaan-nikumbh/deepak-nagpur/](../pairs/ishaan-nikumbh/deepak-nagpur/)
-- [ ] 9. **Shirin, 7, Mumbai (metro, Maharashtra)** — Question typed by her mother, Nargis, 33. Shirin says homework is too much and her teacher shouts. She wants to know why school has to be hard every single day. She is not bad at school. She is just tired of it always feeling like a test.
+- [x] 9. ✅ **Shirin, 7, Mumbai (metro, Maharashtra)** — Question typed by her mother, Nargis, 33. Shirin says homework is too much and her teacher shouts. She wants to know why school has to be hard every single day. She is not bad at school. She is just tired of it always feeling like a test. → [pairs/ishaan-nikumbh/shirin-mumbai/](../pairs/ishaan-nikumbh/shirin-mumbai/)
 
 - [x] 10. ✅ **Bhaskar, 55, Bhubaneswar (tier-2 city, Odisha)** — Senior school principal, upper-middle class. He has spent 30 years telling struggling students to "work harder." He recently watched Taare Zameen Par at his granddaughter's insistence and has not slept properly since. He wants to know if it is too late to change. → [pairs/ishaan-nikumbh/bhaskar-bhubaneswar/](../pairs/ishaan-nikumbh/bhaskar-bhubaneswar/)
 
@@ -395,7 +395,7 @@
 
 - [ ] 6. **Rohit, 44, Jaipur (tier-2 city, Rajasthan)** — Wealthy old-money family. Has never had to worry about money. His problem is that he chose a life of comfort so seamlessly that he now cannot tell what he actually chose and what simply happened to him. He describes this calmly and seems unbothered, which is itself the problem.
 
-- [ ] 7. **Prashant, 22, Pune (metro, Maharashtra)** — Engineering student, middle class. His father is proud of him. He is not. He has no dramatic trauma — just a quiet, persistent feeling that he is performing a version of himself that everyone else wrote. He doesn't know how to say this without sounding ungrateful.
+- [x] 7. ✅ **Prashant, 22, Pune (metro, Maharashtra)** — Engineering student, middle class. His father is proud of him. He is not. He has no dramatic trauma — just a quiet, persistent feeling that he is performing a version of himself that everyone else wrote. He doesn't know how to say this without sounding ungrateful. → [pairs/kabir-arjun/prashant-pune/](../pairs/kabir-arjun/prashant-pune/)
 
 - [ ] 8. **Dev, 51, Dimapur (small town, Nagaland)** — Construction contractor, middle class. Lost a close friend last year. The friend had always said "we'll go to Ladakh next year." They never went. Dev keeps starting sentences in his head about what this means and never finishing them. He's not sure he's grieving or just afraid.
 
@@ -409,7 +409,7 @@
 
 - [x] 1. ✅ **Asha, 43, Toronto (NRI, Canada)** — Software architect, upper-middle class. Has been sending money home to her village in Jharkhand for 15 years. The village finally got electricity last year — not from her money, from a government scheme. She feels oddly irrelevant. She wants to do something real but doesn't know what "real" means from this distance. → [pairs/mohan-geeta/asha-toronto/](../pairs/mohan-geeta/asha-toronto/)
 
-- [ ] 2. **Ramesh, 37, Varanasi (tier-2 city, UP)** — Government clerk, lower-middle class. Has been writing letters to the municipal office about a broken streetlight for two years. He knows one letter won't work. He is trying to understand why he keeps writing anyway, and whether that makes him noble or just stubborn.
+- [x] 2. ✅ **Ramesh, 37, Varanasi (tier-2 city, UP)** — Government clerk, lower-middle class. Has been writing letters to the municipal office about a broken streetlight for two years. He knows one letter won't work. He is trying to understand why he keeps writing anyway, and whether that makes him noble or just stubborn. → [pairs/mohan-geeta/ramesh-varanasi/](../pairs/mohan-geeta/ramesh-varanasi/)
 
 - [ ] 3. **Sunita, 29, village near Dharwad (village, Karnataka)** — Schoolteacher, lower-middle class. She moved back to her village after her city job didn't feel right. Her mother thinks she threw away a good future. The village school has no science lab and the students are brilliant. She needs to know if she made the right choice, or if she just needs to believe she did.
 
@@ -417,7 +417,7 @@
 
 - [ ] 5. **Meena, 66, Bhopal (tier-2 city, MP)** — Retired teacher, lower-middle class. She spent 40 years teaching in a government school. Three of her students are now in positions of power. None of them have done anything about the school's broken roof. She is not angry — she says she is "past that." She doesn't sound like she's past it.
 
-- [ ] 6. **Dhruv, 25, Aizawl (small town, Mizoram)** — Young man from a poor family. First in his family to graduate. Has been offered a job in Bangalore but the village water supply depends on a project only he knows how to manage. He is not asking for permission. He is asking how to live with the choice either way.
+- [x] 6. ✅ **Dhruv, 25, Aizawl (small town, Mizoram)** — Young man from a poor family. First in his family to graduate. Has been offered a job in Bangalore but the village water supply depends on a project only he knows how to manage. He is not asking for permission. He is asking how to live with the choice either way. → [pairs/mohan-geeta/dhruv-aizawl/](../pairs/mohan-geeta/dhruv-aizawl/)
 
 - [ ] 7. **Prabhavati, 71, remote village near Koraput (remote village, Odisha)** — No formal education. Her son, who lives in Hyderabad, has sent money for a community well. The panchayat is diverting the funds. She wants to stop them but doesn't know how. She has never written to anyone before. (Question written by the local ASHA worker.)
 
@@ -432,7 +432,7 @@
 
 - [x] 1. ✅ **Malathi, 55, Madurai (tier-2 city, Tamil Nadu)** — Middle class homemaker. Her doctor son has forbidden the family from doing a specific temple ritual they've done every year for three generations, citing "superstition." She believes in the ritual. She also believes her son. She wants to know if she has to choose. → [pairs/kanji-kanha/malathi-madurai/](../pairs/kanji-kanha/malathi-madurai/)
 
-- [ ] 2. **Jagdish, 63, Bikaner (tier-2 city, Rajasthan)** — Small business owner, middle class. An astrologer told him his shop's direction is wrong and bringing bad luck. Business has been poor. He spent ₹15,000 to rotate the shop entrance. Business is still poor. He is writing to ask why he did it, and whether he should do more.
+- [x] 2. ✅ **Jagdish, 63, Bikaner (tier-2 city, Rajasthan)** — Small business owner, middle class. An astrologer told him his shop's direction is wrong and bringing bad luck. Business has been poor. He spent ₹15,000 to rotate the shop entrance. Business is still poor. He is writing to ask why he did it, and whether he should do more. → [pairs/kanji-kanha/jagdish-bikaner/](../pairs/kanji-kanha/jagdish-bikaner/)
 
 - [ ] 3. **Preethi, 22, Bengaluru (metro, Karnataka)** — IT employee, middle class. Her parents insist on a lengthy horoscope-matching process before she can date anyone. She has now memorised enough astrology to argue back. The arguments are getting more elaborate on both sides. She is asking whether she should keep fighting or find a simpler way to live her life.
 
@@ -442,7 +442,7 @@
 
 - [x] 6. ✅ **Arun, 70, Mysuru (tier-2 city, Karnataka)** — Retired professor, upper-middle class, rationalist. Has argued against superstition his whole life. His wife died last year. He found himself performing every ritual at her funeral with complete sincerity, including ones he had publicly mocked. He is writing to ask what that means about him. → [pairs/kanji-kanha/arun-mysuru/](../pairs/kanji-kanha/arun-mysuru/)
 
-- [ ] 7. **Padmini, 18, Agartala (small town, Tripura)** — Student, lower-middle class. Her entire friend group is into tarot, crystal healing, and manifestation. She finds it deeply implausible but doesn't want to be the one who ruins the mood. She is asking whether she is being disrespectful to their beliefs or just sane.
+- [x] 7. ✅ **Padmini, 18, Agartala (small town, Tripura)** — Student, lower-middle class. Her entire friend group is into tarot, crystal healing, and manifestation. She finds it deeply implausible but doesn't want to be the one who ruins the mood. She is asking whether she is being disrespectful to their beliefs or just sane. → [pairs/kanji-kanha/padmini-agartala/](../pairs/kanji-kanha/padmini-agartala/)
 
 - [ ] 8. **Harish, 44, Ahmedabad (metro, Gujarat)** — Wealthy businessman. His company does extremely well. Every quarter, his accountant insists on a specific puja before signing major contracts. The clients expect it. Harish has no belief in it whatsoever but is convinced that skipping it would cost more than the puja does. He wants to know if he is being pragmatic or dishonest.
 
@@ -458,7 +458,7 @@
 
 - [x] 2. ✅ **Ranjit, 62, Guwahati (tier-2 city, Assam)** — Government officer, middle class. His children are in Bengaluru and won't move back. He is not sick. He is not helpless. He is just old and alone and does not know how to say that without it sounding like a complaint, which he refuses to make. He is asking instead about his back pain, which is not the real question. → [pairs/piku-bhashkor/ranjit-guwahati/](../pairs/piku-bhashkor/ranjit-guwahati/)
 
-- [ ] 3. **Sunanda, 51, Kolkata (metro, West Bengal)** — Schoolteacher, lower-middle class. Her 81-year-old mother-in-law lives with them and refuses all medical advice, all dietary advice, and all suggestions about exercise. She is in perfect health. Sunanda is not. The stress of managing someone who refuses to be managed is quietly undoing her.
+- [x] 3. ✅ **Sunanda, 51, Kolkata (metro, West Bengal)** — Schoolteacher, lower-middle class. Her 81-year-old mother-in-law lives with them and refuses all medical advice, all dietary advice, and all suggestions about exercise. She is in perfect health. Sunanda is not. The stress of managing someone who refuses to be managed is quietly undoing her. → [pairs/piku-bhashkor/sunanda-kolkata/](../pairs/piku-bhashkor/sunanda-kolkata/)
 
 - [x] 4. ✅ **Preeti, 38, Jaipur (tier-2 city, Rajasthan)** — Shop owner, lower-middle class. Her father has been "about to die" for six years. She has cancelled two jobs, one business trip, and a sibling's wedding appearance because of his health emergencies, all of which resolved fine. She loves him. She no longer trusts her own calendar. → [pairs/piku-bhashkor/preeti-jaipur/](../pairs/piku-bhashkor/preeti-jaipur/)
 
@@ -472,4 +472,4 @@
 
 - [x] 9. ✅ **Usha Rani, 80, village near Muzaffarpur (village, Bihar)** — Widow, extremely poor. Her two sons argue about who should "keep" her. She is not sick or infirm. She cooks, cleans, and tends the garden. She wants to know why she must be "kept" by anyone. She dictated this question to her granddaughter, age 14, who wrote it down exactly as she said it. → [pairs/piku-bhashkor/usha-muzaffarpur/](../pairs/piku-bhashkor/usha-muzaffarpur/)
 
-- [ ] 10. **Sameer, 43, Singapore (NRI)** — Finance professional, upper-middle class. His parents are in Pune, 72 and 69, both healthy. He sends money monthly, calls twice a week, visits twice a year. He has done everything right. His mother still ends every call by saying "it would be nice if you were here." He wants to know when enough is enough, and is afraid the answer is never.
+- [x] 10. ✅ **Sameer, 43, Singapore (NRI)** — Finance professional, upper-middle class. His parents are in Pune, 72 and 69, both healthy. He sends money monthly, calls twice a week, visits twice a year. He has done everything right. His mother still ends every call by saying "it would be nice if you were here." He wants to know when enough is enough, and is afraid the answer is never. → [pairs/piku-bhashkor/sameer-singapore/](../pairs/piku-bhashkor/sameer-singapore/)
