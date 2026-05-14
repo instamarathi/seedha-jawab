@@ -24,7 +24,7 @@
 - [x] 8. ✅ **Rahul Nair, 27, Dubai (NRI, Gulf)** — Software engineer, sends money home to Thrissur every month. His parents keep his room exactly as it was in Class 12. When he calls, they update him on neighbors he doesn't remember. He is homesick for a home that no longer matches the one in his head. → [pairs/munna-circuit/rahul-dubai/](../pairs/munna-circuit/rahul-dubai/)
 
 - [x] 9. ✅ **Sangeeta Agarwal, 51, Lucknow (tier-2 city, UP)** — Upper-middle. Her husband retired early. He is now home all day. She has run the house alone for 25 years and has a system. He keeps helpfully rearranging her kitchen. She doesn't want to be ungrateful. She is losing her mind. → [pairs/munna-circuit/sangeeta-lucknow/](../pairs/munna-circuit/sangeeta-lucknow/)
-- [ ] 10. **Biswajit, 38, Durgapur (tier-2 city, West Bengal)** — Factory supervisor. His mother-in-law moved in after her husband died, and she and his wife now make every decision together. He is neither consulted nor complained to. He exists in the house like furniture. He is not sure if he is angry or just confused about what he expected marriage to be.
+- [x] 10. ✅ **Biswajit, 38, Durgapur (tier-2 city, West Bengal)** — Factory supervisor. His mother-in-law moved in after her husband died, and she and his wife now make every decision together. He is neither consulted nor complained to. He exists in the house like furniture. He is not sure if he is angry or just confused about what he expected marriage to be. → [pairs/munna-circuit/biswajit-durgapur/](../pairs/munna-circuit/biswajit-durgapur/)
 
 ---
 

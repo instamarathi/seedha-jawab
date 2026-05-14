@@ -297,6 +297,21 @@ main {
 }
 
 /* Question page sections */
+.question-banner {
+  margin: 0 0 2rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-card);
+}
+
+.question-banner img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
 .sawal-section {
   margin-bottom: 2.5rem;
 }
